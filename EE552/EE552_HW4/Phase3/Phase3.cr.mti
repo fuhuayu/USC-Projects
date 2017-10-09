@@ -1,0 +1,25 @@
+C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/tb_adder32bit_BDLCH.v {0 {vlog -work work -vopt C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/tb_adder32bit_BDLCH.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+init_dbinfo(): DATABASE ERROR: database version check for C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/work\_lib.qdb failed:  database version (1.1) is not compatible with current version (0.1).
+** Fatal: Unexpected signal: 11.
+** Error: ./../gscl45nm.v(3): Verilog Compiler exiting
+
+} {5.0 6.0} {}} C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/delay_line.v {0 {vlog -work work -vopt C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/delay_line.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+init_dbinfo(): DATABASE ERROR: database version check for C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/work\_lib.qdb failed:  database version (1.1) is not compatible with current version (0.1).
+** Fatal: Unexpected signal: 11.
+** Error: C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/delay_line.v(7): Verilog Compiler exiting
+
+} {5.0 6.0} {}} C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/controller.v {0 {vlog -work work -vopt C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/controller.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+init_dbinfo(): DATABASE ERROR: database version check for C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/work\_lib.qdb failed:  database version (1.1) is not compatible with current version (0.1).
+** Fatal: Unexpected signal: 11.
+** Error: C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/controller.v(12): Verilog Compiler exiting
+
+} {5.0 6.0} {}} C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/adder32bit_BDLCH.v {0 {vlog -work work -vopt C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/adder32bit_BDLCH.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+init_dbinfo(): DATABASE ERROR: database version check for C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/work\_lib.qdb failed:  database version (1.1) is not compatible with current version (0.1).
+** Fatal: Unexpected signal: 11.
+** Error: C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/adder32bit_BDLCH.v(9): Verilog Compiler exiting
+
+} {5.0 6.0} {}}

@@ -1,0 +1,54 @@
+Achieved Cycle Time: 
+   18tpc
+
+Area Analysis:
+   LOGIC: num = 64 area = 893.722
+   TOK_BUF: num = 16 area = 376.013
+   BUF: num = 113 area = 1889.74
+   CTRL: num = 33 area = 1299.46
+   CTREE: num = 67 area = 603.418
+   CELL: num = 293 area = 5062.35
+Cloud analysis:
+   Average cloud depth = 1
+   Logic clouds = 65
+   Added buf clouds = 81
+   - Slack matching = 81 (area = 26.5429%)
+   Tok clouds = 16
+   IO clouds = 2
+   Total = 164
+
+All Registers: 
+   TOK_BUF: \acc_RTL_BODY.ff$sum_reg[0:15]
+
+Registers on critical algorithmic loops/latency paths: 
+   none
+
+Boundary cells on critical algorithmic loops/latency paths: 
+   none
+
+Longest latency path: 
+Longest latency path from PI cloud inputs with at -2 to cloud_85 with at 28 via node cloud_96:
+ *Info: Critical path starting at channel -1_to_104
+ *channel driven by PI cloud with AT = 0 for PI wires 
+      *Debug: channel -1_to_104: *Debug: wire \A_d[0][2] *Debug: wire \A_d[1][2]
+ *channel \d[2] driven by \A_RECEIVE.recv.bits[2].recv(FROM_1of2_X2) with AT = 2
+ *channel \acc_RTL_BODY.add_28_30.n_6 driven by \acc_RTL_BODY.add_28_30.g19189(LOGIC2_E_X4) with AT = 4
+ *channel \acc_RTL_BODY.add_28_30.n_32 driven by \acc_RTL_BODY.add_28_30.g19163(LOGIC4_C0EA_X4) with AT = 6
+ *channel \acc_RTL_BODY.add_28_30.n_40 driven by \acc_RTL_BODY.add_28_30.g19155(LOGIC4_00EF_X4) with AT = 8
+ *channel \acc_RTL_BODY.add_28_30.n_46 driven by \acc_RTL_BODY.add_28_30.g19149(LOGIC6_0000B0BBB0BBB0BB_X2) with AT = 10
+ *channel \acc_RTL_BODY.add_28_30.n_46_SX0_iter2_0 driven by \acc_RTL_BODY.add_28_30.n_46_buf(BUF_X1) with AT = 12
+ *channel \acc_RTL_BODY.add_28_30.n_51 driven by \acc_RTL_BODY.add_28_30.g19143(LOGIC3_0B_X4) with AT = 14
+ *channel \acc_RTL_BODY.add_28_30.n_109 driven by \acc_RTL_BODY.add_28_30.g19203(LOGIC3_2B_X4) with AT = 16
+ *channel \acc_RTL_BODY.add_28_30.n_42 driven by \acc_RTL_BODY.add_28_30.g19153(LOGIC3_8F_X4) with AT = 18
+ *channel \acc_RTL_BODY.add_28_30.n_53 driven by \acc_RTL_BODY.add_28_30.g19141(LOGIC4_0007_X2) with AT = 20
+ *channel \acc_RTL_BODY.add_28_30.n_57 driven by \acc_RTL_BODY.add_28_30.g19137(LOGIC4_000E_X2) with AT = 22
+ *channel \acc_RTL_BODY.add_28_30.n_38 driven by \acc_RTL_BODY.add_28_30.g19157(LOGIC3_19_X4) with AT = 24
+ *channel \n_41 driven by \acc_RTL_BODY.add_28_30.g19126(LOGIC3_69_X4) with AT = 26
+Cumulative used free slack for this path is 2
+
+Arrival times for macros:
+   none
+
+Directive Warnings:
+   none
+

@@ -1,0 +1,47 @@
+m255
+K4
+z2
+13
+cModel Technology
+dC:\Questasim_projects\part1
+!i10d 8192
+!i10e 25
+!i10f 100
+vee457_lab7_P3
+Z0 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+!s85 0
+31
+Io@F`j>zA?Tj=2<LGCJ7;R0
+Z1 dC:\Questasim_projects\LAB7
+w1290395246
+8C:/Questasim_projects/LAB7/ee457_lab7_P3_RTL_Coding_Style.v
+FC:/Questasim_projects/LAB7/ee457_lab7_P3_RTL_Coding_Style.v
+L0 15
+Z2 OL;L;10.2;57
+Z3 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+nee457_lab7_@p3
+!s100 d@<POzbnc]oLLLiGSAL9G2
+!s108 1478249985.207000
+!s107 C:/Questasim_projects/LAB7/ee457_lab7_P3_RTL_Coding_Style.v|
+!s90 -reportprogress|300|-work|work|-vopt|C:/Questasim_projects/LAB7/ee457_lab7_P3_RTL_Coding_Style.v|
+!i10b 1
+vee457_lab7_P3_tb
+Z4 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+31
+I2P<4jK:meP1XIVUJLEZGD0
+R1
+w1352484842
+8C:/Questasim_projects/LAB7/ee457_lab7_P3_RTL_Coding_Style_tb.v
+FC:/Questasim_projects/LAB7/ee457_lab7_P3_RTL_Coding_Style_tb.v
+L0 9
+R2
+R3
+nee457_lab7_@p3_tb
+!s85 0
+!i10b 1
+!s100 U:KKjC?gGkUi_64NlICab2
+!s108 1478249985.286000
+!s107 C:/Questasim_projects/LAB7/ee457_lab7_P3_RTL_Coding_Style_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|C:/Questasim_projects/LAB7/ee457_lab7_P3_RTL_Coding_Style_tb.v|

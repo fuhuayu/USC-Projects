@@ -1,0 +1,2 @@
+Name	nP	nN	risedelay	falldelay	risetime	falltime	risefallratio
+inv	1	1	

@@ -1,0 +1,289 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/scf-30/huayufu/acc
+T_opt
+Z1 V4eK0iPB<fJNIZ3Zz=Sb;H1
+Z2 04 12 4 work acc_cosim_tb fast 0
+Z3 =1-8526494e-58d0c321-43cc3-5c62
+Z4 o-quiet -auto_acc_if_foreign -work work -L /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth -L /home/scf-12/ee552/proteus/pdk/proteus/svclib
+Z5 n@_opt
+Z6 OE;O;10.0b;49
+Z7 d/home/scf-30/huayufu/acc
+vacc
+Z8 DXx6 sv_std 3 std 0 22 :CP]PHbGOHGT_H:3KF`8L2
+Z9 IcLozKP[]jm`LT5MC:hT8Z3
+Z10 V4NJ>P1dXZcKUEeYlii14N1
+Z11 !s105 acc_qdi_noclk_flat_cosim_sv_unit
+S1
+R7
+Z12 w1490657858
+Z13 8acc.qdi.noclk.flat.cosim.sv
+Z14 Facc.qdi.noclk.flat.cosim.sv
+L0 29
+Z15 OE;L;10.0b;49
+r1
+31
+Z16 !s108 1490657858.554399
+Z17 !s107 acc.qdi.noclk.flat.cosim.sv|
+Z18 !s90 acc.qdi.noclk.flat.cosim.sv|
+Z19 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z20 !s100 hLWoDC?H=cAN`ocJ1W[]C1
+!s85 0
+vacc_cosim_tb
+R8
+Z21 !s100 >=[eNmBIHgDk<md]g:U7o0
+Z22 ID<HLj6LKRD6RCoEa1=<<G3
+Z23 V=b][A_^9<oXSW4gMcL]=J3
+Z24 !s105 acc_tb_sv_unit
+S1
+R7
+Z25 w1490071064
+Z26 8acc_tb.sv
+Z27 Facc_tb.sv
+Z28 L0 111
+R15
+r1
+!s85 0
+31
+Z29 !s108 1490657859.186688
+Z30 !s107 acc_tb.sv|
+Z31 !s90 acc_tb.sv|+incdir+/home/scf-12/ee552/proteus/pdk/proteus|
+R19
+Z32 !s92 +incdir+/home/scf-12/ee552/proteus/pdk/proteus -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+vacc_cosim_wrapper
+R8
+Z33 !s100 2I9WX=9SXNBcMf43^[VRe2
+Z34 IKKV62?E4<Y>0n=haKmE3i3
+Z35 VNCVESYP5dTd3T?AAS]a@B3
+R11
+S1
+R7
+R12
+R13
+R14
+L0 5
+R15
+r1
+31
+R16
+R17
+R18
+R19
+!s85 0
+vacc_csp_gold
+R8
+Z36 DXx4 work 20 acc_csp_gold_sv_unit 0 22 WELbm8n8KmM_3lYaFX;e;0
+Z37 V]i54YCKcVi017zoPaBBd20
+r1
+31
+Z38 !s100 `;OAkF0j`zUOT1`LkUkeb1
+Z39 ITBAjZUf`KIOH?PCIgb5iP2
+Z40 !s105 acc_csp_gold_sv_unit
+S1
+R7
+R25
+Z41 8acc_csp_gold.sv
+Z42 Facc_csp_gold.sv
+L0 4
+R15
+Z43 !s108 1490657858.128177
+Z44 !s107 /home/scf-12/ee552/proteus/pdk/proteus/svc2rtl.sv|acc_csp_gold.sv|
+Z45 !s90 acc_csp_gold.sv|+incdir+/home/scf-12/ee552/proteus/pdk/proteus|
+R19
+R32
+!s85 0
+Xacc_csp_gold_sv_unit
+R8
+Z46 VWELbm8n8KmM_3lYaFX;e;0
+r1
+31
+Z47 !s100 YWIo=?zd694[eVo=Jk>;n2
+Z48 IWELbm8n8KmM_3lYaFX;e;0
+S1
+R7
+R25
+R41
+R42
+Z49 F/home/scf-12/ee552/proteus/pdk/proteus/svc2rtl.sv
+L1 15
+R15
+R43
+R44
+R45
+R19
+R32
+!s85 0
+!i103 1
+Xacc_csp_sv_unit
+R8
+Z50 VkX@S7gl;YJGU4[30Ji6MP0
+r1
+31
+Z51 !s100 BlSTjHdgA7Lz0Q`i@QJl72
+Z52 IkX@S7gl;YJGU4[30Ji6MP0
+S1
+R7
+R25
+Z53 8acc_csp.sv
+Z54 Facc_csp.sv
+R49
+L1 15
+R15
+Z55 !s108 1490657618.355868
+Z56 !s107 /home/scf-12/ee552/proteus/pdk/proteus/svc2rtl.sv|acc_csp.sv|
+Z57 !s90 acc_csp.sv|+incdir+/home/scf-12/ee552/proteus/pdk/proteus|
+R19
+R32
+!s85 0
+!i103 1
+vcopy
+R8
+Z58 !s100 JQ1<ZV?c]7Yz]4<=^f55Q1
+Z59 I7FO[:g?k8bb?iWBKE2?Te0
+Z60 VdT`EHWZSnzOb93@Aljdi?1
+R24
+S1
+R7
+R25
+R26
+R27
+L0 42
+R15
+r1
+!s85 0
+31
+R29
+R30
+R31
+R19
+R32
+vcosim_checker
+R8
+Z61 !s100 Wc1T2mlPbLBXflz3a^2W:1
+Z62 I?<nnP81k8Q3B9U3=J3Yd20
+Z63 Vd?Cg<MG41SBnB[g1:]QcF2
+R24
+S1
+R7
+R25
+R26
+R27
+L0 87
+R15
+r1
+!s85 0
+31
+R29
+R30
+R31
+R19
+R32
+vdata_generator
+R8
+Z64 !s100 Db0<N8biJMbHk]]?zk9MC2
+Z65 IF::Q2I0k;H[ljfb566e>Y3
+Z66 V;XJzfX]b1g0j`:TU>8aPV0
+R24
+S1
+R7
+R25
+R26
+R27
+L0 8
+R15
+r1
+!s85 0
+31
+R29
+R30
+R31
+R19
+R32
+vdata_generatorOneBit
+R8
+Z67 !s100 mg^N0DlB3]5d[kaIXWae<2
+Z68 I0S71nm?cJ5RgmUHWfTNAU3
+Z69 V2HgQHE;L]fF9:K=5A37VJ1
+R24
+S1
+R7
+R25
+R26
+R27
+L0 25
+R15
+r1
+!s85 0
+31
+R29
+R30
+R31
+R19
+R32
+Z70 ndata_generator@one@bit
+Ye1of2_16
+R8
+R36
+Z71 V]HTEho@dZUzMo>^DnbV6T1
+r1
+31
+Z72 Ii48c3fi5d?IT[_FCHNiij0
+R40
+S1
+R7
+R25
+R41
+R42
+L0 2
+R15
+R43
+R44
+R45
+R19
+R32
+Z73 !s100 PWPIg>@B^m@^ILEJn`<Ol1
+!s85 0
+vfull_buffer
+R8
+Z74 !s100 @=bMFD5[cS>lG4]W=i6b=2
+Z75 INfmzDaIgVkeNDCSX0oCE`2
+Z76 VPjKS>?S6hPN;n]S^zM0m@0
+R24
+S1
+R7
+R25
+R26
+R27
+L0 57
+R15
+r1
+!s85 0
+31
+R29
+R30
+R31
+R19
+R32
+vlinear_pipeline
+R8
+Z77 !s100 _1l37TH?lblik1kXnHh?J3
+Z78 IAXii^Go>UAUXXX?35[j@h2
+Z79 V30?9T1TL=@;2Od]<3k7<Z1
+R24
+S1
+R7
+R25
+R26
+R27
+L0 69
+R15
+r1
+!s85 0
+31
+R29
+R30
+R31
+R19
+R32

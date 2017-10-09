@@ -1,0 +1,26 @@
+Running svc2rtl 
+
+0.033u 0.001s 0:00.03 100.0%	0+0k 0+16io 0pf+0w
+Running format.pl 
+
+
+iStyle 1.03.16 (Fast and Free Automatic Formatter for Verilog Source Code)
+               (Created by haimag, Report Bugs: haimag@hotmail.com)
+               (Thanks to Tal Davidson & Astyle)
+
+Indented file -- ./CondAccumulator.rtl.sv.
+Running RC... 
+
+PROTEUS: lib=qdi cell=CondAccumulator
+PROTEUS: synthesizing CondAccumulator with qdi library...
+16.968u 0.378s 0:54.14 32.0%	0+0k 16+1376io 0pf+0w
+Running clockfree... 
+
+PROTEUS: lib=qdi cell=CondAccumulator
+PROTEUS: clockfree
+3.641u 0.433s 0:04.13 98.5%	0+0k 72+10448io 1pf+0w
+Generating cosim wrapper... 
+
+The output filename is ./CondAccumulator.qdi.noclk.flat.cosim.sv
+Reading total number of gates in RC results
+total              228 9123.149  100.0 

@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='F-2011.09-SP1 32-BIT'
+.TITLE '*************************'
+ rtl              avg_current      avg_power        temper            
+ alter#            
+  3.393e-05       -5.946e-15       -9.325e-16         25.0000         
+ 1                 

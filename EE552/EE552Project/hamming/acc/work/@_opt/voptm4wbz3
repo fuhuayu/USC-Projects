@@ -1,0 +1,70 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/scf-12/ee552/proteus/pdk/proteus
+Ye1ofN_M
+Z1 DXx6 sv_std 3 std 0 22 :CP]PHbGOHGT_H:3KF`8L2
+Z2 DXx4 work 16 SystemVerilogCSP 0 22 ^;?0XQRnQ`BefL8RfUaF52
+DXx4 work 15 e1ofN_M_sv_unit 0 22 GC@NVh>?Af]>M=@XQ;@oF2
+Vj7f;2c^j]6fgGZKa7D0ac2
+r1
+31
+I8@XJSHdUVJzE?7?=bDhc90
+S1
+Z3 d/home/scf-12/ee552/proteus/pdk/proteus
+Z4 w1368144875
+Z5 8e1ofN_M.sv
+Z6 Fe1ofN_M.sv
+L0 19
+Z7 OE;L;10.0b;49
+Z8 !s108 1368144994.181870
+Z9 !s107 e1ofN_M.sv|
+Z10 !s90 e1ofN_M.sv|-work|svclib|
+Z11 o-work svclib -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+ne1of@n_@m
+!s85 0
+!s100 jUgR029Ld8M9@>aeZ=gNM1
+!s105 e1ofN_M_sv_unit
+Xe1ofN_M_sv_unit
+R1
+R2
+VGC@NVh>?Af]>M=@XQ;@oF2
+r1
+31
+IGC@NVh>?Af]>M=@XQ;@oF2
+S1
+R3
+R4
+R5
+R6
+L0 15
+R7
+R8
+R9
+R10
+R11
+ne1of@n_@m_sv_unit
+!s85 0
+!s100 ^6D0c<QKb2CLJagI_jT6c3
+!i103 1
+XSystemVerilogCSP
+R1
+I^;?0XQRnQ`BefL8RfUaF52
+V^;?0XQRnQ`BefL8RfUaF52
+S1
+R3
+R4
+R5
+R6
+L0 11
+R7
+r1
+31
+R8
+R9
+R10
+R11
+n@system@verilog@c@s@p
+!s100 Fn=mW]o_QF7KT@aAbl=<n3
+!s85 0

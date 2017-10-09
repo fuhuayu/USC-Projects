@@ -1,0 +1,89 @@
+C:/QuestasimProject/EE552Project/calc.sv {1 {vlog -work work -vopt -sv -stats=none C:/QuestasimProject/EE552Project/calc.sv
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module Calc
+
+Top level modules:
+	Calc
+
+} {} {}} C:/QuestasimProject/EE552Project/RouterLogic.sv {2 {vlog -work work -vopt -sv -stats=none C:/QuestasimProject/EE552Project/RouterLogic.sv
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+** Warning: C:/QuestasimProject/EE552Project/RouterLogic.sv(190): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+-- Compiling package RouterLogic_sv_unit
+-- Importing package SystemVerilogCSP
+-- Compiling module Ini
+-- Compiling module Receive_P
+-- Compiling module Receive_C1
+-- Compiling module Receive_C2
+-- Compiling module RouterLogic
+
+Top level modules:
+	RouterLogic
+
+} {} {}} C:/QuestasimProject/EE552Project/SystemVerilogCSP.sv {1 {vlog -work work -vopt -sv -stats=none C:/QuestasimProject/EE552Project/SystemVerilogCSP.sv
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling package SystemVerilogCSP
+-- Compiling interface Channel
+-- Compiling package SystemVerilogCSP_sv_unit
+-- Importing package SystemVerilogCSP
+-- Compiling interface Channel
+
+Top level modules:
+	--none--
+
+} {} {}} C:/QuestasimProject/EE552Project/NOC.sv {1 {vlog -work work -vopt -sv -stats=none C:/QuestasimProject/EE552Project/NOC.sv
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling package NOC_sv_unit
+-- Importing package SystemVerilogCSP
+-- Compiling module NOC
+
+Top level modules:
+	NOC
+
+} {} {}} C:/QuestasimProject/EE552Project/Router.sv {1 {vlog -work work -vopt -sv -stats=none C:/QuestasimProject/EE552Project/Router.sv
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling package Router_sv_unit
+-- Importing package SystemVerilogCSP
+-- Compiling module RouterLogic
+-- Compiling module Router
+
+Top level modules:
+	Router
+
+} {} {}} C:/QuestasimProject/EE552Project/ArbiterMerge.sv {1 {vlog -work work -vopt -sv -stats=none C:/QuestasimProject/EE552Project/ArbiterMerge.sv
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling package ArbiterMerge_sv_unit
+-- Importing package SystemVerilogCSP
+-- Compiling module PipelineArbiter
+-- Compiling module merge
+-- Compiling module ArbiterMerge
+
+Top level modules:
+	ArbiterMerge
+
+} {} {}} C:/QuestasimProject/EE552Project/Hamming_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/QuestasimProject/EE552Project/Hamming_tb.sv
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module Hamming_tb
+
+Top level modules:
+	Hamming_tb
+
+} {} {}} C:/QuestasimProject/EE552Project/Router_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/QuestasimProject/EE552Project/Router_tb.sv
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling package Router_tb_sv_unit
+-- Importing package SystemVerilogCSP
+-- Compiling module Router_tb
+
+Top level modules:
+	Router_tb
+
+} {} {}} C:/QuestasimProject/EE552Project/ArbiterMerge_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/QuestasimProject/EE552Project/ArbiterMerge_tb.sv
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling package ArbiterMerge_tb_sv_unit
+-- Importing package SystemVerilogCSP
+-- Compiling module ArbiterMerge_tb
+
+Top level modules:
+	ArbiterMerge_tb
+
+} {} {}}

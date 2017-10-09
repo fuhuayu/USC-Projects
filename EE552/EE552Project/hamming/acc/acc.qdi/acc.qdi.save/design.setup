@@ -1,0 +1,137 @@
+#===============================================================================
+#       ".params.setup" Initialization File for
+#       Slack Mathcing of Multi-Level Domino Logics
+#
+#       The variables in this file define the behavior of many parts
+#       of the Slack Matching Tools.
+#
+#       Author: Georgios D. Dimou, dimou@usc.edu
+#       Copyright (c) 2007, all right reserved
+#           Based on original code by Nam-Hoon Kim
+#===============================================================================
+
+# define cycle time and PS0 cycle time
+set cycle_time              18
+set ps0_cycle_time          18
+
+# define local cycle time of cells and token buffers. 
+set cell_local_cycle_time   18
+set slack_local_cycle_time  10
+
+# define latency of cells and token buffers. 
+set cell_latency            2
+set slack_latency           2
+
+# define the number of cells per stage. 
+set levels                  4
+
+# limit solution time to time_limit. 
+set time_limit              7200
+
+# define the number of maximum inputs of a pre-charged domino AND gate. 
+set max_input               6
+
+# define MLD-It v2.0 parameters
+# pipelining = 0 means no pipelining. For gate-level pipelining
+set pipelining              1
+# integration_mode = 0 means regular operation. 
+# 1 means no clustering, slack matching and some more relaxed library checks
+set integration_mode        0
+# If align_io = 0 then during SM IO is not aligned in terms of Arrival time.
+set align_io                0
+# allow_buffer_sharing = 1. Allows sharing of buffers when pipelining channels.
+set allow_buffer_sharing    0
+
+# dedicated fork cells required (0 = No, 1 = Yes)
+set dedicated_forks         0
+
+# Max number of moves for each type of move per node.
+# Set to default high number unless memory utilization problems occur.
+set max_per_type_clustering_moves 50
+
+# set tau in ns
+set tau                     0.052
+
+# define maximum levels of logic per stage and maximum width per stage (0 = no limit)
+set max_pipeline_levels     1
+set max_pipeline_width      4
+
+# logic cell unit delay for all templates
+set logic_level_delay       2
+
+# input detection delay; non-zero only for SSTFB or other fine-grain.
+set input_detect_delay      0
+
+# latch delay; non-zero for bundled-data.
+set latch_delay             0
+
+# control delay associated with all templates, but used differently
+set control_delay           14
+
+# Enable or disable completion detection insertion. 
+# completion delay of minimum width completion cell;
+# completion cell width (what is the width of cell associated with the delay)
+set completion_required     0
+set completion_delay        2
+set completion_min_width    8
+
+# Maximum fanin and fanout hard limits (0 = no limit). 
+set max_fanin               6
+set max_fanout              0
+
+# C-Element delay for first order calculations. 
+set c_element_delay         0
+
+# Delay-line Unit delay for Building delay lines.
+set delay_unit_delay        2
+
+# Special gates that are left alone during clustering. 
+set use_special_gates       1
+set special_gates           INV, BUF, TOK_INV, TOK_BUF, TOK_EDFF, SEND_1of2, RECV_1of2, RECV_1of4, SEND_1of4, RECV_1of8, SEND_1of8, TO_1of2, FROM_1of2, TO_1of4, FROM_1of4, TO_1of8, FROM_1of8, SCAN_TOK_BUF, SCAN_TOK_EDFF, SCAN_CONFIG, SCAN_CONFIG2, SCAN_BUF
+# Default drive strength of DR gates emitted.
+set default_drive_strength  2
+# Pipeline buffer on .e's to avoid assigns or INVINVs on broadcasted acks.
+set prevent_assigns_on_acks 1
+
+# Target Local And Global Cycle times for the entire circuit. 
+set target_local_cycle_time 18
+set nominal_transitions_per_cycle 18
+set scan_nominal_transitions_per_cycle 22
+
+# ECO Changes Limits. Amount is the number of changes per 1000 clusters of logic.
+set eco_max_pipe_bufs_per_1000 20
+set eco_max_declusters_per_1000 20
+
+# define LP and solution fileName. 
+set slackMatchLP            solve.slacker.in
+set slackMatchLPSol         solution.slacker.out
+set analCycleLP             solve.cat.in
+set analCycleLPSol          solution.cat.out
+set slackMatchPostClustMILP solve.pcslacker.in
+set slackMatchPostClustSol  solution.pcslacker.out
+
+# define gate-level libraries. 
+
+# define a timing_sense directory. 
+set timingSenseDir          ~/Proteus/tech/timingSense/
+
+set enable_scan             0
+
+set use_default_budget_delays   0
+
+set use_extra_global_free_slack 0
+
+set jdsim_conversion_factor 100
+
+set default_input_slew 0.017
+
+set default_output_load 0.02
+
+set lib_check 0
+
+set buffer_tree_skew_signoff 200
+
+# Setting Timing Free Slack Increment and Free Slack Cost
+set timing_free_slack_increment 1
+set free_slack_cost 1e-06
+

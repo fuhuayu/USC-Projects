@@ -1,0 +1,4 @@
+library verilog;
+use verilog.vl_types.all;
+entity e1ofN_M_sv_unit is
+end e1ofN_M_sv_unit;

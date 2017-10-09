@@ -1,0 +1,71 @@
+C:/Questasim_projects/EE552_HW1/buffer_non_blocking.v {1 {vlog -work work -vopt C:/Questasim_projects/EE552_HW1/buffer_non_blocking.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module buffer_non_blocking
+
+Top level modules:
+	buffer_non_blocking
+
+} {} {}} C:/Questasim_projects/EE552_HW1/buffer_tester.v {1 {vlog -work work -vopt C:/Questasim_projects/EE552_HW1/buffer_tester.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module buffer_tester
+
+Top level modules:
+	buffer_tester
+
+} {} {}} C:/Questasim_projects/EE552_HW1/mult_tester.v {1 {vlog -work work -vopt C:/Questasim_projects/EE552_HW1/mult_tester.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module mult_tester
+
+Top level modules:
+	mult_tester
+
+} {} {}} C:/Questasim_projects/EE552_HW1/xor.v {1 {vlog -work work -vopt C:/Questasim_projects/EE552_HW1/xor.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module xorgate
+
+Top level modules:
+	xorgate
+
+} {} {}} C:/Questasim_projects/EE552_HW1/sr_tester2.v {1 {vlog -work work -vopt C:/Questasim_projects/EE552_HW1/sr_tester2.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module sr_tester2
+
+Top level modules:
+	sr_tester2
+
+} {} {}} C:/Questasim_projects/EE552_HW1/buffer_blocking.v {1 {vlog -work work -vopt C:/Questasim_projects/EE552_HW1/buffer_blocking.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module buffer_blocking
+
+Top level modules:
+	buffer_blocking
+
+} {} {}} C:/Questasim_projects/EE552_HW1/shift_register.v {1 {vlog -work work -vopt C:/Questasim_projects/EE552_HW1/shift_register.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module shift_register
+
+Top level modules:
+	shift_register
+
+} {} {}} C:/Questasim_projects/EE552_HW1/mult.v {1 {vlog -work work -vopt C:/Questasim_projects/EE552_HW1/mult.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module mult
+
+Top level modules:
+	mult
+
+} {} {}} C:/Questasim_projects/EE552_HW1/sr_tester.v {1 {vlog -work work -vopt C:/Questasim_projects/EE552_HW1/sr_tester.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module sr_tester
+
+Top level modules:
+	sr_tester
+
+} {} {}} C:/Questasim_projects/EE552_HW1/and.v {1 {vlog -work work -vopt C:/Questasim_projects/EE552_HW1/and.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module andgate
+
+Top level modules:
+	andgate
+
+} {} {}}

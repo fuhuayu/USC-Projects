@@ -1,0 +1,15 @@
+C:/QuestasimProject/Lab2/merge_sort_P4.v {1 {vlog -work work -vopt -stats=none C:/QuestasimProject/Lab2/merge_sort_P4.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module merge_sort_P4
+
+Top level modules:
+	merge_sort_P4
+
+} {} {}} C:/QuestasimProject/Lab2/merge_sort_P4_tb.v {1 {vlog -work work -vopt -stats=none C:/QuestasimProject/Lab2/merge_sort_P4_tb.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module merge_sort_P4_tb
+
+Top level modules:
+	merge_sort_P4_tb
+
+} {} {}}

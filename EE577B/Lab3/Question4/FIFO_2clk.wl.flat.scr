@@ -1,0 +1,8 @@
+SPC_wire_load_mode = enclosed
+
+current_design FIFO_2clk
+if (dc_shell_status =="FIFO_2clk") {
+set_wire_load_mode SPC_wire_load_mode
+set_wire_load_model -name FIFO_2clk_flat
+}
+

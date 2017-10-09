@@ -1,0 +1,8 @@
+################################################
+#                                              #
+# Silicon Perspective, A Cadence Company       #
+# FirstEncounter Design Restore script         #
+#    for design session: /home/scf-21/huayufu/577B/TCAM.enc                     
+#                                              #
+################################################
+restoreDesign /home/scf-21/huayufu/577B/TCAM.enc.dat TCAM

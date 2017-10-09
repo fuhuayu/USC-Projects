@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dC:\Questasim_projects\Max_Min_p3_m2
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+V<<DV@L:h1R[J8heE6knSe1
+04 12 4 work alu_4_bit_tb fast 0
+=1-fc4dd43e8662-57de65fa-4c-5540
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.2;57
+Z3 dC:\Questasim_projects\Max_Min_p3_m2
+!s110 1474192890
+T_opt1
+!s110 1474840359
+V8PO1:a62ZU:dA?8HQ`l]c3
+04 30 4 work alu_4_bit_different_stimuli_tb fast 0
+=1-fc4dd43e8662-57e84725-257-f478
+R1
+n@_opt1
+R2
+valu_1_bit
+Z4 !s110 1474840343
+IY1XDa`?lVT^I^74h[3J]P1
+Z5 V`JN@9S9cnhjKRR_L]QIcM3
+Z6 dC:\Questasim_projects\alu_4_bit
+Z7 w1474264540
+Z8 8C:/Questasim_projects/alu_4_bit/alu_4_bit.v
+Z9 FC:/Questasim_projects/alu_4_bit/alu_4_bit.v
+L0 17
+Z10 OL;L;10.2;57
+r1
+31
+Z11 !s108 1474840343.011000
+Z12 !s107 C:/Questasim_projects/alu_4_bit/alu_4_bit.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|C:/Questasim_projects/alu_4_bit/alu_4_bit.v|
+Z14 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 lio9fmzNeZhN7fP^4XzeZ1
+!i10b 1
+!s85 0
+valu_4_bit
+R4
+IdPRnc[;9mRkA4]TKZSogn0
+R5
+R6
+R7
+R8
+R9
+L0 67
+R10
+r1
+31
+R11
+R12
+R13
+R14
+!s100 GnYOJC8TF45k5mhYmjiFo3
+!i10b 1
+!s85 0
+valu_4_bit_different_stimuli_tb
+R4
+IoUfedRLVg7W1_Qb[mCEB22
+R5
+R6
+w1474142164
+8C:/Questasim_projects/alu_4_bit/alu_4_bit_different_stimuli_tb.v
+FC:/Questasim_projects/alu_4_bit/alu_4_bit_different_stimuli_tb.v
+L0 13
+R10
+r1
+31
+R14
+!s100 ZL@6d5IACYCDk3>Lo]J8X1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Questasim_projects/alu_4_bit/alu_4_bit_different_stimuli_tb.v|
+!i10b 1
+!s85 0
+!s108 1474840343.317000
+!s107 C:/Questasim_projects/alu_4_bit/alu_4_bit_different_stimuli_tb.v|
+valu_4_bit_tb
+R4
+Im];eB5BkL;Sa?o5UX;<WC0
+R5
+R6
+w1276912712
+8C:/Questasim_projects/alu_4_bit/alu_4_bit_tb.v
+FC:/Questasim_projects/alu_4_bit/alu_4_bit_tb.v
+L0 10
+R10
+r1
+31
+R14
+!s100 1jf1J;iZ8AmScS4@JHmKK3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Questasim_projects/alu_4_bit/alu_4_bit_tb.v|
+!s108 1474840343.239000
+!s107 C:/Questasim_projects/alu_4_bit/alu_4_bit_tb.v|
+!i10b 1
+!s85 0

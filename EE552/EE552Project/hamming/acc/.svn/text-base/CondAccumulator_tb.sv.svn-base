@@ -1,0 +1,188 @@
+//Written by Arash Saifhashemi
+//EE552, Department of Electrical Engineering
+//University of Southern California
+//Spring 2011
+`timescale 1ns/100ps
+
+`include "svc2rtl.sv"
+`E1OFN_M(2,16)
+`E1OFN_M(2,1)
+
+module data_generator (interface R);
+
+	parameter W = 16;	
+	reg signed [W-1:0] SendValue = 0;
+
+	initial
+	begin
+		#40;
+		forever
+		begin
+			SendValue = SendValue + 1;		
+			R.Send(SendValue);
+			$display("Send: %d", SendValue);
+		end
+	end
+endmodule
+
+module data_generatorOneBit (interface R);
+
+	parameter W = 1;	
+	reg unsigned [W-1:0] SendValue = 1;
+
+	initial
+	begin
+		#40;
+		forever
+		begin
+			//SendValue = ~SendValue ;		
+			R.Send(SendValue);
+			$display("Send control: %d", SendValue);
+		end
+	end
+endmodule
+
+module copy (interface L, interface R1, interface R2);
+
+	parameter W = 16;
+	logic [W-1:0] data = 0;
+
+	always
+	begin
+		L.Receive(data);
+		fork
+			R1.Send(data);
+			R2.Send(data);
+		join
+	end
+endmodule
+
+module full_buffer (interface L, interface R);
+
+	parameter W = 16;
+	logic [W-1:0] data = 0;
+
+	always
+	begin
+	  #40;
+		L.Receive(data);
+		R.Send(data);
+	end
+endmodule
+
+module linear_pipeline (interface L, interface R);
+
+	parameter NUMBER_OF_BUF = 6;
+	
+	e1ofN_M #(.N(2), .M(16)) mid [NUMBER_OF_BUF-1:0]   ();
+	
+	genvar i;
+	for (i=0;i<=NUMBER_OF_BUF;i++)
+	begin
+		if (i==0)
+			full_buffer	#(.W(16))	fb	(L, mid[i]);
+		else if (i==NUMBER_OF_BUF)
+			full_buffer	#(.W(16))	fb	(mid[i-1], R);
+		else
+			full_buffer	#(.W(16))	fb	(mid[i-1], mid[i]);		
+	end
+endmodule
+
+module cosim_checker (interface L1, interface L2);
+
+	parameter W = 16;
+
+	reg signed [W-1:0] CSPReceiveValue = 0;
+	reg signed [W-1:0] ProteusReceiveValue = 0;
+
+	always
+	begin
+		fork
+			L1.Receive(CSPReceiveValue);
+			L2.Receive(ProteusReceiveValue);
+		join
+		if (CSPReceiveValue != ProteusReceiveValue)
+			$display("ERROR");
+		else
+			$display("CORRECT");
+
+		$display("CSPReceiveValue = %d", CSPReceiveValue);
+		$display("ProteusReceiveValue = %d", ProteusReceiveValue);			
+	end
+endmodule
+
+module CondAccumulator_testbench;
+
+	parameter W = 16;
+
+	reg _RESET ;
+	
+	e1ofN_M #(.N(2), .M(16)) I1						 ();
+	e1ofN_M #(.N(2), .M(16)) I1CSP				();
+	e1ofN_M #(.N(2), .M(16)) I1RTL			 ();
+	e1ofN_M #(.N(2), .M(16)) I2						 ();
+	e1ofN_M #(.N(2), .M(16)) I2CSP				();
+	e1ofN_M #(.N(2), .M(16)) I2RTL			 ();
+	e1ofN_M #(.N(2), .M(16)) OCSP					();
+	e1ofN_M #(.N(2), .M(16)) ORTL					();	
+	e1ofN_M #(.N(2), .M(16)) R1 					 ();
+	e1ofN_M #(.N(2), .M(16)) R2 					 ();
+	e1ofN_M #(.N(2), .M(1)) C1 					 ();
+	e1ofN_M #(.N(2), .M(1)) C1CSP 			();
+	e1ofN_M #(.N(2), .M(1)) C1RTL 			();
+	e1ofN_M #(.N(2), .M(1)) C2 					 ();
+	e1ofN_M #(.N(2), .M(1)) C2CSP 		 ();
+	e1ofN_M #(.N(2), .M(1)) C2RTL 			();
+	e1ofN_M #(.N(2), .M(1)) C3 					 ();
+	e1ofN_M #(.N(2), .M(1)) C3CSP 		 ();
+	e1ofN_M #(.N(2), .M(1)) C3RTL 		 ();
+
+  e1ofN_M #(.N(2), .M(16)) mid					();
+  
+	data_generator	#(.W(16)) dgI1 (I1);
+	copy			#(.W(16)) cpdgI1 (I1, I1CSP, I1RTL);
+
+	data_generator	#(.W(16)) dgI2 (I2);
+	copy			#(.W(16)) cpdgI2 (I2, I2CSP, I2RTL);
+	
+	data_generatorOneBit	#(.W(1)) ctrlC1 (C1);
+	copy			#(.W(1)) cpctrlC1 (C1, C1CSP, C1RTL);
+	
+	data_generatorOneBit	#(.W(1)) ctrlC2 (C2);
+	copy			#(.W(1)) cpctrlC2 (C2, C2CSP, C2RTL);
+	
+	data_generatorOneBit	#(.W(1)) ctrlC3 (C3);
+	copy			#(.W(1)) cpctrlC3 (C3, C3CSP, C3RTL);	
+	
+	CondAccumulatorCSP		CondAccumulator_csp	(.C1(C1CSP), .C2(C2CSP), .C3(C3CSP), .I1(I1CSP), .I2(I2CSP), .O(OCSP));
+		
+	CondAccumulator_cosim_wrapper CondAccumulator_rtl (.C1(C1RTL), .C2(C2RTL), .C3(C3RTL), .I1(I1RTL), .I2(I2RTL), .O(ORTL), ._RESET(_RESET));
+	
+	linear_pipeline #(.NUMBER_OF_BUF(1)) lp (OCSP, mid);
+	
+	cosim_checker	#(.W(16))	cc	(mid, ORTL);
+	
+	initial 
+	begin : reset
+	
+		_RESET = 0;
+		I1RTL.d_log[0]= '0;
+		I1RTL.d_log[1]= '0;
+		I2RTL.d_log[0]= '0;
+		I2RTL.d_log[1]= '0;
+		C1RTL.d_log[0]= '0;
+		C1RTL.d_log[1]= '0;
+		C2RTL.d_log[0]= '0;
+		C2RTL.d_log[1]= '0;
+		C3RTL.d_log[0]= '0;
+		C3RTL.d_log[1]= '0;
+		ORTL.e_log = '0;
+		
+		#30;  
+		
+		_RESET =  1;
+		ORTL.e_log = '1;
+
+	end
+	
+endmodule

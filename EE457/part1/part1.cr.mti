@@ -1,0 +1,52 @@
+C:/Questasim_projects/part1/fifo_reg_array_sc_n_plus_one_bit_pointers.v {1 {vlog -work work -vopt C:/Questasim_projects/part1/fifo_reg_array_sc_n_plus_one_bit_pointers.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module fifo_reg_array_sc
+
+Top level modules:
+	fifo_reg_array_sc
+
+} {} {}} C:/Questasim_projects/part1/fifo_reg_array_n_bit_pointers_sc_tb.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Questasim_projects/part1/fifo_reg_array_n_bit_pointers_sc_tb.vhd
+QuestaSim-64 vcom 10.2 Compiler 2013.02 Feb  2 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_textio
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity fifo_tb
+-- Compiling architecture behv_tb of fifo_tb
+
+} {} {}} C:/Questasim_projects/part1/fifo_reg_array_n_plus_one_bit_pointers_sc_tb.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Questasim_projects/part1/fifo_reg_array_n_plus_one_bit_pointers_sc_tb.vhd
+QuestaSim-64 vcom 10.2 Compiler 2013.02 Feb  2 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_textio
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity fifo_tb
+-- Compiling architecture behv_tb of fifo_tb
+
+} {} {}} C:/Questasim_projects/part1/producer.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Questasim_projects/part1/producer.vhd
+QuestaSim-64 vcom 10.2 Compiler 2013.02 Feb  2 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Compiling entity producer
+-- Compiling architecture behv of producer
+
+} {} {}} C:/Questasim_projects/part1/consumer.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Questasim_projects/part1/consumer.vhd
+QuestaSim-64 vcom 10.2 Compiler 2013.02 Feb  2 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Compiling entity consumer
+-- Compiling architecture behv of consumer
+
+} {} {}}

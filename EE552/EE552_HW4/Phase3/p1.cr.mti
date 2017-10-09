@@ -1,0 +1,25 @@
+C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/tb_adder32bit_BDLCH.v {0 {vlog -work work -vopt C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/tb_adder32bit_BDLCH.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+** Error: (vlog-19) Failed to access library 'work' at "work".
+
+No such file or directory. (errno = ENOENT)
+
+} {3.0 4.0} {}} C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/delay_line.v {0 {vlog -work work -vopt C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/delay_line.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+** Error: (vlog-19) Failed to access library 'work' at "work".
+
+No such file or directory. (errno = ENOENT)
+
+} {3.0 4.0} {}} C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/controller.v {0 {vlog -work work -vopt C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/controller.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+** Error: (vlog-19) Failed to access library 'work' at "work".
+
+No such file or directory. (errno = ENOENT)
+
+} {3.0 4.0} {}} C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/adder32bit_BDLCH.v {0 {vlog -work work -vopt C:/Users/Huayu/OneDrive/QuestasimProject/EE552_HW4/Phase3/adder32bit_BDLCH.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+** Error: (vlog-19) Failed to access library 'work' at "work".
+
+No such file or directory. (errno = ENOENT)
+
+} {3.0 4.0} {}}

@@ -1,0 +1,8 @@
+SPC_wire_load_mode = enclosed
+
+current_design lifo
+if (dc_shell_status =="lifo") {
+set_wire_load_mode SPC_wire_load_mode
+set_wire_load_model -name lifo_hier
+}
+

@@ -1,0 +1,119 @@
+@(#)$CDS: LVS version 6.1.5-64b 10/16/2012 02:08 (sjfdl231) $
+
+Command line: /usr/local/cadence/IC615/tools.lnx86/dfII/bin/64bit/LVS -dir /home/scf-30/huayufu/cds/LVS -l -s -t /home/scf-30/huayufu/cds/LVS/layout /home/scf-30/huayufu/cds/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+Compiling Diva LVS rules...
+
+    Net-list summary for /home/scf-30/huayufu/cds/LVS/layout/netlist
+       count
+        181             nets
+        28              terminals
+        172             pmos
+        172             nmos
+
+    Net-list summary for /home/scf-30/huayufu/cds/LVS/schematic/netlist
+       count
+        181             nets
+        28              terminals
+        172             pmos
+        172             nmos
+
+
+    Terminal correspondence points
+    N165      N17       A<0>
+    N161      N16       A<1>
+    N158      N15       A<2>
+    N154      N14       A<3>
+    N179      N3        A<4>
+    N176      N25       A<5>
+    N172      N24       A<6>
+    N168      N23       A<7>
+    N180      N13       B<0>
+    N177      N12       B<1>
+    N173      N11       B<2>
+    N169      N10       B<3>
+    N167      N22       B<4>
+    N163      N21       B<5>
+    N160      N20       B<6>
+    N157      N19       B<7>
+    N175      N28       C8
+    N171      N18       Cin
+    N166      N7        S<0>
+    N162      N34       S<1>
+    N159      N33       S<2>
+    N156      N31       S<3>
+    N153      N9        S<4>
+    N178      N29       S<5>
+    N174      N32       S<6>
+    N170      N5        S<7>
+    N155      N0        gnd!
+    N164      N1        vdd!
+
+Devices in the rules but not in the netlist:
+        cap nfet pfet nmos4 pmos4
+
+The net-lists match.
+
+                             layout  schematic
+                                instances
+        un-matched              0       0      
+        rewired                 0       0      
+        size errors             0       0      
+        pruned                  0       0      
+        active                  344     344    
+        total                   344     344    
+
+                                  nets
+        un-matched              0       0      
+        merged                  0       0      
+        pruned                  0       0      
+        active                  181     181    
+        total                   181     181    
+
+                                terminals
+        un-matched              0       0      
+        matched but
+        different type          26      26     
+        total                   28      28     
+
+
+Probe files from /home/scf-30/huayufu/cds/LVS/schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+The no. of lines exceeded than specified by the variable lvsLimitLinesInOutFile.
+To see the complete information please see the file:
+/home/scf-30/huayufu/cds/LVS/schematic/termbad.out
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /home/scf-30/huayufu/cds/LVS/layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+The no. of lines exceeded than specified by the variable lvsLimitLinesInOutFile.
+To see the complete information please see the file:
+/home/scf-30/huayufu/cds/LVS/layout/termbad.out
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:

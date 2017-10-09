@@ -1,0 +1,201 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dC:\Questasim_projects\ROB
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+VN6:4Z:`Q0O;Fg@f;7BfSb0
+04 9 4 work sr_tester fast 0
+=1-fc4dd43e8662-58809119-48-7768
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.2;57
+Z1 dC:\Questasim_projects\ROB
+!s110 1484820761
+vandgate
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+31
+Ifdl^HzCJGbRDOYz778Rz;0
+Z3 dC:\Questasim_projects\EE552_HW1
+w1484826147
+8and.v
+Fand.v
+L0 1
+Z4 OL;L;10.2;57
+Z5 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s85 0
+!s100 YdXHkdT@K5i?IR8]V_jJb2
+!s108 1484828057.392000
+!s107 and.v|
+!s90 -reportprogress|300|-work|work|and.v|
+!i10b 1
+vbuffer_blocking
+IGNonWhMX_T=MI1FXCjHN;3
+R2
+R3
+w1484813622
+8C:/Questasim_projects/EE552_HW1/buffer_blocking.v
+FC:/Questasim_projects/EE552_HW1/buffer_blocking.v
+L0 4
+R4
+r1
+31
+R5
+Z6 !s110 1484827845
+!s100 LE7LUmf>ehL9OS@i=X>=n1
+!s108 1484827845.161000
+!s107 C:/Questasim_projects/EE552_HW1/buffer_blocking.v|
+!s90 -reportprogress|300|-work|work|-vopt|C:/Questasim_projects/EE552_HW1/buffer_blocking.v|
+!i10b 1
+!s85 0
+vbuffer_non_blocking
+R6
+Id4FfST7ViBfd5:zYl:U<I3
+R2
+R3
+w1484815019
+8C:/Questasim_projects/EE552_HW1/buffer_non_blocking.v
+FC:/Questasim_projects/EE552_HW1/buffer_non_blocking.v
+L0 4
+R4
+r1
+31
+R5
+!s100 fMCAVk^j4cDfBLgo]i0Nm2
+!s108 1484827845.223000
+!s107 C:/Questasim_projects/EE552_HW1/buffer_non_blocking.v|
+!s90 -reportprogress|300|-work|work|-vopt|C:/Questasim_projects/EE552_HW1/buffer_non_blocking.v|
+!i10b 1
+!s85 0
+vbuffer_tester
+R6
+IG<XI>5Y<3I]gPVlj7[1ej2
+R2
+R3
+w1483965606
+8C:/Questasim_projects/EE552_HW1/buffer_tester.v
+FC:/Questasim_projects/EE552_HW1/buffer_tester.v
+L0 2
+R4
+r1
+31
+R5
+!s100 7IDUzzcSz]LiSKQ=D<I?`2
+!s108 1484827845.292000
+!s107 C:/Questasim_projects/EE552_HW1/buffer_tester.v|
+!s90 -reportprogress|300|-work|work|-vopt|C:/Questasim_projects/EE552_HW1/buffer_tester.v|
+!i10b 1
+!s85 0
+vmult
+R2
+r1
+31
+IjOQz1K8Q;645M5S4R4Qm`0
+R3
+w1484826608
+8mult.v
+Fmult.v
+L0 1
+R4
+R5
+!s85 0
+!s100 [3;S0h:ii6cB7cSD>2e[l1
+!s108 1484828057.524000
+!s107 mult.v|
+!s90 -reportprogress|300|-work|work|mult.v|
+!i10b 1
+vmult_tester
+R2
+r1
+31
+IPkGl062A31@`MkIn]mReI3
+R3
+w1484826541
+8mult_tester.v
+Fmult_tester.v
+L0 2
+R4
+R5
+!s85 0
+!s100 NGhQ`P_D]@Gc1Li2R2E4R3
+!i10b 1
+!s108 1484828057.591000
+!s107 mult_tester.v|
+!s90 -reportprogress|300|-work|work|mult_tester.v|
+vshift_register
+R2
+r1
+31
+I8jWZLba1f^XSXdMa;VjlJ2
+R3
+w1484824294
+8shift_register.v
+Fshift_register.v
+L0 5
+R4
+R5
+!s100 3?Ud^gViB5P8V@4d_UiEc2
+!s90 -reportprogress|300|-work|work|shift_register.v|
+!s108 1484827988.246000
+!s107 shift_register.v|
+!s85 0
+!i10b 1
+vsr_tester
+R2
+r1
+31
+ICk5TZ51c_<1TMLb@jK15W3
+R3
+w1484823092
+8C:/Questasim_projects/EE552_HW1/sr_tester.v
+FC:/Questasim_projects/EE552_HW1/sr_tester.v
+L0 2
+R4
+R5
+!s100 D9g]R]6Hba8Q77Fdo3:422
+!s108 1484827845.426000
+!s107 C:/Questasim_projects/EE552_HW1/sr_tester.v|
+!s90 -reportprogress|300|-work|work|-vopt|C:/Questasim_projects/EE552_HW1/sr_tester.v|
+!s85 0
+!i10b 1
+vsr_tester2
+R2
+r1
+31
+IYdzaBRJ453iWCROA2^Rz03
+R3
+w1484827822
+8sr_tester2.v
+Fsr_tester2.v
+L0 2
+R4
+R5
+!s100 HPN1a9dH>a22]kZ>z88K`3
+!s90 -reportprogress|300|-work|work|sr_tester2.v|
+!s108 1484827988.309000
+!s107 sr_tester2.v|
+!s85 0
+!i10b 1
+vxorgate
+R2
+r1
+!s85 0
+31
+I[lQY=HTgnZ_[3Y6<9RBnh3
+R3
+w1484826136
+8xor.v
+Fxor.v
+L0 1
+R4
+R5
+!s100 D;XSjhlE_Tmh2SPP7dYQz3
+!s108 1484828057.466000
+!s107 xor.v|
+!s90 -reportprogress|300|-work|work|xor.v|
+!i10b 1

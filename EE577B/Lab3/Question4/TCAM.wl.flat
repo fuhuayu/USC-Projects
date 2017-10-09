@@ -1,0 +1,39 @@
+/* Vendor  : Silicon Perspective, A Cadence Company */
+/* Program : First Encounter */
+/* Version : 08.10-s372_1 */
+/*   wire models for Synopsys */
+/* format: fanout_length(fanout, average_length(uM)); */
+
+library (TCAM_flat) {
+capacitive_load_unit (1,pf);
+
+
+/*   module area: 8.136655e-02 um; */
+/*   cellCount: 1864; */
+/*   capacitance in Pf */
+/*   resistance in KOhm */
+/*   length in Micron */
+wire_load("TCAM_flat") {
+  capacitance : 7.499324e-04;
+  resistance : 3.571429e-03;
+  area  : 8.136655e-02;
+  slope : 5.000000;
+  fanout_length( 1, 1.6108 );
+  fanout_length( 2, 3.2987 );
+  fanout_length( 3, 5.6751 );
+  fanout_length( 4, 8.6430 );
+  fanout_length( 5, 11.2550 );
+  fanout_length( 6, 13.4452 );
+  fanout_length( 8, 19.8309 );
+  fanout_length( 9, 22.8032 );
+  fanout_length( 10, 25.3252 );
+  fanout_length( 12, 30.4869 );
+  fanout_length( 13, 32.0219 );
+  fanout_length( 15, 36.1929 );
+  fanout_length( 16, 36.8594 );
+  fanout_length( 18, 38.1924 );
+}
+
+
+
+}

@@ -1,0 +1,16 @@
+library verilog;
+use verilog.vl_types.all;
+entity blackbox is
+    generic(
+        updelay         : integer := 0;
+        dndelay         : integer := 0
+    );
+    port(
+        \out\           : out    vl_logic;
+        up              : in     vl_logic;
+        down            : in     vl_logic
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of updelay : constant is 1;
+    attribute mti_svvh_generic_type of dndelay : constant is 1;
+end blackbox;

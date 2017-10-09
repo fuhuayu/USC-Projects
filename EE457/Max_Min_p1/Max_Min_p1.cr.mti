@@ -1,0 +1,15 @@
+C:/Questasim_projects/Max_Min_p1/min_max_finder_part1_tb.v {1 {vlog -work work -vopt C:/Questasim_projects/Max_Min_p1/min_max_finder_part1_tb.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module min_max_finder_part1_tb
+
+Top level modules:
+	min_max_finder_part1_tb
+
+} {} {}} C:/Questasim_projects/Max_Min_p1/min_max_finder_part1.v {1 {vlog -work work -vopt C:/Questasim_projects/Max_Min_p1/min_max_finder_part1.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module min_max_finder_part1
+
+Top level modules:
+	min_max_finder_part1
+
+} {} {}}

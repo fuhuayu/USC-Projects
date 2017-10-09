@@ -1,0 +1,15 @@
+library verilog;
+use verilog.vl_types.all;
+entity e1ofN_M is
+    generic(
+        N               : integer := 2;
+        M               : integer := 1;
+        W               : vl_notype;
+        NUMBER_OF_RECEIVERS: integer := 1
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of N : constant is 1;
+    attribute mti_svvh_generic_type of M : constant is 1;
+    attribute mti_svvh_generic_type of W : constant is 3;
+    attribute mti_svvh_generic_type of NUMBER_OF_RECEIVERS : constant is 1;
+end e1ofN_M;

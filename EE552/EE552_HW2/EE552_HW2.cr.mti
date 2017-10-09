@@ -1,0 +1,21 @@
+C:/QuestasimProject/EE552_HW2/SystemVerilogCSP.sv {1 {vlog -work work -vopt -sv -stats=none C:/QuestasimProject/EE552_HW2/SystemVerilogCSP.sv
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling package SystemVerilogCSP
+-- Compiling interface Channel
+-- Compiling package SystemVerilogCSP_sv_unit
+-- Importing package SystemVerilogCSP
+-- Compiling interface Channel
+
+Top level modules:
+	--none--
+
+} {} {}} C:/QuestasimProject/EE552_HW2/palindrome_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/QuestasimProject/EE552_HW2/palindrome_tb.sv
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling package palindrome_tb_sv_unit
+-- Importing package SystemVerilogCSP
+-- Compiling module tb_palindrome
+
+Top level modules:
+	tb_palindrome
+
+} {} {}}

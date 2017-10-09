@@ -1,0 +1,45 @@
+library verilog;
+use verilog.vl_types.all;
+entity \synthesis.qdi.logic5.LOGIC5_00000777.2\ is
+    generic(
+        PRS2VERILOG_DELAYBIAS: real    := 1.000000;
+        PRS2VERILOG_EXTRADELAY_DOWN_V: real    := 0.000000;
+        PRS2VERILOG_EXTRADELAY_UP_V: real    := 0.000000;
+        \PRS2VERILOG_EXTRADELAY_DOWN_X.1\: real    := 0.000000;
+        \PRS2VERILOG_EXTRADELAY_UP_X.1\: real    := 0.000000;
+        \PRS2VERILOG_EXTRADELAY_DOWN_X.0\: real    := 0.000000;
+        \PRS2VERILOG_EXTRADELAY_UP_X.0\: real    := 0.000000;
+        \PRS2VERILOG_EXTRADELAY_DOWN__X.1\: real    := 0.000000;
+        \PRS2VERILOG_EXTRADELAY_UP__X.1\: real    := 0.000000;
+        \PRS2VERILOG_EXTRADELAY_DOWN__X.0\: real    := 0.000000;
+        \PRS2VERILOG_EXTRADELAY_UP__X.0\: real    := 0.000000
+    );
+    port(
+        V               : out    vl_logic;
+        en              : in     vl_logic;
+        \A[0].0\        : in     vl_logic;
+        \A[0].1\        : in     vl_logic;
+        \A[1].0\        : in     vl_logic;
+        \A[1].1\        : in     vl_logic;
+        \A[2].0\        : in     vl_logic;
+        \A[2].1\        : in     vl_logic;
+        \A[3].0\        : in     vl_logic;
+        \A[3].1\        : in     vl_logic;
+        \A[4].0\        : in     vl_logic;
+        \A[4].1\        : in     vl_logic;
+        \X.0\           : out    vl_logic;
+        \X.1\           : out    vl_logic
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of PRS2VERILOG_DELAYBIAS : constant is 1;
+    attribute mti_svvh_generic_type of PRS2VERILOG_EXTRADELAY_DOWN_V : constant is 1;
+    attribute mti_svvh_generic_type of PRS2VERILOG_EXTRADELAY_UP_V : constant is 1;
+    attribute mti_svvh_generic_type of \PRS2VERILOG_EXTRADELAY_DOWN_X.1\ : constant is 1;
+    attribute mti_svvh_generic_type of \PRS2VERILOG_EXTRADELAY_UP_X.1\ : constant is 1;
+    attribute mti_svvh_generic_type of \PRS2VERILOG_EXTRADELAY_DOWN_X.0\ : constant is 1;
+    attribute mti_svvh_generic_type of \PRS2VERILOG_EXTRADELAY_UP_X.0\ : constant is 1;
+    attribute mti_svvh_generic_type of \PRS2VERILOG_EXTRADELAY_DOWN__X.1\ : constant is 1;
+    attribute mti_svvh_generic_type of \PRS2VERILOG_EXTRADELAY_UP__X.1\ : constant is 1;
+    attribute mti_svvh_generic_type of \PRS2VERILOG_EXTRADELAY_DOWN__X.0\ : constant is 1;
+    attribute mti_svvh_generic_type of \PRS2VERILOG_EXTRADELAY_UP__X.0\ : constant is 1;
+end \synthesis.qdi.logic5.LOGIC5_00000777.2\;

@@ -1,0 +1,15 @@
+4 p=1
+4a p=0
+4aa p=0
+4aa4 p=1
+4aa4b p=0
+a p=1
+ab p=0
+ab0 p=0
+ab0a p=0
+ab0a0 p=0
+ab0a0b p=0
+ab0a0ba p=1
+a p=1
+aa p=1
+aaa p=1

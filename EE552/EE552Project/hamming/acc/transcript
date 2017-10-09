@@ -1,0 +1,62 @@
+# //  ModelSim SE 10.0b May  5 2011 SunOS 5.10
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do run.do 
+# vsim -L /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth -L /home/scf-12/ee552/proteus/pdk/proteus/svclib work.acc_cosim_tb 
+# Loading sv_std.std
+# Loading work.acc_cosim_tb(fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/svclib.SystemVerilogCSP
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/svclib.e1ofN_M_sv_unit
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/svclib.e1ofN_M(fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/svclib.e1ofN_M(fast__1)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/svclib.e1ofN_M(fast__2)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/svclib.e1ofN_M(fast__3)
+# Loading work.acc_csp_gold_sv_unit
+# Loading work.acc_csp_gold(fast)
+# Loading work.acc(fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.special.TOK_BUF.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.special.BUF.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.special.TOK_BUF.4 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.special.CTREE3.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.special.CTREE2.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.logic3.LOGIC3_69.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.special.CTRL31.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.logic4.LOGIC4_0007.4 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.special.CTRL41.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.logic6.LOGIC6_0000077707770777.4 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.special.CTREE4.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.special.CTRL61.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.logic4.LOGIC4_007F.4 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.logic4.LOGIC4_0357.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.logic2.LOGIC2_6.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.special.CTRL21.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.logic2.LOGIC2_1.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.special.BUF.4 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.logic5.LOGIC5_00000777.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.special.CTRL42.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.logic4.LOGIC4_0001.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.logic4.LOGIC4_0007.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.special.CTRL53.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.logic3.LOGIC3_19.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.logic3.LOGIC3_17.4 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.special.CTRL32.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.logic3.LOGIC3_07.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.special.CTRL62.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.special.CTRL52.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.special.CTRL43.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.logic3.LOGIC3_17.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.special.CTRL64.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.logic2.LOGIC2_6.4 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.logic2.LOGIC2_1.4 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.special.CTRL44.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.special.CTRL22.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.special.CTRL33.2 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/qdi.synth.\synthesis.qdi.logic3.LOGIC3_07.4 (fast)
+# Loading /home/scf-12/ee552/proteus/pdk/proteus/svclib.e1ofN_M(fast__4)
+# Window cannot be closed because the modal window "Quit Vsim" is still open.

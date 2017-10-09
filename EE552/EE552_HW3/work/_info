@@ -1,0 +1,750 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/QuestasimProject/EE552_HW2
+vadd
+Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z1 DXx4 work 16 SystemVerilogCSP 0 22 In=<X^HH0I4WPIJDU>RJ70
+Z2 DXx4 work 31 forkjoinpipeline_buffer_sv_unit 0 22 e8FX9;L1:zeJJSJKI4gUh0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 2[VnjhlCbC@b7X:<m9RIJ1
+I0XlXo0meFEl3zanAz?MCg1
+Z4 !s105 forkjoinpipeline_buffer_sv_unit
+S1
+Z5 dC:/QuestasimProject/EE552_HW3
+Z6 w1487246350
+Z7 8C:/QuestasimProject/EE552_HW3/forkjoinpipeline_buffer.sv
+Z8 FC:/QuestasimProject/EE552_HW3/forkjoinpipeline_buffer.sv
+L0 55
+Z9 OL;L;10.4c;61
+Z10 !s108 1487246373.000000
+Z11 !s107 C:/QuestasimProject/EE552_HW3/forkjoinpipeline_buffer.sv|
+Z12 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/QuestasimProject/EE552_HW3/forkjoinpipeline_buffer.sv|
+!i113 0
+Z13 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vbuffer
+R0
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 Q:ERefaCInN@:4iE9dioD2
+ID<cdDVL3`2[?6SbV=jbb20
+R4
+S1
+R5
+R6
+R7
+R8
+L0 112
+R9
+R10
+R11
+R12
+!i113 0
+R13
+YChannel
+R0
+R1
+DXx4 work 24 SystemVerilogCSP_sv_unit 0 22 5S4nHSEDNlJPFf@VmHkTV1
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 LNXGm4_=J^U76_1l;U10@3
+I4Y@Qh^[F]L5l6zI03mR_k3
+!s105 SystemVerilogCSP_sv_unit
+S1
+R5
+Z14 w1486106475
+Z15 8C:/QuestasimProject/EE552_HW3/SystemVerilogCSP.sv
+Z16 FC:/QuestasimProject/EE552_HW3/SystemVerilogCSP.sv
+L0 24
+R9
+Z17 !s108 1487248560.000000
+Z18 !s107 C:/QuestasimProject/EE552_HW3/SystemVerilogCSP.sv|
+Z19 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/QuestasimProject/EE552_HW3/SystemVerilogCSP.sv|
+!i113 0
+R13
+n@channel
+vcompare
+R0
+R1
+Z20 DXx4 work 13 prob7_sv_unit 0 22 :bkOc@<h3EYR;FzK`W3h]1
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 >[@iC1lG1@7Z33nZE8UPF0
+IL0bkDdPDRF71?05>Om=gl3
+Z21 !s105 prob7_sv_unit
+S1
+R5
+Z22 w1487248552
+Z23 8C:/QuestasimProject/EE552_HW3/prob7.sv
+Z24 FC:/QuestasimProject/EE552_HW3/prob7.sv
+L0 132
+R9
+Z25 !s108 1487248561.000000
+Z26 !s107 C:/QuestasimProject/EE552_HW3/prob7.sv|
+Z27 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/QuestasimProject/EE552_HW3/prob7.sv|
+!i113 0
+R13
+vcopy
+R0
+R1
+R20
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 BIMMdTDH@c:`GmKe6Y?P?0
+I<QDImEL:I3@YW?NXL<fXm2
+R21
+S1
+R5
+R22
+R23
+R24
+L0 97
+R9
+R25
+R26
+R27
+!i113 0
+R13
+vcopy4
+R0
+R1
+R20
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ZQB8zfTh0oPc3KNzD_2;12
+Ihdm:VeKC6MS<b;XC;D;kS3
+R21
+S1
+R5
+R22
+R23
+R24
+L0 114
+R9
+R25
+R26
+R27
+!i113 0
+R13
+vdata_bucket
+R0
+R1
+R20
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;^aK1YWY<ofPEB7Lm=`Y12
+ID[dEoB3_BS1Va4?bDGRkI1
+R21
+S1
+R5
+R22
+R23
+R24
+L0 65
+R9
+R25
+R26
+R27
+!i113 0
+R13
+vdata_generator
+R0
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 QAQ=mKXX18aHe<FSM4a<O1
+I69N331^I2=8NmRWCOjz:z0
+R4
+S1
+R5
+R6
+R7
+R8
+L0 5
+R9
+R10
+R11
+R12
+!i113 0
+R13
+vdata_generatorA
+R0
+R1
+R20
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 3faY@Gz89f0gO9:OCa7HV2
+IRdI>eU_e?LIc;jjSZR`2<2
+R21
+S1
+R5
+R22
+R23
+R24
+L0 4
+R9
+R25
+R26
+R27
+!i113 0
+R13
+ndata_generator@a
+vdata_generatorB
+R0
+R1
+R20
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 kXhH^QRXUg`8EgdNdXZ^Y1
+I1<llQCiK^`J=kj<0zn2M62
+R21
+S1
+R5
+R22
+R23
+R24
+Z28 L0 15
+R9
+R25
+R26
+R27
+!i113 0
+R13
+ndata_generator@b
+vfork_join_pipeline
+R0
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 7kLL20PECa>6fXN^PWLUC1
+IWN<T^D97zU>0M4BYHX;^E3
+R4
+S1
+R5
+R6
+R7
+R8
+L0 127
+R9
+R10
+R11
+R12
+!i113 0
+R13
+Xforkjoinpipeline_buffer_sv_unit
+R0
+R1
+Ve8FX9;L1:zeJJSJKI4gUh0
+r1
+!s85 0
+31
+!i10b 1
+!s100 >e]@Xf;3nk`CdhkK[MDlA0
+Ie8FX9;L1:zeJJSJKI4gUh0
+!i103 1
+S1
+R5
+R6
+R7
+R8
+L0 3
+R9
+R10
+R11
+R12
+!i113 0
+R13
+vfull_buffer
+R0
+R1
+Z29 DXx4 work 22 ring_buffer_10_sv_unit 0 22 fKQ`4zC6[@T[PK0<fKn4B2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 TJlV5hjgcI0nF763NIKIS1
+IcFalBC9f1LnIhbAV3_PUm1
+Z30 !s105 ring_buffer_10_sv_unit
+S1
+R5
+Z31 w1487245750
+Z32 8C:/QuestasimProject/EE552_HW3/ring_buffer_10.sv
+Z33 FC:/QuestasimProject/EE552_HW3/ring_buffer_10.sv
+Z34 L0 77
+R9
+Z35 !s108 1487245755.000000
+Z36 !s107 C:/QuestasimProject/EE552_HW3/ring_buffer_10.sv|
+Z37 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/QuestasimProject/EE552_HW3/ring_buffer_10.sv|
+!i113 0
+R13
+vfull_buffer_10
+R0
+R1
+R29
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 lP_]fJ1<DD6`f[a7DFY9[2
+II^Z`2SiZW^j2l5`EM=A7;3
+R30
+S1
+R5
+Z38 w1487244704
+R32
+R33
+R34
+R9
+Z39 !s108 1487244727.000000
+R36
+R37
+!i113 0
+R13
+vlarger
+R0
+R1
+R20
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 cj5^;iJkn9Wje3Q02TWA=3
+I1Dno=>4<b[P``Di@`PXo_2
+R21
+S1
+R5
+R22
+R23
+R24
+L0 176
+R9
+R25
+R26
+R27
+!i113 0
+R13
+vlinear_pipeline
+R0
+R1
+DXx4 work 22 ring_buffer_30_sv_unit 0 22 2[mTjJZX0WQTS?GRK?j[63
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 eaVY[1iI`4?^fAZjiWJ@N0
+IJZYTmfF7EJhNg_njYWIcm2
+!s105 ring_buffer_30_sv_unit
+S1
+R5
+w1487244005
+Z40 8C:/QuestasimProject/EE552_HW3/ring_buffer_30.sv
+Z41 FC:/QuestasimProject/EE552_HW3/ring_buffer_30.sv
+Z42 L0 94
+R9
+!s108 1487244010.000000
+Z43 !s107 C:/QuestasimProject/EE552_HW3/ring_buffer_30.sv|
+Z44 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/QuestasimProject/EE552_HW3/ring_buffer_30.sv|
+!i113 0
+R13
+Xlinear_pipeline_20_sv_unit
+R0
+R1
+V^3B1ZGm8z5DCUKdf6=X>S1
+r1
+!s85 0
+31
+!i10b 1
+!s100 VZ0KCNTKk`5AU2PFWeME[3
+I^3B1ZGm8z5DCUKdf6=X>S1
+!i103 1
+S1
+R5
+w1487243032
+8C:/QuestasimProject/EE552_HW3/linear_pipeline_20.sv
+FC:/QuestasimProject/EE552_HW3/linear_pipeline_20.sv
+Z45 L0 11
+R9
+!s108 1487243036.000000
+!s107 C:/QuestasimProject/EE552_HW3/linear_pipeline_20.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/QuestasimProject/EE552_HW3/linear_pipeline_20.sv|
+!i113 0
+R13
+vmerge
+R0
+R1
+R20
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 9l8W3Xekgm6on2>BfinOm3
+IcjCL>DHZ0R^8[1H04E<ke2
+R21
+S1
+R5
+R22
+R23
+R24
+L0 26
+R9
+R25
+R26
+R27
+!i113 0
+R13
+vmux
+R0
+R1
+R20
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 hBL2>bFIlE8CYBhIag@V^0
+I7EUGBN5ffl7;lI<TMAk7K1
+R21
+S1
+R5
+R22
+R23
+R24
+L0 218
+R9
+R25
+R26
+R27
+!i113 0
+R13
+vprob7
+R0
+R1
+R20
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 cezYn6NY69UIjlLz`6?Oe1
+IMGj:UR;<_?:QKnZ=9?cXH0
+R21
+S1
+R5
+R22
+R23
+R24
+L0 236
+R9
+R25
+R26
+R27
+!i113 0
+R13
+Xprob7_sv_unit
+R0
+R1
+V:bkOc@<h3EYR;FzK`W3h]1
+r1
+!s85 0
+31
+!i10b 1
+!s100 G[LjfFNWo0PaCA>WP2LUW0
+I:bkOc@<h3EYR;FzK`W3h]1
+!i103 1
+S1
+R5
+R22
+R23
+R24
+L0 3
+R9
+R25
+R26
+R27
+!i113 0
+R13
+vring_buffer
+R0
+R1
+R29
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 HkMK18EMMe<ZP;P?<:]j<3
+IPQdDi4UdP6?FbLF8Bh;Qh0
+R30
+S1
+R5
+R38
+R32
+R33
+R42
+R9
+R39
+R36
+R37
+!i113 0
+R13
+vring_buffer_10
+R0
+R1
+R29
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 PXXK>gnMI2_a?7VK>TbBh1
+IF=PZD8a<kS:0bfh?obW3<2
+R30
+S1
+R5
+R31
+R32
+R33
+R42
+R9
+R35
+R36
+R37
+!i113 0
+R13
+Xring_buffer_10_sv_unit
+R0
+R1
+VfKQ`4zC6[@T[PK0<fKn4B2
+r1
+!s85 0
+31
+!i10b 1
+!s100 PPZVVjmRzMn2[J9GKYd?02
+IfKQ`4zC6[@T[PK0<fKn4B2
+!i103 1
+S1
+R5
+R31
+R32
+R33
+R45
+R9
+R35
+R36
+R37
+!i113 0
+R13
+Xring_buffer_30_sv_unit
+R0
+R1
+V2[mTjJZX0WQTS?GRK?j[63
+r1
+!s85 0
+31
+!i10b 1
+!s100 jN>>o<Sc2Q<ajhGH?=YB13
+I2[mTjJZX0WQTS?GRK?j[63
+!i103 1
+S1
+R5
+w1487244422
+R40
+R41
+R45
+R9
+!s108 1487244427.000000
+R43
+R44
+!i113 0
+R13
+vshift
+R0
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;Y<haJPcaXl5Hh^>64P3>1
+IfZ]m58NBIPC6^9]NJg9FS3
+R4
+S1
+R5
+R6
+R7
+R8
+L0 95
+R9
+R10
+R11
+R12
+!i113 0
+R13
+vsplit
+R0
+R1
+R20
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 2n_a8D^?ALEIKgz12d[9k3
+IFkTW5Xi[VUd]zfcf:6gn^1
+R21
+S1
+R5
+R22
+R23
+R24
+L0 49
+R9
+R25
+R26
+R27
+!i113 0
+R13
+vsub
+R0
+R1
+R20
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 DLWk0<A^T7MZEILYHF;^23
+IIIN@bkUCVFX<TQW`Bc2c93
+R21
+S1
+R5
+R22
+R23
+R24
+L0 199
+R9
+R25
+R26
+R27
+!i113 0
+R13
+XSystemVerilogCSP
+R0
+VIn=<X^HH0I4WPIJDU>RJ70
+r1
+!s85 0
+31
+!i10b 1
+!s100 Sd@:S@ckz[LWGOlcJb1P`3
+IIn=<X^HH0I4WPIJDU>RJ70
+S1
+R5
+R14
+R15
+R16
+R28
+R9
+R17
+R18
+R19
+!i113 0
+R13
+n@system@verilog@c@s@p
+XSystemVerilogCSP_sv_unit
+R0
+R1
+V5S4nHSEDNlJPFf@VmHkTV1
+r1
+!s85 0
+31
+!i10b 1
+!s100 VFJOQ8ED]7[Gd<mA12MG23
+I5S4nHSEDNlJPFf@VmHkTV1
+!i103 1
+S1
+R5
+R14
+R15
+R16
+L0 22
+R9
+R17
+R18
+R19
+!i113 0
+R13
+n@system@verilog@c@s@p_sv_unit
+vtoken_buffer
+R0
+R1
+R20
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 LXISEI^WW0mlP[H`hNJdk1
+IgM8@l`lYMB=;z_Re4IY1@2
+R21
+S1
+R5
+R22
+R23
+R24
+L0 155
+R9
+R25
+R26
+R27
+!i113 0
+R13

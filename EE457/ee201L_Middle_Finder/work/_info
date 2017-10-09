@@ -1,0 +1,51 @@
+m255
+K4
+z0
+13
+cModel Technology
+Z0 dC:\ModelSim_projects\divider_timing_su08
+T_opt
+V[2WA[CW2o`?5SU>lAa69K3
+04 16 4 work middle_finder_tb fast 0
+=1-fc4dd43e8662-57c6eb41-5a-2ac8
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.2;57
+Z1 dC:\ModelSim_projects\divider_timing_su08
+!s110 1472654146
+vmiddle_finder
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+!s85 0
+31
+IcVzWl9?4ocNMf36WXYL5j0
+Z3 dC:\Questasim_projects\ee201L_Middle_Finder
+w1219974936
+8C:/Questasim_projects/ee201L_Middle_Finder/middle_finder.v
+FC:/Questasim_projects/ee201L_Middle_Finder/middle_finder.v
+L0 10
+Z4 OL;L;10.2;57
+Z5 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 l0hPaoT@K^dYWLMGSLP8R3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Questasim_projects/ee201L_Middle_Finder/middle_finder.v|
+!s108 1472654121.605000
+!s107 C:/Questasim_projects/ee201L_Middle_Finder/middle_finder.v|
+!i10b 1
+vmiddle_finder_tb
+R2
+r1
+31
+I[M306Llo8j6=<N5`i<Cof3
+R3
+w1219950608
+8C:/Questasim_projects/ee201L_Middle_Finder/middle_finder_tb.v
+FC:/Questasim_projects/ee201L_Middle_Finder/middle_finder_tb.v
+L0 8
+R4
+R5
+!s85 0
+!s100 >AJ37e^]hDnHDYziga9iJ3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Questasim_projects/ee201L_Middle_Finder/middle_finder_tb.v|
+!i10b 1
+!s108 1472654121.655000
+!s107 C:/Questasim_projects/ee201L_Middle_Finder/middle_finder_tb.v|

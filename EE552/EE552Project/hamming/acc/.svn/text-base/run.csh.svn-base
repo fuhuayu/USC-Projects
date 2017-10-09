@@ -1,0 +1,18 @@
+#!/bin/tcsh
+echo "The number of lines are: \n"
+wc -l *_csp.sv
+echo "Running svc2rtl \n";
+time svc2rtl CondAccumulator_csp.sv CondAccumulator.rtl.nf.sv > & /dev/null
+echo "Running format.pl \n";
+../../scripts/perl/format.pl ./*.rtl.nf.sv
+echo "Running RC... \n";
+time proteus-a --include=CondAccumulator.config --sv=1 --task=rc --force=1
+echo "Running clockfree... \n";
+time proteus-a --include=CondAccumulator.config --sv=1 --task=clockfree --force=1
+echo "Running encounter... \n";
+#time proteus-a --include=CondAccumulator.config --sv=1 --task=encounter --force=1
+echo "Generating cosim wrapper... \n";
+../../scripts/perl/cosim_wrapper.pl *.qdi/*.qdi.noclk.flat.v ./CondAccumulator.qdi.noclk.flat.cosim.sv
+echo "Reading total number of gates in RC results"
+grep -C 5 "START: generating verilog" *.qdi/*rc.out | grep total
+

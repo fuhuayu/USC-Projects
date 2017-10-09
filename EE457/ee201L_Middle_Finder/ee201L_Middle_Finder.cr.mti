@@ -1,0 +1,15 @@
+C:/Questasim_projects/ee201L_Middle_Finder/middle_finder_tb.v {1 {vlog -work work -vopt C:/Questasim_projects/ee201L_Middle_Finder/middle_finder_tb.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module middle_finder_tb
+
+Top level modules:
+	middle_finder_tb
+
+} {} {}} C:/Questasim_projects/ee201L_Middle_Finder/middle_finder.v {1 {vlog -work work -vopt C:/Questasim_projects/ee201L_Middle_Finder/middle_finder.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module middle_finder
+
+Top level modules:
+	middle_finder
+
+} {} {}}

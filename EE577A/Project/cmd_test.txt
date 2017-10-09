@@ -1,0 +1,32 @@
+STOREI 2 10H #000E #00FF 
+STOREI 0BH #002f
+LOADI $1 #0013  
+LOAD $2 0BH  
+LOAD $3 10H  
+LOAD $5 11H 
+NOP
+NOP
+ADD $4 $3 $5 
+MUL $6 $1 $2 
+
+STORE 00H $4 
+STORE 01H $6
+NOP
+NOP
+SFL $2 $6 #0002
+NOP
+NOP
+OR $6 $2 $4  
+MINI $4 $3 #0040 
+NOP
+AND $7 $6 $3    
+NOP 
+STORE 02H $4     
+STORE 03H $6     
+STORE 04H $7     
+
+LOAD $0 00H     
+LOAD $0 01H    
+LOAD $0 02H     
+LOAD $0 03H     
+LOAD $0 04H     

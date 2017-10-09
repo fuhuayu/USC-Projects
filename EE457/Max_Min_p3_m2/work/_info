@@ -1,0 +1,47 @@
+m255
+K4
+z2
+13
+cModel Technology
+dC:\Questasim_projects\Max_Min_p2
+!i10d 8192
+!i10e 25
+!i10f 100
+vmin_max_finder_part3_M2
+Z0 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+!s85 0
+31
+IGRb`8Teck2WkZ696BYmBO2
+Z1 dC:\Questasim_projects\Max_Min_p3_m2
+w1473559641
+8min_max_finder_part3_M2.v
+Fmin_max_finder_part3_M2.v
+L0 10
+Z2 OL;L;10.2;57
+Z3 o+acc -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+nmin_max_finder_part3_@m2
+!s100 KP7BGe6nZ6Tk`VDBN`l4<2
+!s108 1473559711.745000
+!s107 min_max_finder_part3_M2.v|
+!s90 -reportprogress|300|+acc|min_max_finder_part3_M2.v|
+!i10b 1
+vmin_max_finder_part3_M2_tb
+Z4 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+31
+I>8;WY:BQk4L7mneISTfW91
+R1
+w1359437812
+8min_max_finder_part3_M2_tb.v
+Fmin_max_finder_part3_M2_tb.v
+L0 11
+R2
+R3
+nmin_max_finder_part3_@m2_tb
+!s85 0
+!s100 fWz4VTi;o1_l9]ooUiPN03
+!i10b 1
+!s108 1473559711.802000
+!s107 min_max_finder_part3_M2_tb.v|
+!s90 -reportprogress|300|+acc|min_max_finder_part3_M2_tb.v|

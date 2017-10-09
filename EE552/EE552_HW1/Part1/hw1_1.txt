@@ -1,0 +1,48 @@
+out1
+Each  cycle  of  this  always  block  takes  ____5_____  time  units. 
+Therefore,  if  the  value  of in changes  slower,  lets  say  at  each  10  time units, 
+the always block will ___ see___ all those events during the time  it  is  busy  
+in  one  cycle!  This models  the transport delay of  the block,  where  any  pulse  on a
+will  be  accepted  and __will not__ affect the output.
+out2
+Each  cycle  of  this  always  block  takes  ____15_____  time  units. 
+Therefore,  if  the  value  of in changes  faster,  lets  say  at  each  10  time units, 
+the always block will ___miss___ all those events during the time  it  is  busy  
+in  one  cycle!  This models  thetransportdelayof  the block,  where  any  pulse  on a
+will  be  accepted  and __will__ affect the output.
+out3
+Each  cycle  of  this  always  block  takes  ____5_____  time  units. 
+Therefore,  if  the  value  of achanges  slower,  lets  say  at  each  10  time units, 
+the always block will ___see ___ all those events during the time  it  is  busy  
+in  one  cycle!  This models  theinertial  delayof  the block  in  that  pulses  less  
+than  5 time  unit on a are  rejected  and __will_not__affect the output.
+out4
+Each  cycle  of  this  always  block  takes  ____15_____  time  units. 
+Therefore,  if  the  value  of achanges  faster,  lets  say  at  each  10  time units, 
+the always block will ___ miss___ all those events during the time  it  is  busy  
+in  one  cycle!  This models  theinertial  delayof  the block  in  that  pulses  less  
+than  2000 time  unit on aare  rejected  and __will__affect the output.
+out5
+Each  cycle  of  this  always  block  takes  ____0_____  time  units. 
+Therefore,  if  the  value  of achanges  slower,  lets  say  at  each  10  time units, 
+the always block will ___see___ all those events during the time  it  is  busy  
+in  one  cycle!  This models  thetransportdelayof  the block,  where  any  pulse  on a
+will  be  accepted  and __will_not__ affect the output.
+out6
+Each  cycle  of  this  always  block  takes  ____0_____  time  units. 
+Therefore,  if  the  value  of achanges  faster,  lets  say  at  each  10  time units, 
+the always block will ___see___ all those events during the time  it  is  busy  
+in  one  cycle!  This models  thetransportdelayof  the block,  where  any  pulse  on a
+will  be  accepted  and __will_not__ affect the output.
+out7
+Each  cycle  of  this  always  block  takes  ____5_____  time  units. 
+Therefore,  if  the  value  of achanges  faster,  lets  say  at  each  10  time units, 
+the always block will ___see ___ all those events during the time  it  is  busy  
+in  one  cycle!  This models  theinertial  delayof  the block  in  that  pulses  less  
+than  2000 time  unit on aare  rejected  and __will_not__affect the output.
+out8
+Each  cycle  of  this  always  block  takes  ____15_____  time  units. 
+Therefore,  if  the  value  of achanges  faster,  lets  say  at  each  10  time units, 
+the always block will ___miss___ all those events during the time  it  is  busy  
+in  one  cycle!  This models  theinertial  delayof  the block  in  that  pulses  less  
+than  2000 time  unit on aare  rejected  and __will__affect the output.

@@ -1,0 +1,19 @@
+/////////////////////////////////////////////////////////////////
+//       testbench: tb.v
+/////////////////////////////////////////////////////////////////
+`timescale 1ns/10ps
+module tb;
+reg clk;
+reg a;
+initial begin
+  clk=0;
+end
+always@(clk)
+begin
+a = 0;
+a <= 1;
+$display(a);
+$stop;
+end
+always #1 clk=~clk;
+endmodule

@@ -1,0 +1,235 @@
+C:/QuestasimProject/EE552_HW4/Phase4/controller_token_beh_delay.sv {1 {vlog -work work -vopt -sv -stats=none C:/QuestasimProject/EE552_HW4/Phase4/controller_token_beh_delay.sv
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module token_controller_edl
+-- Compiling module token_controller
+
+Top level modules:
+	token_controller_edl
+	token_controller
+
+} {} {}} C:/QuestasimProject/EE552_HW4/Phase4/tb_adder32bit_BLADE.sv {2 {vlog -work work -vopt -sv -stats=none C:/QuestasimProject/EE552_HW4/Phase4/tb_adder32bit_BLADE.sv
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module AND2X1
+-- Compiling module AND2X2
+-- Compiling module AOI21X1
+-- Compiling module AOI22X1
+-- Compiling module BUFX2
+-- Compiling module BUFX4
+-- Compiling module CLKBUF1
+-- Compiling module CLKBUF2
+-- Compiling module CLKBUF3
+-- Compiling module DFFNEGX1
+-- Compiling module DFFPOSX1
+-- Compiling module DFFSR
+-- Compiling module FAX1
+-- Compiling module HAX1
+-- Compiling module INVX1
+-- Compiling module INVX2
+-- Compiling module INVX4
+-- Compiling module INVX8
+-- Compiling module LATCH
+-- Compiling module MUX2X1
+-- Compiling module NAND2X1
+-- Compiling module NAND3X1
+-- Compiling module NOR2X1
+-- Compiling module NOR3X1
+-- Compiling module OAI21X1
+-- Compiling module OAI22X1
+-- Compiling module OR2X1
+-- Compiling module OR2X2
+-- Compiling module TBUFX1
+-- Compiling module TBUFX2
+-- Compiling module XNOR2X1
+-- Compiling module XOR2X1
+-- Compiling UDP udp_dff
+-- Compiling UDP udp_tlat
+-- Compiling UDP udp_rslat
+-- Compiling UDP udp_mux2
+-- Compiling module adder16bit
+-- Compiling module delay_line
+-- Compiling UDP u_c2
+-- Compiling UDP u_c1u2
+-- Compiling UDP u_c3
+-- Compiling UDP u_c3u4
+-- Compiling UDP u_filterG0
+-- Compiling UDP u_filterG1
+-- Compiling package tb_adder32bit_BLADE_sv_unit
+-- Compiling module s2a
+-- Compiling module a2s
+-- Compiling module pcontroller
+-- Compiling module pipeline
+-- Compiling module pipeline2
+-- Compiling module pipestage
+-- Compiling module pipestage2
+-- Compiling module controller_edl
+-- Compiling module controller
+-- Compiling module token_controller_edl
+-- Compiling module token_controller
+-- Compiling module ortree
+-- Compiling module andtree
+-- Compiling module xorGate
+-- Compiling module transition_detector
+-- Compiling module small_delay_line
+-- Compiling module BLADE_TDTB_OPTX8
+-- Compiling module BLADE_TDTBR_OPTX8
+-- Compiling UDP u_c2
+** Warning: ./blade_lib.v(8): (vlog-2633) 'u_c2' already exists.
+
+-- Compiling UDP u_c1u2
+** Warning: ./blade_lib.v(28): (vlog-2633) 'u_c1u2' already exists.
+
+-- Compiling UDP u_c3
+** Warning: ./blade_lib.v(49): (vlog-2633) 'u_c3' already exists.
+
+-- Compiling UDP u_c3u4
+** Warning: ./blade_lib.v(76): (vlog-2633) 'u_c3u4' already exists.
+
+-- Compiling UDP u_filterG0
+** Warning: ./blade_lib.v(111): (vlog-2633) 'u_filterG0' already exists.
+
+-- Compiling UDP u_filterG1
+** Warning: ./blade_lib.v(127): (vlog-2633) 'u_filterG1' already exists.
+
+-- Compiling module BLADE_CE1CK2X4
+-- Compiling module BLADE_CE2X4
+-- Compiling module BLADE_CE1CK4X4
+-- Compiling module BLADE_CE3X4
+-- Compiling module BLADE_FILTER2X4
+-- Compiling module Q_Flop
+-- Compiling module adder32bitBLADE
+-- Compiling module tb_BLADE
+
+Top level modules:
+	AND2X1
+	AND2X2
+	AOI21X1
+	AOI22X1
+	BUFX2
+	BUFX4
+	CLKBUF2
+	CLKBUF3
+	DFFNEGX1
+	DFFPOSX1
+	DFFSR
+	HAX1
+	INVX1
+	INVX2
+	INVX4
+	INVX8
+	MUX2X1
+	NAND2X1
+	NAND3X1
+	NOR2X1
+	NOR3X1
+	OAI21X1
+	OAI22X1
+	OR2X1
+	OR2X2
+	TBUFX1
+	TBUFX2
+	XNOR2X1
+	XOR2X1
+	token_controller_edl
+	ortree
+	andtree
+	transition_detector
+	BLADE_TDTBR_OPTX8
+	BLADE_CE1CK2X4
+	BLADE_CE2X4
+	BLADE_CE3X4
+	BLADE_FILTER2X4
+	tb_BLADE
+
+} {} {}} C:/QuestasimProject/EE552_HW4/Phase4/blade_tdtb.v {1 {vlog -work work -vopt -stats=none C:/QuestasimProject/EE552_HW4/Phase4/blade_tdtb.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module small_delay_line
+-- Compiling module BLADE_TDTB_OPTX8
+-- Compiling module BLADE_TDTBR_OPTX8
+
+Top level modules:
+	BLADE_TDTB_OPTX8
+	BLADE_TDTBR_OPTX8
+
+} {} {}} C:/QuestasimProject/EE552_HW4/Phase4/blade_lib.v {1 {vlog -work work -vopt -stats=none C:/QuestasimProject/EE552_HW4/Phase4/blade_lib.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling UDP u_c2
+-- Compiling UDP u_c1u2
+-- Compiling UDP u_c3
+-- Compiling UDP u_c3u4
+-- Compiling UDP u_filterG0
+-- Compiling UDP u_filterG1
+-- Compiling module BLADE_CE1CK2X4
+-- Compiling module BLADE_CE2X4
+-- Compiling module BLADE_CE1CK4X4
+-- Compiling module BLADE_CE3X4
+-- Compiling module BLADE_FILTER2X4
+
+Top level modules:
+	BLADE_CE1CK2X4
+	BLADE_CE2X4
+	BLADE_CE1CK4X4
+	BLADE_CE3X4
+	BLADE_FILTER2X4
+
+} {} {}} C:/QuestasimProject/EE552_HW4/Phase4/pipeline.sv {1 {vlog -work work -vopt -sv -stats=none C:/QuestasimProject/EE552_HW4/Phase4/pipeline.sv
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module pipeline
+-- Compiling module pipeline2
+-- Compiling module pipestage
+-- Compiling module pipestage2
+
+Top level modules:
+	pipeline
+	pipeline2
+
+} {} {}} C:/QuestasimProject/EE552_HW4/Phase4/controller_beh_delay.sv {1 {vlog -work work -vopt -sv -stats=none C:/QuestasimProject/EE552_HW4/Phase4/controller_beh_delay.sv
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module controller_edl
+-- Compiling module controller
+
+Top level modules:
+	controller_edl
+	controller
+
+} {} {}} C:/QuestasimProject/EE552_HW4/Phase4/ed4cinsert.v {1 {vlog -work work -vopt -stats=none C:/QuestasimProject/EE552_HW4/Phase4/ed4cinsert.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module ortree
+-- Compiling module andtree
+-- Compiling module xorGate
+-- Compiling module transition_detector
+
+Top level modules:
+	ortree
+	andtree
+	transition_detector
+
+} {} {}} C:/QuestasimProject/EE552_HW4/Phase4/pcontroller_beh.sv {1 {vlog -work work -vopt -sv -stats=none C:/QuestasimProject/EE552_HW4/Phase4/pcontroller_beh.sv
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module pcontroller
+
+Top level modules:
+	pcontroller
+
+} {} {}} C:/QuestasimProject/EE552_HW4/Phase4/qflop_beh.v {1 {vlog -work work -vopt -stats=none C:/QuestasimProject/EE552_HW4/Phase4/qflop_beh.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module Q_Flop
+
+Top level modules:
+	Q_Flop
+
+} {} {}} C:/QuestasimProject/EE552_HW4/Phase4/s2a.sv {1 {vlog -work work -vopt -sv -stats=none C:/QuestasimProject/EE552_HW4/Phase4/s2a.sv
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling package s2a_sv_unit
+-- Compiling module s2a
+
+Top level modules:
+	s2a
+
+} {} {}} C:/QuestasimProject/EE552_HW4/Phase4/a2s.sv {1 {vlog -work work -vopt -sv -stats=none C:/QuestasimProject/EE552_HW4/Phase4/a2s.sv
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module a2s
+
+Top level modules:
+	a2s
+
+} {} {}}

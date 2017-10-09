@@ -1,0 +1,43 @@
+Very-large-scale integration (VLSI) is the process of creating an integrated circuit (IC) 
+by combining thousands of transistors into a single chip. VLSI began in the 1970s when complex 
+semiconductor and communication technologies were being developed. The microprocessor is a VLSI 
+device. Before the introduction of VLSI technology most ICs had a limited set of functions they 
+could perform. An electronic circuit might consist of a CPU, ROM, RAM and other glue logic. 
+VLSI lets IC designers add all of these into one chip.
+
+The History of the transistor dates to the mid-1920s when several inventors attempted devices 
+that were intended to control current in solid-state diodes and convert them into triodes. 
+Success came after World War II, when the use of silicon and germanium crystals as radar 
+detectors led to improvements in fabrication and theory. Scientists who had been diverted to 
+radar development returned to solid-state device development. With the invention of transistors 
+at Bell Labs in 1947, the field of electronics shifted from vacuum tubes to solid-state devices.
+
+With the small transistor at their hands, electrical engineers of the 1950s saw the possibilities 
+of constructing far more advanced circuits. As the complexity of circuits grew, problems arose.[1]
+
+One problem was the size of the circuit. A complex circuit, like a computer, was dependent on 
+speed. If the components of the computer were too large or the wires interconnecting them too 
+long, the electric signals couldn't travel fast enough through the circuit, thus making the 
+computer too slow to be effective.[1]
+
+Jack Kilby at Texas Instruments found a solution to this problem in 1958. Kilby's idea was to 
+make all the components and the chip out of the same block (monolith) of semiconductor material. 
+In September 1958, his first integrated circuit was ready.[1] This crude beginning broke ground 
+on a new idea. By making all the parts out of the same block of material and adding the connections 
+as a layer on top, there was no need for discrete components, to be assembled manually. The circuits 
+could be made smaller, and the manufacturing process could be automated. This led to the idea of 
+integrating all components on a single silicon wafer came into existence, which led to development 
+in small-scale integration (SSI) in the early 1960s, medium-scale integration (MSI) in the late 
+1960s, and then large-scale integration (LSI) as well as VLSI in the 1970s and 1980s, with tens 
+of thousands of transistors on a single chip (later hundreds of thousands, then millions, and now 
+billions (109)).
+
+The first semiconductor chips held two transistors each. Subsequent advances added more transistors, 
+and as a consequence, more individual functions or systems were integrated over time. The first 
+integrated circuits held only a few devices, perhaps as many as ten diodes, transistors, resistors 
+and capacitors, making it possible to fabricate one or more logic gates on a single device. Now known 
+retrospectively as small-scale integration (SSI), improvements in technique led to devices with 
+hundreds of logic gates, known as medium-scale integration (MSI). Further improvements led to 
+large-scale integration (LSI), i.e. systems with at least a thousand logic gates. Current technology 
+has moved far past this mark and today's microprocessors have many millions of gates and billions 
+of individual transistors.

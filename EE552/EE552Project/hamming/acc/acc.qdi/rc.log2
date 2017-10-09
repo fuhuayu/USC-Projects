@@ -1,0 +1,29 @@
+Checking out license 'RTL_Compiler_Physical'... (0 seconds elapsed)
+License RTL_Compiler_Physical checkout failed
+Checking out license 'RTL_Compiler_Ultra'... (1 seconds elapsed)
+License RTL_Compiler_Ultra checkout failed
+Checking out license 'RTL_Compiler_Verification'... (0 seconds elapsed)
+License RTL_Compiler_Verification checkout failed
+Checking out license 'FE_GPS'... (0 seconds elapsed)
+License FE_GPS checkout failed
+Checking out license 'SOC_Encounter_GPS'... (0 seconds elapsed)
+License SOC_Encounter_GPS checkout failed
+Checking out license 'First_Encounter_GXL'... (0 seconds elapsed)
+License First_Encounter_GXL checkout failed
+Checking out license 'SOC_Encounter_GXL'... (0 seconds elapsed)
+License SOC_Encounter_GXL checkout failed
+Checking out license 'Encounter_Design_Planner_XL'... (0 seconds elapsed)
+License Encounter_Design_Planner_XL checkout failed
+Checking out license 'Encounter_Digital_Impl_Sys_XL'... (0 seconds elapsed)
+License Encounter_Digital_Impl_Sys_XL checkout failed
+Checking out license 'RTL_Compiler_Physical'... (0 seconds elapsed)
+License RTL_Compiler_Physical checkout failed
+Checking out license 'RTL_Compiler_L'... (0 seconds elapsed)
+License RTL_Compiler_L checkout failed
+Checking out license 'Virtuoso_Digital_Implem'... (1 seconds elapsed)
+
+                       Cadence Encounter(R) RTL Compiler
+               Version v08.10-s108_1 (64-bit), built Jul 29 2008
+
+
+Sourcing './rc_tempR.tcl' (Tue Mar 21 02:03:56 PDT 2017)...

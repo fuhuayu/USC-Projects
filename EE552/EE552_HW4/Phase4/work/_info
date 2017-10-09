@@ -1,0 +1,1638 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/QuestasimProject/EE552_HW4/Phase3
+va2s
+Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 MVd?<lhNb:^7F9HzhKgJ<2
+IhRPlPCTdDF7R9Ej`7mT9J1
+!s105 a2s_sv_unit
+S1
+Z2 dC:/QuestasimProject/EE552_HW4/Phase4
+w1488887596
+8C:/QuestasimProject/EE552_HW4/Phase4/a2s.sv
+FC:/QuestasimProject/EE552_HW4/Phase4/a2s.sv
+L0 7
+Z3 OL;L;10.4c;61
+Z4 !s108 1488888231.000000
+!s107 C:/QuestasimProject/EE552_HW4/Phase4/a2s.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/QuestasimProject/EE552_HW4/Phase4/a2s.sv|
+!i113 0
+Z5 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vadder16bit
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Tb3UOg<[YngjKmnJkVn_O3
+I_cez7>@WRG^?<Sbo`AJ4l3
+Z6 !s105 tb_adder32bit_BLADE_sv_unit
+S1
+R2
+w1487007250
+8./../adder16bit.netlist.v
+Z7 F./../adder16bit.netlist.v
+L0 6
+R3
+R4
+Z8 !s107 adder32bit_BLADE.v|./qflop_beh.v|./blade_lib.v|./blade_tdtb.v|./ed4cinsert.v|./controller_token_beh_delay.sv|./controller_beh_delay.sv|./pipeline.sv|./pcontroller_beh.sv|./a2s.sv|./s2a.sv|./../Phase2/delay_line.v|./../adder16bit.netlist.v|./../gscl45nm.v|C:/QuestasimProject/EE552_HW4/Phase4/tb_adder32bit_BLADE.sv|
+Z9 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/QuestasimProject/EE552_HW4/Phase4/tb_adder32bit_BLADE.sv|
+!i113 0
+R5
+vadder32bitBLADE
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 mJTz^hBb6lgX9I23bJ9R=1
+IDdjD6G>nzkj7WUOHOBI5:2
+R2
+Z10 w1488888191
+8C:/QuestasimProject/EE552_HW4/Phase4/adder32bit_BLADE.v
+FC:/QuestasimProject/EE552_HW4/Phase4/adder32bit_BLADE.v
+L0 7
+R3
+R4
+!s107 C:/QuestasimProject/EE552_HW4/Phase4/adder32bit_BLADE.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestasimProject/EE552_HW4/Phase4/adder32bit_BLADE.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+nadder32bit@b@l@a@d@e
+vAND2X1
+R0
+Z12 !s110 1488888231
+!i10b 1
+!s100 BjLHj;X[kUWD6fW3FdNLC0
+IPQ[BD1;Nig89HA;eIQl@A2
+R1
+R6
+S1
+R2
+Z13 w1488868205
+Z14 8./../gscl45nm.v
+Z15 F./../gscl45nm.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@a@n@d2@x1
+vAND2X2
+R0
+R12
+!i10b 1
+!s100 XBb4Q@USj9@G?e=`[JPM61
+IVi^GN62G3EnGzaF2S5RhM2
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@a@n@d2@x2
+vandtree
+Z16 !s110 1488888232
+!i10b 1
+!s100 Q[3F@L454z31YolJ6a5MJ2
+I[>ck@:nC>[PY9QLNd_UTD2
+R1
+R2
+Z17 w1488887453
+Z18 8C:/QuestasimProject/EE552_HW4/Phase4/ed4cinsert.v
+Z19 FC:/QuestasimProject/EE552_HW4/Phase4/ed4cinsert.v
+L0 15
+R3
+r1
+!s85 0
+31
+Z20 !s108 1488888232.000000
+Z21 !s107 C:/QuestasimProject/EE552_HW4/Phase4/ed4cinsert.v|
+Z22 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestasimProject/EE552_HW4/Phase4/ed4cinsert.v|
+!i113 0
+R11
+vAOI21X1
+R0
+R12
+!i10b 1
+!s100 i^idb7OF1SU=DjcB4HnHP1
+Ib:84CH80R0`BB[7e^R2OW2
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 55
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@a@o@i21@x1
+vAOI22X1
+R0
+R12
+!i10b 1
+!s100 A:RcIOMeJT4C<J^BH9SYH2
+IEf795USN@GN8af<gCC4GP2
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 87
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@a@o@i22@x1
+vBLADE_CE1CK2X4
+R12
+!i10b 1
+!s100 5d1B5cWW9Mk0NNKz69[:l2
+I>BmBl?K3D`VeI]Ge_OU2z0
+R1
+R2
+Z23 w1487794497
+Z24 8C:/QuestasimProject/EE552_HW4/Phase4/blade_lib.v
+Z25 FC:/QuestasimProject/EE552_HW4/Phase4/blade_lib.v
+L0 145
+R3
+r1
+!s85 0
+31
+R4
+Z26 !s107 C:/QuestasimProject/EE552_HW4/Phase4/blade_lib.v|
+Z27 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestasimProject/EE552_HW4/Phase4/blade_lib.v|
+!i113 0
+R11
+n@b@l@a@d@e_@c@e1@c@k2@x4
+vBLADE_CE1CK4X4
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 co<]dg7<]2LdSY:HC15dW0
+Ih;hzf@HJDSUPOQfZPXzg:1
+R2
+R23
+R24
+R25
+L0 175
+R3
+R4
+R26
+R27
+!i113 0
+R11
+n@b@l@a@d@e_@c@e1@c@k4@x4
+vBLADE_CE2X4
+R12
+!i10b 1
+!s100 @1m<?GnUXUaTT]Zn<Cib<3
+IRPkNmLAZSW?HAH2kE^hk>2
+R1
+R2
+R23
+R24
+R25
+L0 160
+R3
+r1
+!s85 0
+31
+R4
+R26
+R27
+!i113 0
+R11
+n@b@l@a@d@e_@c@e2@x4
+vBLADE_CE3X4
+R12
+!i10b 1
+!s100 k]SJSdB1[j8C_FHVFR81n2
+I3jEeBI5NFgUfbi9T:eXD91
+R1
+R2
+R23
+R24
+R25
+L0 192
+R3
+r1
+!s85 0
+31
+R4
+R26
+R27
+!i113 0
+R11
+n@b@l@a@d@e_@c@e3@x4
+vBLADE_FILTER2X4
+R12
+!i10b 1
+!s100 Q2Rfl]ATJPL:WoZaz9<;H3
+I1Ef79e?3mGa]nLOSJb<ki1
+R1
+R2
+R23
+R24
+R25
+L0 208
+R3
+r1
+!s85 0
+31
+R4
+R26
+R27
+!i113 0
+R11
+n@b@l@a@d@e_@f@i@l@t@e@r2@x4
+vBLADE_TDTB_OPTX8
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 N=?_=Im832fbHi2]=DIPd3
+Im6Ze[_2kmUDBAmWo1^SkY2
+R2
+Z28 w1488887474
+Z29 8C:/QuestasimProject/EE552_HW4/Phase4/blade_tdtb.v
+Z30 FC:/QuestasimProject/EE552_HW4/Phase4/blade_tdtb.v
+L0 22
+R3
+R4
+Z31 !s107 C:/QuestasimProject/EE552_HW4/Phase4/blade_tdtb.v|
+Z32 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestasimProject/EE552_HW4/Phase4/blade_tdtb.v|
+!i113 0
+R11
+n@b@l@a@d@e_@t@d@t@b_@o@p@t@x8
+vBLADE_TDTBR_OPTX8
+R12
+!i10b 1
+!s100 2SglBN`Ei>hQ@<H=d<m9W2
+I<^lhPEbYfR]cVFZ6C@EaC1
+R1
+R2
+R28
+R29
+R30
+L0 95
+R3
+r1
+!s85 0
+31
+R4
+R31
+R32
+!i113 0
+R11
+n@b@l@a@d@e_@t@d@t@b@r_@o@p@t@x8
+vBUFX2
+R0
+R12
+!i10b 1
+!s100 >iTEU`;lg<l7=Nd<e;Qz10
+IJ?9TD_BbBS2GVF`X@S5XU2
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 124
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@b@u@f@x2
+vBUFX4
+R0
+R12
+!i10b 1
+!s100 z?hc_QS<[gWfiaN:k<kZi3
+ITT>61KDZjG9X>Z3hKdL5m2
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 146
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@b@u@f@x4
+vCLKBUF1
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 EHgT>RVEQ?f[6[NUzn8P<0
+IYe1Hfl@ESHN]jDZ`Ba]cR0
+R6
+S1
+R2
+R13
+R14
+R15
+L0 168
+R3
+R4
+R8
+R9
+!i113 0
+R5
+n@c@l@k@b@u@f1
+vCLKBUF2
+R0
+R12
+!i10b 1
+!s100 ]g98H86Q`1;7=JF5hmZHT1
+IoBHQ3iNBXbDZU4nD0=Cki3
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 190
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@c@l@k@b@u@f2
+vCLKBUF3
+R0
+R12
+!i10b 1
+!s100 ^Dab==VV<@7N>11h;OG?Z2
+Ig@NJMmVN645fnW7jGSMOK0
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 212
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@c@l@k@b@u@f3
+vcontroller
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 CS?j4O@`oGW0bN70jA3E00
+I_a08i>ISAE[LBi;lL0:`M2
+Z33 !s105 controller_beh_delay_sv_unit
+S1
+R2
+Z34 w1488887580
+Z35 8C:/QuestasimProject/EE552_HW4/Phase4/controller_beh_delay.sv
+Z36 FC:/QuestasimProject/EE552_HW4/Phase4/controller_beh_delay.sv
+L0 157
+R3
+R4
+Z37 !s107 C:/QuestasimProject/EE552_HW4/Phase4/controller_beh_delay.sv|
+Z38 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/QuestasimProject/EE552_HW4/Phase4/controller_beh_delay.sv|
+!i113 0
+R5
+vcontroller_edl
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 4XPYz8HFe=^;i3NWIMHog3
+ImYU9doi5MMPF4e@hF4S3X3
+R33
+S1
+R2
+R34
+R35
+R36
+L0 6
+R3
+R4
+R37
+R38
+!i113 0
+R5
+vdelay_line
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 0nz<YUT2Vcc08AK6g:dSK2
+I2C<O;<kI_T<F2d52Un[:N1
+R6
+S1
+R2
+w1488874984
+8./../Phase2/delay_line.v
+Z39 F./../Phase2/delay_line.v
+L0 7
+R3
+R4
+R8
+R9
+!i113 0
+R5
+vDFFNEGX1
+R0
+R12
+!i10b 1
+!s100 gTjHl;3K6ocLKN;D:D;GQ1
+Ila=36Wbch?0E9dN?R72Md1
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 234
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@d@f@f@n@e@g@x1
+vDFFPOSX1
+R0
+R12
+!i10b 1
+!s100 lc46b9_g2?5Km[2e1Tcb00
+Ig`[RC8>`D7J@fd3AzXY4@2
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 274
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@d@f@f@p@o@s@x1
+vDFFSR
+R0
+R12
+!i10b 1
+!s100 P0o^f7F]GNMcF`C?<<;`41
+I:V0Ja5acFKEecjBX0NFlF1
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 313
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@d@f@f@s@r
+vFAX1
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 c2dR5zVi^gSNSbUGH^OKH2
+INVL6^K5EIEzBD9QaF]gBG1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 382
+R3
+R4
+R8
+R9
+!i113 0
+R5
+n@f@a@x1
+vHAX1
+R0
+R12
+!i10b 1
+!s100 lX2DmJSOe>bacN=EAk40c2
+IBPDK[GG9a;P8S<k3F6m?n1
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 427
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@h@a@x1
+vINVX1
+R0
+R12
+!i10b 1
+!s100 [YE^XFAhSdEX3:DYO7oLz1
+IMXfjm<Q1[_HQPinU2i=J[1
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 461
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@i@n@v@x1
+vINVX2
+R0
+R12
+!i10b 1
+!s100 EVIBAb6iSAF:@BTf@BAO_2
+IBN5EZV=9GQcU41DGb<D_R0
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 483
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@i@n@v@x2
+vINVX4
+R0
+R12
+!i10b 1
+!s100 P8S8?a:IR_H`lnKbAUPB00
+Id3ene[eiMfjjWNggiKR^G3
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 505
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@i@n@v@x4
+vINVX8
+R0
+R12
+!i10b 1
+!s100 ?T34560YgjNm1]XR20Ge>1
+IddUIaa2Y8j40Thj7nXh223
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 527
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@i@n@v@x8
+vLATCH
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ]0NLf1_``<D^dW9[T7kBS0
+I@KI[UOY^`MXJN@I8A;gg`1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 549
+R3
+R4
+R8
+R9
+!i113 0
+R5
+n@l@a@t@c@h
+vMUX2X1
+R0
+R12
+!i10b 1
+!s100 FUMh9K`hSKe5Ve[agmzj]3
+Ic4nQhhG>6zQzD`HBIWTTn0
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 589
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@m@u@x2@x1
+vNAND2X1
+R0
+R12
+!i10b 1
+!s100 OfZ^jj_]B?b24n2gAE:YI1
+I:59oaEoS^]HiY8M@Y?Ko:0
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 620
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@n@a@n@d2@x1
+vNAND3X1
+R0
+R12
+!i10b 1
+!s100 QoPc:0Yz2Y4o]QCVc=YEk0
+IKZEJR2d@jTB3lZ];=S]NN2
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 647
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@n@a@n@d3@x1
+vNOR2X1
+R0
+R12
+!i10b 1
+!s100 RDJoD1fba3;P89XaZM48R0
+IB3kPN2mA4B[e1mmf=V^Wi3
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 678
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@n@o@r2@x1
+vNOR3X1
+R0
+R12
+!i10b 1
+!s100 zjZnj9nJG7l`LAfSoOFjI1
+ITg376DiCn=QY=d>2DVR@_2
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 705
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@n@o@r3@x1
+vOAI21X1
+R0
+R12
+!i10b 1
+!s100 `FXngacBSk>;3PMA9_j153
+I`;Zfio]bheG;cB2e_PfKT1
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 736
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@o@a@i21@x1
+vOAI22X1
+R0
+R12
+!i10b 1
+!s100 j6]BE7eM?Gb9<=<1[`Dnm1
+ICHhKN8T=O]ja2a8j9M3Eh3
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 768
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@o@a@i22@x1
+vOR2X1
+R0
+R12
+!i10b 1
+!s100 ^zj@T=:lPaF4EnOm:4R2H0
+I=ie9<U]MHDVF>PJ24ZMlb1
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 805
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@o@r2@x1
+vOR2X2
+R0
+R12
+!i10b 1
+!s100 El>Q^0ejQE766kk7GSfQL3
+I9`WN0777c1[R@IdK=CB;f1
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 831
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@o@r2@x2
+vortree
+R16
+!i10b 1
+!s100 6Lj^cJ=Fm0c>M6N9PKfb>0
+I9E1G<7M9ihXdASanSHN870
+R1
+R2
+R17
+R18
+R19
+L0 6
+R3
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R11
+vpcontroller
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 U2V58PW1dK9h;hi?M?^R33
+I9lIBo9PZ<=Z1N75a6Pz8G3
+!s105 pcontroller_beh_sv_unit
+S1
+R2
+w1488887273
+8C:/QuestasimProject/EE552_HW4/Phase4/pcontroller_beh.sv
+FC:/QuestasimProject/EE552_HW4/Phase4/pcontroller_beh.sv
+L0 6
+R3
+R20
+!s107 C:/QuestasimProject/EE552_HW4/Phase4/pcontroller_beh.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/QuestasimProject/EE552_HW4/Phase4/pcontroller_beh.sv|
+!i113 0
+R5
+vpipeline
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 cMm6[J<D[`k[UYDX3BL]f2
+IZHREZRjC2gN4^;CnznhDC0
+Z40 !s105 pipeline_sv_unit
+S1
+R2
+Z41 w1488887623
+Z42 8C:/QuestasimProject/EE552_HW4/Phase4/pipeline.sv
+Z43 FC:/QuestasimProject/EE552_HW4/Phase4/pipeline.sv
+L0 7
+R3
+R20
+Z44 !s107 C:/QuestasimProject/EE552_HW4/Phase4/pipeline.sv|
+Z45 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/QuestasimProject/EE552_HW4/Phase4/pipeline.sv|
+!i113 0
+R5
+vpipeline2
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 RI>A^EVjNa0l]DY_cz4a?2
+I6fHjT]B<f5Ek;`f<BhIK^3
+R40
+S1
+R2
+R41
+R42
+R43
+L0 46
+R3
+R20
+R44
+R45
+!i113 0
+R5
+vpipestage
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;aebH>daZE:NDi8jlGCON2
+I;ITR03Xi^>gWZ7;R3Ud;80
+R40
+S1
+R2
+R41
+R42
+R43
+L0 83
+R3
+R20
+R44
+R45
+!i113 0
+R5
+vpipestage2
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 mD@Rn<3QHE;?TAoiP[YZ:0
+IdkQU1:JRIL[?`OP`5Mioj1
+R40
+S1
+R2
+R41
+R42
+R43
+L0 106
+R3
+R20
+R44
+R45
+!i113 0
+R5
+vQ_Flop
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?SMF4ZZlL9n28T`LQm_T71
+IAJ<SFMbB8>ZM:Q6K=IaEU0
+R2
+w1488887626
+8C:/QuestasimProject/EE552_HW4/Phase4/qflop_beh.v
+FC:/QuestasimProject/EE552_HW4/Phase4/qflop_beh.v
+L0 6
+R3
+R20
+!s107 C:/QuestasimProject/EE552_HW4/Phase4/qflop_beh.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestasimProject/EE552_HW4/Phase4/qflop_beh.v|
+!i113 0
+R11
+n@q_@flop
+vs2a
+R0
+DXx4 work 11 s2a_sv_unit 0 22 VaQiHgoY9>8_19@I1Ugjj2
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 7goQ`;7GNKfbFRibk3bF71
+I13DLU[]9[Q;C_VGUIBO>?3
+!s105 s2a_sv_unit
+S1
+R2
+Z46 w1488887629
+Z47 8C:/QuestasimProject/EE552_HW4/Phase4/s2a.sv
+Z48 FC:/QuestasimProject/EE552_HW4/Phase4/s2a.sv
+L0 11
+R3
+R20
+Z49 !s107 C:/QuestasimProject/EE552_HW4/Phase4/s2a.sv|
+Z50 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/QuestasimProject/EE552_HW4/Phase4/s2a.sv|
+!i113 0
+R5
+Xs2a_sv_unit
+R0
+VVaQiHgoY9>8_19@I1Ugjj2
+r1
+!s85 0
+31
+!i10b 1
+!s100 I6XEdUUX2eb7gO^kOL;L83
+IVaQiHgoY9>8_19@I1Ugjj2
+!i103 1
+S1
+R2
+R46
+R47
+R48
+L0 7
+R3
+R20
+R49
+R50
+!i113 0
+R5
+vsmall_delay_line
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 4Ic=mm[8W52CFdnZdm;Nc0
+I8Ri>ZD4Z?WJIGM_^]^oJJ0
+R2
+R28
+R29
+R30
+L0 9
+R3
+R4
+R31
+R32
+!i113 0
+R11
+Xtb_adder32bit_BLADE_sv_unit
+R0
+V_c;i1<@_oNj4SNSYAYFZc1
+r1
+!s85 0
+31
+!i10b 1
+!s100 L<f5b`LC`Ll[Fb7HBQC@82
+I_c;i1<@_oNj4SNSYAYFZc1
+!i103 1
+S1
+R2
+R10
+Z51 8C:/QuestasimProject/EE552_HW4/Phase4/tb_adder32bit_BLADE.sv
+Z52 FC:/QuestasimProject/EE552_HW4/Phase4/tb_adder32bit_BLADE.sv
+R15
+R7
+R39
+F./s2a.sv
+F./a2s.sv
+F./pcontroller_beh.sv
+F./pipeline.sv
+F./controller_beh_delay.sv
+F./controller_token_beh_delay.sv
+F./ed4cinsert.v
+F./blade_tdtb.v
+F./blade_lib.v
+F./qflop_beh.v
+Fadder32bit_BLADE.v
+L0 7
+R3
+R4
+R8
+R9
+!i113 0
+R5
+ntb_adder32bit_@b@l@a@d@e_sv_unit
+vtb_BLADE
+R0
+DXx4 work 27 tb_adder32bit_BLADE_sv_unit 0 22 _c;i1<@_oNj4SNSYAYFZc1
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 8V7Y5=1U;omQEaNacY9fm3
+IQ:WE4zP;]PXfFPSQFU5^J2
+R6
+S1
+R2
+w1488887633
+R51
+R52
+L0 27
+R3
+R4
+R8
+R9
+!i113 0
+R5
+ntb_@b@l@a@d@e
+vTBUFX1
+R0
+R12
+!i10b 1
+!s100 TkkI@>aW8?N<iM9=Ejb=X1
+IlFa??ZIHA6d>WnlAHSV6^2
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 857
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@t@b@u@f@x1
+vTBUFX2
+R0
+R12
+!i10b 1
+!s100 Bhe^>W11W@LzNbaRS^Z;L0
+IiT9_XfCi6n[m;P:B0M?6`1
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 886
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@t@b@u@f@x2
+vtoken_controller
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 UioKA^OjkDge9kXK<ITIM2
+IH>0_c[O;<UFo4IW7a@X2;0
+Z53 !s105 controller_token_beh_delay_sv_unit
+S1
+R2
+Z54 w1488887592
+Z55 8C:/QuestasimProject/EE552_HW4/Phase4/controller_token_beh_delay.sv
+Z56 FC:/QuestasimProject/EE552_HW4/Phase4/controller_token_beh_delay.sv
+L0 161
+R3
+R20
+Z57 !s107 C:/QuestasimProject/EE552_HW4/Phase4/controller_token_beh_delay.sv|
+Z58 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/QuestasimProject/EE552_HW4/Phase4/controller_token_beh_delay.sv|
+!i113 0
+R5
+vtoken_controller_edl
+R0
+R16
+!i10b 1
+!s100 YFAhl6XlKXTcS=0^;GEbb0
+INPD?N1`T@jY1Q]SVMI;<[3
+R1
+R53
+S1
+R2
+R54
+R55
+R56
+L0 6
+R3
+r1
+!s85 0
+31
+R20
+R57
+R58
+!i113 0
+R5
+vtransition_detector
+R16
+!i10b 1
+!s100 W4XZVl`L:1@<40LIj>[e83
+Ik_9ZDBP9h<RBjmG?BKiCM3
+R1
+R2
+R17
+R18
+R19
+L0 42
+R3
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R11
+Uu_c1u2
+R12
+!i10b 1
+!s100 ?F:Dg`=4n<jeh4a_?=W5k2
+Ii@]9ITW10BOh1h:aiEFF20
+R1
+R2
+R23
+R24
+R25
+L0 28
+R3
+r1
+!s85 0
+31
+R4
+R26
+R27
+!i113 0
+R11
+Uu_c2
+R12
+!i10b 1
+!s100 ?1T8FUC`CgdZVhHU=c_@O1
+IPdWhKa15idUT[nz]holjz3
+R1
+R2
+R23
+R24
+R25
+L0 8
+R3
+r1
+!s85 0
+31
+R4
+R26
+R27
+!i113 0
+R11
+Uu_c3
+R12
+!i10b 1
+!s100 2m48^WoJFU7nFSaR93]Lm1
+Icaz6EZIIE?cL`DJV>2O?j0
+R1
+R2
+R23
+R24
+R25
+L0 49
+R3
+r1
+!s85 0
+31
+R4
+R26
+R27
+!i113 0
+R11
+Uu_c3u4
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 6MZDCi9c69F=f_a3Moo7h2
+IN]M17M_2;7n_O0nV6G?@g2
+R2
+R23
+R24
+R25
+L0 76
+R3
+R4
+R26
+R27
+!i113 0
+R11
+Uu_filterG0
+R12
+!i10b 1
+!s100 zVHe0ffa_Ee0z3E]AWm1i3
+IH00MS[2cZR[Ig4Tm9:=^i0
+R1
+R2
+R23
+R24
+R25
+L0 111
+R3
+r1
+!s85 0
+31
+R4
+R26
+R27
+!i113 0
+R11
+nu_filter@g0
+Uu_filterG1
+R12
+!i10b 1
+!s100 SdYW:YTDY_]?OAnz8T:U?0
+I0S?`;ia0U98LnP^YZ]BQ32
+R1
+R2
+R23
+R24
+R25
+L0 127
+R3
+r1
+!s85 0
+31
+R4
+R26
+R27
+!i113 0
+R11
+nu_filter@g1
+Uudp_dff
+R12
+!i10b 1
+!s100 68HAdo:Ja_iY[TU=S5nea2
+I^ES^dE`TPfD>6jQ[]^dCC2
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 966
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+Uudp_mux2
+R12
+!i10b 1
+!s100 ;IL3oH7oh4Z2jHU@e]hz;0
+IP`OT@OkcJIdkd@QY[RkA53
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 1037
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+Uudp_rslat
+R12
+!i10b 1
+!s100 X;EE[P>W`GWhcj^1:T?1I0
+Ia[aj5AFL=J2EVHVeI3SVX2
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 1018
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+Uudp_tlat
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 deV_lY5UI8nl`<;WUe<n>0
+IFPL;R1ZL4eR@dnneF2`:k2
+R6
+S1
+R2
+R13
+R14
+R15
+L0 992
+R3
+R4
+R8
+R9
+!i113 0
+R5
+vXNOR2X1
+R0
+R12
+!i10b 1
+!s100 LVK9kA83JR^V;181_d2H_1
+IGhS@HbX_z6Z7XbW1E`2P61
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 915
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@x@n@o@r2@x1
+vXOR2X1
+R0
+R12
+!i10b 1
+!s100 CAO48jE6jhZTZ3E^4nlKW1
+I94<FVfI7Si7J7DkO<ZSm[0
+R1
+R6
+S1
+R2
+R13
+R14
+R15
+L0 942
+R3
+r1
+!s85 0
+31
+R4
+R8
+R9
+!i113 0
+R5
+n@x@o@r2@x1
+vxorGate
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ^]ZNWkeO87S4Y[n231Dc00
+I0Bo=PZQGKHI4>i]]AilFZ1
+R2
+R17
+R18
+R19
+L0 24
+R3
+R20
+R21
+R22
+!i113 0
+R11
+nxor@gate

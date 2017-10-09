@@ -1,0 +1,868 @@
+*Info: Called with command line:
+/home/scf-12/ee552/proteus/bin/ClockFree -c -y DEPTH -p /home/scf-12/ee552/proteus/pdk/proteus -S acc.qdi.save -v acc.qdi_image.v -o acc.qdi.hier.v -N acc.qdi.flat.sdc -Y acc.qdi.flat.directives -I /home/scf-12/ee552/proteus/pdk/proteus/qdi_image_ta.lib -L /home/scf-12/ee552/proteus/pdk/proteus/qdi_vc_ta.lib --use_gates_file /home/scf-12/ee552/proteus/pdk/proteus/qdi.gates -f acc.qdi.noclk.flat.v -g acc.qdi.flat.v -T acc 
+
+*Info: Executed from:
+SunOS aludra.usc.edu 5.10 Generic_147147-26 sun4v sparc SUNW,T5240
+
+*Info: Process started at: Mon Mar 27 16:37:22 2017
+
+-------------------------------------------------------------------------------
+*Info: Using clustering-algorithm DEPTH
+*Info: Reading parameters from file /home/scf-12/ee552/proteus/pdk/proteus/qdi.setup
+*Info: effort level set to: normal
+*Info: target cycle time = 18
+*Info: align_io = 0
+*Info: allow_buffer_sharing = 0
+*Info: Reading libraries... 
+*Info: Reading Image Lib file /home/scf-12/ee552/proteus/pdk/proteus/qdi_image_ta.lib
+*Info: Reading Physical Lib file /home/scf-12/ee552/proteus/pdk/proteus/qdi_vc_ta.lib
+*Info: Reading Verilog source files.
+*Info: Read module acc into library (Insts: 118, Ports: 98, Wires: 201).
+*Info: Reading available gates file /home/scf-12/ee552/proteus/pdk/proteus/qdi.gates.
+*Info: Done reading libraries... 
+*Info: Reading libraries took 4 seconds to complete!
+mkdir: Failed to make directory "acc.qdi.save"; File exists
+*Info: Un-blasting Verilog ports...
+*Info: Annotating graph edge types using library data
+*Info: Performing peep-hole optimizations. 
+*Info: Initial number of instances before optimizations: 118
+*Info: Cleaning up assign statements. 
+*Warning: Can't find an edge by name: \acc_RTL_BODY.add_28_30.n_54 to detach 
+*Warning: can not find an edge "\acc_RTL_BODY.add_28_30.n_54" in instance "\acc_RTL_BODY.add_28_30.g19128".
+*Info: Removing BUF/INV cell \acc_RTL_BODY.add_28_30.g19140
+*Warning: Can't find an edge by name: \acc_RTL_BODY.add_28_30.n_52 to detach 
+*Warning: can not find an edge "\acc_RTL_BODY.add_28_30.n_52" in instance "\acc_RTL_BODY.add_28_30.g19127".
+*Info: Removing BUF/INV cell \acc_RTL_BODY.add_28_30.g19142
+*Warning: Can't find an edge by name: \acc_RTL_BODY.add_28_30.n_47 to detach 
+*Warning: can not find an edge "\acc_RTL_BODY.add_28_30.n_47" in instance "\acc_RTL_BODY.add_28_30.g19138".
+*Info: Removing BUF/INV cell \acc_RTL_BODY.add_28_30.g19148
+*Warning: Can't find an edge by name: \acc_RTL_BODY.add_28_30.n_41 to detach 
+*Warning: can not find an edge "\acc_RTL_BODY.add_28_30.n_41" in instance "\acc_RTL_BODY.add_28_30.g19146".
+*Info: Removing BUF/INV cell \acc_RTL_BODY.add_28_30.g19154
+*Info: Removing BUF/INV cell \acc_RTL_BODY.add_28_30.g19193
+*Info: Removing BUF/INV cell \acc_RTL_BODY.add_28_30.g19194
+*Info: Removed 6 buffers and Inverters during optimization.
+*Info: Removed 0 scan cells found to be attached to constants.
+*Info: Removed 0 scan cells found to be clones of other scan cells.
+*Info: Proteus core scan chain is absent
+*Info: Executed 32 simplifications to cells found to be attached to constants.
+*Info: Changed 0 cells to bit-buckets due to dangling outputs.
+*Info: Removed 0 cells found to be driving only dangling nets.
+*Info: Removed 0 bit-buckets being driven by bit-gens (free-running).
+*Info: Removed 0 redundant boundary cells.
+*Info: Removed 0 buffers and Inverters during optimization.
+*Info: Removed 0 scan cells found to be attached to constants.
+*Info: Removed 0 scan cells found to be clones of other scan cells.
+*Info: Proteus core scan chain is absent
+*Info: Executed 0 simplifications to cells found to be attached to constants.
+*Info: Changed 0 cells to bit-buckets due to dangling outputs.
+*Info: Removed 0 cells found to be driving only dangling nets.
+*Info: Removed 0 bit-buckets being driven by bit-gens (free-running).
+*Info: Removed 0 redundant boundary cells.
+*Info: Final number of instances after optimizations: 112
+*Info: Done performing peep-hole optimizations... 
+*Info: Performing peep-hole optimizations took 0 seconds to complete!
+*Info: Starting Clustering
+*Info: Cell-Area Map has 324pairs
+*Info: Converting netlist to Cluster Graph...
+*Info: initializeClusterGraph... creating cluster_graph ports from egraph ports.
+*Info: Identified clock net "CLK".
+*Info: Identified reset net "_RESET".
+lpx_read_mps: reading problem data from `solve.cat.in'...
+lpx_read_mps: problem PROBLEM
+lpx_read_mps: 224 rows, 113 columns, 498 non-zeros
+lpx_read_mps: 958 cards were read
+lpx_simplex: original LP has 224 rows, 113 columns, 498 non-zeros
+lpx_simplex: presolved LP has 207 rows, 97 columns, 465 non-zeros
+lpx_adv_basis: size of triangular part = 207
+      0:   objval =   0.000000000e+00   infeas =   1.000000000e+00 (0)
+    200:   objval =   1.400000000e+01   infeas =   8.212560386e-02 (0)
+    223:   objval =   2.000000000e+01   infeas =   0.000000000e+00 (0)
+*   223:   objval =   2.000000000e+01   infeas =   0.000000000e+00 (0)
+*   238:   objval =   8.000000000e+00   infeas =   0.000000000e+00 (0)
+OPTIMAL SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.2M (258616 bytes)
+lpx_print_sol: writing LP problem solution to `solution.cat.out'...
+
+*Info: Lower bound NTPC required: 8
+*Info: Algorithmic cycle time is 8
+*Info: Slack Matching iteration 1 started.
+lpx_read_mps: reading problem data from `solve.pcslacker.in1'...
+lpx_read_mps: problem PROBLEM
+lpx_read_mps: 224 rows, 335 columns, 983 non-zeros
+lpx_read_mps: 1465 cards were read
+lpx_read_bas: reading LP basis from `solve.pcslacker.in1.bas'...
+lpx_read_bas: 10 cards were read
+LP presolver disabled because initial LP basis has been provided
+      0:   objval =   0.000000000e+00   infeas =   1.000000000e+00 (0)
+    200:   objval =   2.299997120e+02   infeas =   6.908462867e-02 (0)
+    255:   objval =   5.180000760e+02   infeas =   0.000000000e+00 (4)
+*   255:   objval =   5.180000760e+02   infeas =   0.000000000e+00 (4)
+*   279:   objval =   3.079998700e+02   infeas =   0.000000000e+00 (0)
+OPTIMAL SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.3M (301356 bytes)
+lpx_print_sol: writing LP problem solution to `solution.pcslacker.out1'...
+
+*Info: Reading Slack-Matching Results.
+*Info: Lower bound slack required: 308
+*Info: Re-computing cloud delays...... done re-computing cloud delays.
+*Info: Added 0 buffers for slack matching.
+*Info: Slack Matching ended. Converged = true
+*Info: Done slack matching to get arrival times
+*Info: Finding initial critical clouds...
+*Info: Pre-clustering buffering of channels slower than 18
+*Info: Clustering with cycle-time target of 18
+*Info: Starting with 114 clouds.
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8745, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:1
+*Info: 58 total solutions generated of which 58 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 5 Type: MERGE_FANOUT
+*Info: Found Best Move: merging 22 (type 153) with 30 (type 153) (cluster 112) 
+*Warning: Can't find an edge by name: \acc_RTL_BODY.add_28_30.n_51 to detach 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.873, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:2
+*Info: 56 total solutions generated of which 56 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 5 Type: MERGE_FANOUT
+*Info: Found Best Move: merging 23 (type 153) with 29 (type 153) (cluster 113) 
+*Warning: Can't find an edge by name: \acc_RTL_BODY.add_28_30.n_53 to detach 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8715, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:3
+*Info: 54 total solutions generated of which 54 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 5 Type: MERGE_FANIN
+*Info: Found Best Move: merging 25 (type 153) with 27 (type 153) (cluster 114) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8699, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:4
+*Info: 52 total solutions generated of which 52 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 5 Type: MERGE_FANIN
+*Info: Found Best Move: merging 26 (type 153) with 28 (type 153) (cluster 115) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8683, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:5
+*Info: 50 total solutions generated of which 50 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 5 Type: MERGE_FANOUT
+*Info: Found Best Move: merging 32 (type 153) with 113 (type 153) (cluster 116) 
+*Warning: Can't find an edge by name: \acc_RTL_BODY.add_28_30.n_53 to detach 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8667, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:6
+*Info: 48 total solutions generated of which 48 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 5 Type: MERGE_FANOUT
+*Info: Found Best Move: merging 33 (type 153) with 37 (type 153) (cluster 117) 
+*Warning: Can't find an edge by name: \acc_RTL_BODY.add_28_30.n_46 to detach 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.865, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:7
+*Info: 46 total solutions generated of which 46 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 5 Type: MERGE_FANOUT
+*Info: Found Best Move: merging 39 (type 153) with 41 (type 153) (cluster 118) 
+*Warning: Can't find an edge by name: \acc_RTL_BODY.add_28_30.n_40 to detach 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8632, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:8
+*Info: 45 total solutions generated of which 45 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 5 Type: MERGE_FANIN
+*Info: Found Best Move: merging 47 (type 153) with 115 (type 153) (cluster 119) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8615, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:9
+*Info: 45 total solutions generated of which 45 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 5 Type: MERGE_FANOUT
+*Info: Found Best Move: merging 50 (type 153) with 54 (type 153) (cluster 120) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8596, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:10
+*Info: 44 total solutions generated of which 44 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 5 Type: MERGE_FANOUT
+*Info: Found Best Move: merging 56 (type 153) with 79 (type 153) (cluster 121) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8578, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:11
+*Info: 42 total solutions generated of which 42 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 5 Type: MERGE_FANIN
+*Info: Found Best Move: merging 38 (type 153) with 44 (type 153) (cluster 122) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8559, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:12
+*Info: 41 total solutions generated of which 41 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 5 Type: MERGE_FANOUT
+*Info: Found Best Move: merging 57 (type 153) with 67 (type 153) (cluster 123) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8539, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:13
+*Info: 38 total solutions generated of which 38 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 5 Type: MERGE_FANOUT
+*Info: Found Best Move: merging 62 (type 153) with 65 (type 153) (cluster 124) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8519, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:14
+*Info: 35 total solutions generated of which 35 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 5 Type: MERGE_FANOUT
+*Info: Found Best Move: merging 63 (type 153) with 70 (type 153) (cluster 125) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8498, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:15
+*Info: 32 total solutions generated of which 32 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 5 Type: MERGE_FANOUT
+*Info: Found Best Move: merging 64 (type 153) with 76 (type 153) (cluster 126) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8476, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:16
+*Info: 29 total solutions generated of which 29 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 5 Type: MERGE_FANIN
+*Info: Found Best Move: merging 52 (type 153) with 55 (type 153) (cluster 127) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8454, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:17
+*Info: 26 total solutions generated of which 26 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 5 Type: MERGE_FANOUT
+*Info: Found Best Move: merging 72 (type 153) with 123 (type 153) (cluster 128) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8431, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:18
+*Info: 24 total solutions generated of which 24 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 5 Type: MERGE_FANOUT
+*Info: Found Best Move: merging 117 (type 153) with 121 (type 153) (cluster 129) 
+*Warning: Can't find an edge by name: \acc_RTL_BODY.add_28_30.n_46 to detach 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8408, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:19
+*Info: 24 total solutions generated of which 24 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 4 Type: MERGE_FANIN
+*Info: Found Best Move: merging 48 (type 153) with 49 (type 153) (cluster 130) 
+*Warning: Can't find an edge by name: \acc_RTL_BODY.add_28_30.n_23 to detach 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8392, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:20
+*Info: 22 total solutions generated of which 22 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 4 Type: MERGE_FANOUT
+*Info: Found Best Move: merging 58 (type 153) with 66 (type 153) (cluster 131) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8376, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:21
+*Info: 20 total solutions generated of which 20 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 4 Type: MERGE_FANIN
+*Info: Found Best Move: merging 31 (type 153) with 78 (type 153) (cluster 132) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8359, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:22
+*Info: 17 total solutions generated of which 17 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 4 Type: MERGE_FANOUT
+*Info: Found Best Move: merging 59 (type 153) with 68 (type 153) (cluster 133) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8342, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:23
+*Info: 15 total solutions generated of which 15 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 5 Type: MERGE_FANIN
+*Info: Found Best Move: merging 126 (type 153) with 133 (type 153) (cluster 134) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8316, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:24
+*Info: 14 total solutions generated of which 14 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 4 Type: MERGE_FANOUT
+*Info: Found Best Move: merging 61 (type 153) with 74 (type 153) (cluster 135) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8298, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:25
+*Info: 13 total solutions generated of which 13 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 4 Type: MERGE_FANIN
+*Info: Found Best Move: merging 71 (type 153) with 73 (type 153) (cluster 136) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.828, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:26
+*Info: 10 total solutions generated of which 10 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 4 Type: MERGE_FANIN
+*Info: Found Best Move: merging 75 (type 153) with 125 (type 153) (cluster 137) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8261, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:27
+*Info: 7 total solutions generated of which 7 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 4 Type: MERGE_FANOUT
+*Info: Found Best Move: merging 77 (type 153) with 124 (type 153) (cluster 138) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8242, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:28
+*Info: 5 total solutions generated of which 5 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 3 Type: MERGE_FANOUT
+*Info: Found Best Move: merging 18 (type 153) with 21 (type 153) (cluster 139) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8232, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:29
+*Info: 4 total solutions generated of which 4 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 3 Type: MERGE_FANOUT
+*Info: Found Best Move: merging 19 (type 153) with 20 (type 153) (cluster 140) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8222, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:30
+*Info: 3 total solutions generated of which 3 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 3 Type: MERGE_FANOUT
+*Info: Found Best Move: merging 24 (type 153) with 36 (type 153) (cluster 141) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8212, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:31
+*Info: 2 total solutions generated of which 2 were approved!
+*Info: Best Move: LCT Metric Improvement: 0 Area Improvement: 3 Type: MERGE_FANOUT
+*Info: Found Best Move: merging 43 (type 153) with 46 (type 153) (cluster 142) 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8202, Max LCT = 18, SSE = 0, SE = 0
+*Info: Starting iteration:32
+*Info: 0 total solutions generated of which 0 were approved!
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8202, Max LCT = 18, SSE = 0, SE = 0
+*Info: Buffering channels slower than original cycletime 18
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8202, Max LCT = 18, SSE = 0, SE = 0
+*Info: Re-clustering after buffering... 
+*Info: Final buffering of slow channels... 
+*Info: found Max LCT at channel -1_to_100 equal to 18
+*Info: Average LCT = 17.8202, Max LCT = 18, SSE = 0, SE = 0
+*Info: Combinational loop detection finished without finding any problems in the netlist.
+*Info: Done clustering... 
+*Info: Clustering took 2 seconds to complete!
+*Info: Fixing Primary Input Fanouts.
+*Info: Finding critical clouds...
+*Info: Running slack matching.
+*Info: Running fanout-checking algorithm.
+*Info: Added 0 buffers for fanout rule satisfaction.
+*Info: Slack Matching iteration 2 started.
+lpx_read_mps: reading problem data from `solve.pcslacker.in2'...
+lpx_read_mps: problem PROBLEM
+lpx_read_mps: 147 rows, 227 columns, 657 non-zeros
+lpx_read_mps: 972 cards were read
+lpx_read_bas: reading LP basis from `solve.pcslacker.in2.bas'...
+lpx_read_bas: 138 cards were read
+LP presolver disabled because initial LP basis has been provided
+      0:   objval =   2.579999460e+02   infeas =   1.000000000e+00 (8)
+     26:   objval =   3.480000620e+02   infeas =   0.000000000e+00 (2)
+*    26:   objval =   3.480000620e+02   infeas =   0.000000000e+00 (2)
+*    42:   objval =   2.639999820e+02   infeas =   0.000000000e+00 (0)
+OPTIMAL SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.2M (197708 bytes)
+lpx_print_sol: writing LP problem solution to `solution.pcslacker.out2'...
+
+*Info: Reading Slack-Matching Results.
+*Info: Lower bound slack required: 264
+*Info: Added buffer cluster cfbuf_143_SX for channel/wire \d[13]_SX0_iter2
+*Info: Added buffer cluster cfbuf_144_SX for channel/wire \d[13]_SX0_iter2_0
+*Info: Added buffer cluster cfbuf_145_SX for channel/wire \d[14]_SX0_iter2
+*Info: Added buffer cluster cfbuf_146_SX for channel/wire \d[2]_SX0_iter2
+*Info: Added buffer cluster cfbuf_147_SX for channel/wire \d[3]_SX0_iter2
+*Info: Added buffer cluster cfbuf_148_SX for channel/wire \d[3]_SX0_iter2_0
+*Info: Added buffer cluster cfbuf_149_SX for channel/wire \d[4]_SX0_iter2
+*Info: Added buffer cluster cfbuf_150_SX for channel/wire \d[5]_SX0_iter2
+*Info: Added buffer cluster cfbuf_151_SX for channel/wire \d[5]_SX0_iter2_0
+*Info: Added buffer cluster cfbuf_152_SX for channel/wire \d[6]_SX0_iter2
+*Info: Added buffer cluster cfbuf_153_SX for channel/wire \d[7]_SX0_iter2
+*Info: Added buffer cluster cfbuf_154_SX for channel/wire \acc_RTL_BODY.sum[3]_SX0_iter2
+*Info: Added buffer cluster cfbuf_155_SX for channel/wire \acc_RTL_BODY.sum[3]_SX0_iter2_0
+*Info: Added buffer cluster cfbuf_156_SX for channel/wire \d[8]_SX0_iter2
+*Info: Added buffer cluster cfbuf_157_SX for channel/wire \d[9]_SX0_iter2
+*Info: Added buffer cluster cfbuf_158_SX for channel/wire \d[9]_SX0_iter2_0
+*Info: Added buffer cluster cfbuf_159_SX for channel/wire \n_47_SX0_iter2
+*Info: Added buffer cluster cfbuf_160_SX for channel/wire \n_47_SX1_iter2
+*Info: Added buffer cluster cfbuf_161_SX for channel/wire \n_43_SX0_iter2
+*Info: Added buffer cluster cfbuf_162_SX for channel/wire \n_43_SX1_iter2
+*Info: Added buffer cluster cfbuf_163_SX for channel/wire \n_52_SX0_iter2
+*Info: Added buffer cluster cfbuf_164_SX for channel/wire \n_52_SX1_iter2
+*Info: Added buffer cluster cfbuf_165_SX for channel/wire \acc_RTL_BODY.sum[4]_SX0_iter2
+*Info: Added buffer cluster cfbuf_166_SX for channel/wire \acc_RTL_BODY.add_28_30.n_28_SX0_iter2
+*Info: Added buffer cluster cfbuf_167_SX for channel/wire \n_55_SX0_iter2
+*Info: Added buffer cluster cfbuf_168_SX for channel/wire \n_55_SX1_iter2
+*Info: Added buffer cluster cfbuf_169_SX for channel/wire \acc_RTL_BODY.add_28_30.n_27_SX0_iter2
+*Info: Added buffer cluster cfbuf_170_SX for channel/wire \acc_RTL_BODY.add_28_30.n_30_SX0_iter2
+*Info: Added buffer cluster cfbuf_171_SX for channel/wire \n_50_SX0_iter2
+*Info: Added buffer cluster cfbuf_172_SX for channel/wire \n_50_SX1_iter2
+*Info: Added buffer cluster cfbuf_173_SX for channel/wire \acc_RTL_BODY.add_28_30.n_111_SX0_iter2
+*Info: Added buffer cluster cfbuf_174_SX for channel/wire \acc_RTL_BODY.add_28_30.n_26_SX0_iter2
+*Info: Added buffer cluster cfbuf_175_SX for channel/wire \acc_RTL_BODY.sum[6]_SX0_iter2
+*Info: Added buffer cluster cfbuf_176_SX for channel/wire \acc_RTL_BODY.add_28_30.n_35_SX0_iter2
+*Info: Added buffer cluster cfbuf_177_SX for channel/wire \acc_RTL_BODY.add_28_30.n_37_SX0_iter2
+*Info: Added buffer cluster cfbuf_178_SX for channel/wire \acc_RTL_BODY.add_28_30.n_24_SX0_iter2
+*Info: Added buffer cluster cfbuf_179_SX for channel/wire \acc_RTL_BODY.add_28_30.n_18_SX0_iter2
+*Info: Added buffer cluster cfbuf_180_SX for channel/wire \acc_RTL_BODY.add_28_30.n_23_SX0_iter2
+*Info: Added buffer cluster cfbuf_181_SX for channel/wire \n_56_SX0_iter2
+*Info: Added buffer cluster cfbuf_182_SX for channel/wire \n_56_SX1_iter2
+*Info: Added buffer cluster cfbuf_183_SX for channel/wire \acc_RTL_BODY.add_28_30.n_19_SX0_iter2
+*Info: Added buffer cluster cfbuf_184_SX for channel/wire \acc_RTL_BODY.add_28_30.n_6_SX0_iter2
+*Info: Added buffer cluster cfbuf_185_SX for channel/wire \acc_RTL_BODY.add_28_30.n_106_SX0_iter2
+*Info: Added buffer cluster cfbuf_186_SX for channel/wire \n_41_SX0_iter2
+*Info: Added buffer cluster cfbuf_187_SX for channel/wire \n_41_SX1_iter2
+*Info: Added buffer cluster cfbuf_188_SX for channel/wire \n_40_SX0_iter2
+*Info: Added buffer cluster cfbuf_189_SX for channel/wire \acc_RTL_BODY.sum[7]_SX0_iter2
+*Info: Added buffer cluster cfbuf_190_SX for channel/wire \n_45_SX0_iter2
+*Info: Added buffer cluster cfbuf_191_SX for channel/wire \n_44_SX0_iter2
+*Info: Added buffer cluster cfbuf_192_SX for channel/wire \n_48_SX0_iter2
+*Info: Added buffer cluster cfbuf_193_SX for channel/wire \n_48_SX1_iter2
+*Info: Added buffer cluster cfbuf_194_SX for channel/wire \n_54_SX0_iter2
+*Info: Added buffer cluster cfbuf_195_SX for channel/wire \n_54_SX1_iter2
+*Info: Added buffer cluster cfbuf_196_SX for channel/wire \acc_RTL_BODY.sum[8]_SX0_iter2
+*Info: Added buffer cluster cfbuf_197_SX for channel/wire \acc_RTL_BODY.sum[9]_SX0_iter2
+*Info: Added buffer cluster cfbuf_198_SX for channel/wire \acc_RTL_BODY.sum[9]_SX0_iter2_0
+*Info: Added buffer cluster cfbuf_199_SX for channel/wire \n_42_SX0_iter2
+*Info: Added buffer cluster cfbuf_200_SX for channel/wire \n_42_SX1_iter2
+*Info: Added buffer cluster cfbuf_201_SX for channel/wire \n_46_SX0_iter2
+*Info: Added buffer cluster cfbuf_202_SX for channel/wire \n_46_SX1_iter2
+*Info: Added buffer cluster cfbuf_203_SX for channel/wire \acc_RTL_BODY.sum[10]_SX0_iter2
+*Info: Added buffer cluster cfbuf_204_SX for channel/wire \acc_RTL_BODY.sum[10]_SX0_iter2_0
+*Info: Added buffer cluster cfbuf_205_SX for channel/wire \acc_RTL_BODY.sum[11]_SX0_iter2
+*Info: Added buffer cluster cfbuf_206_SX for channel/wire \n_51_SX0_iter2
+*Info: Added buffer cluster cfbuf_207_SX for channel/wire \n_51_SX1_iter2
+*Info: Added buffer cluster cfbuf_208_SX for channel/wire \acc_RTL_BODY.sum[12]_SX0_iter2
+*Info: Added buffer cluster cfbuf_209_SX for channel/wire \acc_RTL_BODY.add_28_30.n_46_SX0_iter2
+*Info: Added buffer cluster cfbuf_210_SX for channel/wire \acc_RTL_BODY.add_28_30.n_46_SX0_iter2_0
+*Info: Added buffer cluster cfbuf_211_SX for channel/wire \n_53_SX0_iter2
+*Info: Added buffer cluster cfbuf_212_SX for channel/wire \n_53_SX1_iter2
+*Info: Added buffer cluster cfbuf_213_SX for channel/wire \acc_RTL_BODY.sum[13]_SX0_iter2
+*Info: Added buffer cluster cfbuf_214_SX for channel/wire \acc_RTL_BODY.sum[13]_SX0_iter2_0
+*Info: Added buffer cluster cfbuf_215_SX for channel/wire \acc_RTL_BODY.sum[5]_SX0_iter2
+*Info: Added buffer cluster cfbuf_216_SX for channel/wire \acc_RTL_BODY.sum[5]_SX0_iter2_0
+*Info: Added buffer cluster cfbuf_217_SX for channel/wire \acc_RTL_BODY.add_28_30.n_22_SX0_iter2
+*Info: Added buffer cluster cfbuf_218_SX for channel/wire \acc_RTL_BODY.sum[14]_SX0_iter2
+*Info: Added buffer cluster cfbuf_219_SX for channel/wire \d[10]_SX0_iter2
+*Info: Added buffer cluster cfbuf_220_SX for channel/wire \d[10]_SX0_iter2_0
+*Info: Added buffer cluster cfbuf_221_SX for channel/wire \d[11]_SX0_iter2
+*Info: Added buffer cluster cfbuf_222_SX for channel/wire \d[12]_SX0_iter2
+*Info: Added buffer cluster cfbuf_223_SX for channel/wire \acc_RTL_BODY.sum[2]_SX0_iter2
+*Info: Re-computing cloud delays...... done re-computing cloud delays.
+*Info: Added 81 buffers for slack matching.
+*Info Slack Matching iteration = 2 of (max) 11 ending
+*Info: Running fanout-checking algorithm.
+*Info: Added 0 buffers for fanout rule satisfaction.
+*Info: Slack Matching iteration 3 started.
+lpx_read_mps: reading problem data from `solve.pcslacker.in3'...
+lpx_read_mps: problem PROBLEM
+lpx_read_mps: 233 rows, 394 columns, 999 non-zeros
+lpx_read_mps: 1569 cards were read
+lpx_read_bas: reading LP basis from `solve.pcslacker.in3.bas'...
+lpx_read_bas: 169 cards were read
+LP presolver disabled because initial LP basis has been provided
+      0:   objval =   5.599996800e+01   infeas =   1.000000000e+00 (9)
+     99:   objval =   1.220001280e+02   infeas =   0.000000000e+00 (0)
+*    99:   objval =   1.220001280e+02   infeas =   0.000000000e+00 (0)
+*   192:   objval =   4.000000000e-06   infeas =   0.000000000e+00 (0)
+OPTIMAL SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.3M (327672 bytes)
+lpx_print_sol: writing LP problem solution to `solution.pcslacker.out3'...
+
+*Info: Reading Slack-Matching Results.
+*Info: Lower bound slack required: 4e-06
+*Info: Re-computing cloud delays...... done re-computing cloud delays.
+*Info: Added 0 buffers for slack matching.
+*Info: Slack Matching ended. Converged = true
+*Info: Slack matching completed
+*Info: Slack matching took 2 seconds to complete!
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_0_tok
+       Tree is 2 levels deep and has 0 buffers.
+       The Width at each level is (starting at root as level 0) 1, 0, 
+       The root has AT: 16
+       The leaf cells had ATs: 2, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_1_tok
+       Tree is 3 levels deep and has 2 buffers.
+       The Width at each level is (starting at root as level 0) 1, 2, 0, 
+       The root has AT: 30
+       The leaf cells had ATs: 14, 16, 20, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_2_tok
+       Tree is 3 levels deep and has 1 buffers.
+       The Width at each level is (starting at root as level 0) 1, 1, 0, 
+       The root has AT: 30
+       The leaf cells had ATs: 14, 16, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_3_tok
+       Tree is 3 levels deep and has 1 buffers.
+       The Width at each level is (starting at root as level 0) 1, 1, 0, 
+       The root has AT: 36
+       The leaf cells had ATs: 20, 22, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_4_tok
+       Tree is 3 levels deep and has 2 buffers.
+       The Width at each level is (starting at root as level 0) 1, 2, 0, 
+       The root has AT: 36
+       The leaf cells had ATs: 20, 24, 22, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_5_tok
+       Tree is 3 levels deep and has 2 buffers.
+       The Width at each level is (starting at root as level 0) 1, 2, 0, 
+       The root has AT: 24
+       The leaf cells had ATs: 8, 12, 10, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_6_tok
+       Tree is 3 levels deep and has 1 buffers.
+       The Width at each level is (starting at root as level 0) 1, 1, 0, 
+       The root has AT: 38
+       The leaf cells had ATs: 22, 26, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_7_tok
+       Tree is 2 levels deep and has 0 buffers.
+       The Width at each level is (starting at root as level 0) 1, 0, 
+       The root has AT: 34
+       The leaf cells had ATs: 20, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_8_tok
+       Tree is 2 levels deep and has 0 buffers.
+       The Width at each level is (starting at root as level 0) 1, 0, 
+       The root has AT: 18
+       The leaf cells had ATs: 4, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_9_tok
+       Tree is 3 levels deep and has 1 buffers.
+       The Width at each level is (starting at root as level 0) 1, 1, 0, 
+       The root has AT: 20
+       The leaf cells had ATs: 4, 6, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_10_tok
+       Tree is 3 levels deep and has 2 buffers.
+       The Width at each level is (starting at root as level 0) 1, 2, 0, 
+       The root has AT: 20
+       The leaf cells had ATs: 4, 8, 6, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_11_tok
+       Tree is 3 levels deep and has 1 buffers.
+       The Width at each level is (starting at root as level 0) 1, 1, 0, 
+       The root has AT: 24
+       The leaf cells had ATs: 8, 10, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_12_tok
+       Tree is 3 levels deep and has 1 buffers.
+       The Width at each level is (starting at root as level 0) 1, 1, 0, 
+       The root has AT: 26
+       The leaf cells had ATs: 10, 12, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_13_tok
+       Tree is 3 levels deep and has 1 buffers.
+       The Width at each level is (starting at root as level 0) 1, 1, 0, 
+       The root has AT: 28
+       The leaf cells had ATs: 12, 14, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_14_tok
+       Tree is 3 levels deep and has 1 buffers.
+       The Width at each level is (starting at root as level 0) 1, 1, 0, 
+       The root has AT: 30
+       The leaf cells had ATs: 14, 16, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_15_tok
+       Tree is 3 levels deep and has 2 buffers.
+       The Width at each level is (starting at root as level 0) 1, 2, 0, 
+       The root has AT: 30
+       The leaf cells had ATs: 14, 16, 18, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_16
+       Tree is 4 levels deep and has 2 buffers.
+       The Width at each level is (starting at root as level 0) 1, 1, 1, 0, 
+       The root has AT: 24
+       The leaf cells had ATs: 26, 36, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_17
+       Tree is 4 levels deep and has 2 buffers.
+       The Width at each level is (starting at root as level 0) 1, 1, 1, 0, 
+       The root has AT: 18
+       The leaf cells had ATs: 20, 30, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_34
+       Tree is 4 levels deep and has 2 buffers.
+       The Width at each level is (starting at root as level 0) 1, 1, 1, 0, 
+       The root has AT: 12
+       The leaf cells had ATs: 14, 24, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_35
+       Tree is 2 levels deep and has 0 buffers.
+       The Width at each level is (starting at root as level 0) 1, 0, 
+       The root has AT: 20
+       The leaf cells had ATs: 22, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_40
+       Tree is 3 levels deep and has 2 buffers.
+       The Width at each level is (starting at root as level 0) 1, 2, 0, 
+       The root has AT: 10
+       The leaf cells had ATs: 12, 18, 14, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_42
+       Tree is 4 levels deep and has 2 buffers.
+       The Width at each level is (starting at root as level 0) 1, 1, 1, 0, 
+       The root has AT: 8
+       The leaf cells had ATs: 10, 20, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_45
+       Tree is 2 levels deep and has 0 buffers.
+       The Width at each level is (starting at root as level 0) 1, 0, 
+       The root has AT: 8
+       The leaf cells had ATs: 10, 10, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_51
+       Tree is 2 levels deep and has 0 buffers.
+       The Width at each level is (starting at root as level 0) 1, 0, 
+       The root has AT: 6
+       The leaf cells had ATs: 8, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_53
+       Tree is 2 levels deep and has 0 buffers.
+       The Width at each level is (starting at root as level 0) 1, 0, 
+       The root has AT: 22
+       The leaf cells had ATs: 24, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_60
+       Tree is 3 levels deep and has 1 buffers.
+       The Width at each level is (starting at root as level 0) 1, 1, 0, 
+       The root has AT: 20
+       The leaf cells had ATs: 22, 24, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_69
+       Tree is 2 levels deep and has 0 buffers.
+       The Width at each level is (starting at root as level 0) 1, 0, 
+       The root has AT: 10
+       The leaf cells had ATs: 12, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node inputs
+       Tree is 2 levels deep and has 0 buffers.
+       The Width at each level is (starting at root as level 0) 1, 0, 
+       The root has AT: 0
+       The leaf cells had ATs: 0, 12, 12, 18, 18, 20, 18, 2, 2, 2, 6, 6, 8, 10, 12, 12, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_112
+       Tree is 4 levels deep and has 2 buffers.
+       The Width at each level is (starting at root as level 0) 1, 1, 1, 0, 
+       The root has AT: 16
+       The leaf cells had ATs: 18, 18, 30, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_114
+       Tree is 2 levels deep and has 0 buffers.
+       The Width at each level is (starting at root as level 0) 1, 0, 
+       The root has AT: 18
+       The leaf cells had ATs: 20, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_116
+       Tree is 4 levels deep and has 2 buffers.
+       The Width at each level is (starting at root as level 0) 1, 1, 1, 0, 
+       The root has AT: 22
+       The leaf cells had ATs: 24, 24, 24, 36, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_118
+       Tree is 4 levels deep and has 2 buffers.
+       The Width at each level is (starting at root as level 0) 1, 1, 1, 0, 
+       The root has AT: 10
+       The leaf cells had ATs: 12, 12, 24, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_119
+       Tree is 2 levels deep and has 0 buffers.
+       The Width at each level is (starting at root as level 0) 1, 0, 
+       The root has AT: 24
+       The leaf cells had ATs: 26, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_120
+       Tree is 4 levels deep and has 3 buffers.
+       The Width at each level is (starting at root as level 0) 1, 2, 1, 0, 
+       The root has AT: 4
+       The leaf cells had ATs: 6, 6, 8, 18, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_122
+       Tree is 2 levels deep and has 0 buffers.
+       The Width at each level is (starting at root as level 0) 1, 0, 
+       The root has AT: 18
+       The leaf cells had ATs: 20, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_127
+       Tree is 3 levels deep and has 2 buffers.
+       The Width at each level is (starting at root as level 0) 1, 2, 0, 
+       The root has AT: 16
+       The leaf cells had ATs: 18, 20, 20, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_128
+       Tree is 2 levels deep and has 0 buffers.
+       The Width at each level is (starting at root as level 0) 1, 0, 
+       The root has AT: 8
+       The leaf cells had ATs: 10, 10, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_129
+       Tree is 4 levels deep and has 4 buffers.
+       The Width at each level is (starting at root as level 0) 1, 3, 1, 0, 
+       The root has AT: 12
+       The leaf cells had ATs: 14, 14, 18, 18, 26, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_130
+       Tree is 3 levels deep and has 2 buffers.
+       The Width at each level is (starting at root as level 0) 1, 2, 0, 
+       The root has AT: 16
+       The leaf cells had ATs: 20, 20, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_131
+       Tree is 3 levels deep and has 1 buffers.
+       The Width at each level is (starting at root as level 0) 1, 1, 0, 
+       The root has AT: 14
+       The leaf cells had ATs: 16, 16, 18, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_132
+       Tree is 2 levels deep and has 0 buffers.
+       The Width at each level is (starting at root as level 0) 1, 0, 
+       The root has AT: 16
+       The leaf cells had ATs: 18, 18, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_134
+       Tree is 3 levels deep and has 2 buffers.
+       The Width at each level is (starting at root as level 0) 1, 2, 0, 
+       The root has AT: 14
+       The leaf cells had ATs: 16, 16, 18, 18, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_135
+       Tree is 4 levels deep and has 2 buffers.
+       The Width at each level is (starting at root as level 0) 1, 1, 1, 0, 
+       The root has AT: 2
+       The leaf cells had ATs: 4, 4, 16, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_136
+       Tree is 2 levels deep and has 0 buffers.
+       The Width at each level is (starting at root as level 0) 1, 0, 
+       The root has AT: 20
+       The leaf cells had ATs: 22, 22, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_137
+       Tree is 3 levels deep and has 2 buffers.
+       The Width at each level is (starting at root as level 0) 1, 2, 0, 
+       The root has AT: 4
+       The leaf cells had ATs: 6, 6, 8, 8, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_138
+       Tree is 3 levels deep and has 1 buffers.
+       The Width at each level is (starting at root as level 0) 1, 1, 0, 
+       The root has AT: 22
+       The leaf cells had ATs: 24, 26, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_139
+       Tree is 4 levels deep and has 3 buffers.
+       The Width at each level is (starting at root as level 0) 1, 2, 1, 0, 
+       The root has AT: 26
+       The leaf cells had ATs: 28, 28, 34, 38, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_140
+       Tree is 3 levels deep and has 2 buffers.
+       The Width at each level is (starting at root as level 0) 1, 2, 0, 
+       The root has AT: 20
+       The leaf cells had ATs: 22, 22, 30, 30, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_141
+       Tree is 4 levels deep and has 2 buffers.
+       The Width at each level is (starting at root as level 0) 1, 1, 1, 0, 
+       The root has AT: 14
+       The leaf cells had ATs: 16, 16, 16, 28, 
+--------------------------------------------------------------------
+*Info: Buffer tree starting at node cloud_142
+       Tree is 4 levels deep and has 2 buffers.
+       The Width at each level is (starting at root as level 0) 1, 1, 1, 0, 
+       The root has AT: 6
+       The leaf cells had ATs: 8, 8, 20, 
+*Info: Found 13 potential slack2 components 
+*Info: Found 0 potential slack4 components 
+*Info: Converting Ports.
+*Info: Converting Nets.
+*Info: Converting Instances.
+*Info: Finalizing Channels interconnect.
+*Info: Converting assign statements.
+*Info: Attempting to merge C-Elements.
+*Info: Saved 126.49 total area by performing C-Tree merging.
+*Info: Done! Generating Netlists.
+*Info: Generating Verilog HDL file "acc.qdi.hier.v".
+*Info: Generating Module Definition.
+*Info: Num of Pipe Stages    : 164
+
+*Info: Removing assigns from dual-rail cluster graph... 
+*Info: Generating Verilog HDL file "afterRemoveAssigns.v".
+*Info: Generating Module Definition.
+*Info: Num of Pipe Stages    : 164
+
+*Info: Starting summarize
+Achieved Cycle Time: 
+   18tpc
+
+Area Analysis:
+   LOGIC: num = 64 area = 893.722
+   TOK_BUF: num = 16 area = 376.013
+   BUF: num = 113 area = 1889.74
+   CTRL: num = 33 area = 1299.46
+   CTREE: num = 67 area = 603.418
+   CELL: num = 293 area = 5062.35
+Cloud analysis:
+   Average cloud depth = 1
+   Logic clouds = 65
+   Added buf clouds = 81
+   - Slack matching = 81 (area = 26.5429%)
+   Tok clouds = 16
+   IO clouds = 2
+   Total = 164
+
+All Registers: 
+   TOK_BUF: \acc_RTL_BODY.ff$sum_reg[0:15]
+
+Registers on critical algorithmic loops/latency paths: 
+   none
+
+Boundary cells on critical algorithmic loops/latency paths: 
+   none
+
+
+Comma seperated results: constraint type, final Cycle Time, sm bufs, fn bufs,  pi bufs, slow channel bufs, total added buf  control, ctree, complete, buf, logic 
+ total cell area, Max LCT 
+CSR: , acc, DEPTH, 18, , 1343.69, , 0, , 0, 0, 1343.69, 1299.46, 603.418, 0, 1889.74, 893.722, 5062.35, 18
+*Info: Summarize completed
+*Info: Summarize took 0 seconds to complete!
+*Info: Flattening dual-rail cluster graph
+*Info: Flattening completed
+*Info: Flattening took 1 seconds to complete!
+*Info: Generating flat verilog acc.qdi.noclk.flat.v...
+*Info: Generating flat verilog with virtual clock acc.qdi.flat.v...
+*Info: Generating sdc file acc.qdi.flat.sdc...
+*Info: Wrote 241 from timing constraints
+*Info: Wrote 3156 from-to timing constraints
+*Info: Wrote 0 from-to-through timing constraints
+*Info: Applied 0 extra delay to constraints
+
+-----------------------------------------------------------------------------------
+                               Reporting BitGens                                   
+-----------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------
+                               Reporting BitBuckets                                
+-----------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------
+
+*Info: Saving final single-rail design in directory acc.qdi.save
+*Info: Saving configuration parameters into filename acc.qdi.save/design.setup
+*Info: Saving design into filename acc.qdi.save/design.save
+*Info: Generating longest latency path
+Longest latency path: 
+Longest latency path from PI cloud inputs with at -2 to cloud_85 with at 28 via node cloud_96:
+ *Info: Critical path starting at channel -1_to_104
+ *channel driven by PI cloud with AT = 0 for PI wires 
+      *Debug: channel -1_to_104: *Debug: wire \A_d[0][2] *Debug: wire \A_d[1][2]
+ *channel \d[2] driven by \A_RECEIVE.recv.bits[2].recv(FROM_1of2_X2) with AT = 2
+ *channel \acc_RTL_BODY.add_28_30.n_6 driven by \acc_RTL_BODY.add_28_30.g19189(LOGIC2_E_X4) with AT = 4
+ *channel \acc_RTL_BODY.add_28_30.n_32 driven by \acc_RTL_BODY.add_28_30.g19163(LOGIC4_C0EA_X4) with AT = 6
+ *channel \acc_RTL_BODY.add_28_30.n_40 driven by \acc_RTL_BODY.add_28_30.g19155(LOGIC4_00EF_X4) with AT = 8
+ *channel \acc_RTL_BODY.add_28_30.n_46 driven by \acc_RTL_BODY.add_28_30.g19149(LOGIC6_0000B0BBB0BBB0BB_X2) with AT = 10
+ *channel \acc_RTL_BODY.add_28_30.n_46_SX0_iter2_0 driven by \acc_RTL_BODY.add_28_30.n_46_buf(BUF_X1) with AT = 12
+ *channel \acc_RTL_BODY.add_28_30.n_51 driven by \acc_RTL_BODY.add_28_30.g19143(LOGIC3_0B_X4) with AT = 14
+ *channel \acc_RTL_BODY.add_28_30.n_109 driven by \acc_RTL_BODY.add_28_30.g19203(LOGIC3_2B_X4) with AT = 16
+ *channel \acc_RTL_BODY.add_28_30.n_42 driven by \acc_RTL_BODY.add_28_30.g19153(LOGIC3_8F_X4) with AT = 18
+ *channel \acc_RTL_BODY.add_28_30.n_53 driven by \acc_RTL_BODY.add_28_30.g19141(LOGIC4_0007_X2) with AT = 20
+ *channel \acc_RTL_BODY.add_28_30.n_57 driven by \acc_RTL_BODY.add_28_30.g19137(LOGIC4_000E_X2) with AT = 22
+ *channel \acc_RTL_BODY.add_28_30.n_38 driven by \acc_RTL_BODY.add_28_30.g19157(LOGIC3_19_X4) with AT = 24
+ *channel \n_41 driven by \acc_RTL_BODY.add_28_30.g19126(LOGIC3_69_X4) with AT = 26
+Cumulative used free slack for this path is 2
+
+*Info: Finished generating longest latency path
+*Info: Generating longest latency path took 0 seconds to complete!
+*Info: Directive Warnings:
+   none
+*Info: Process ended at: Mon Mar 27 16:37:37 2017
+
+*Info: Process took 15 seconds to complete!

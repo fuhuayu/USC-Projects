@@ -1,0 +1,15 @@
+C:/QuestasimProject/Lab7P3SP3/ee457_lab7_P3_RTL_Coding_Style_tb.v {1 {vlog -work work -vopt -stats=none C:/QuestasimProject/Lab7P3SP3/ee457_lab7_P3_RTL_Coding_Style_tb.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module ee457_lab7_P3_tb
+
+Top level modules:
+	ee457_lab7_P3_tb
+
+} {} {}} C:/QuestasimProject/Lab7P3SP3/ee457_lab7_P3_RTL_Coding_Style_R2_Mux_in_WB.v {1 {vlog -work work -vopt -stats=none C:/QuestasimProject/Lab7P3SP3/ee457_lab7_P3_RTL_Coding_Style_R2_Mux_in_WB.v
+QuestaSim-64 vlog 10.4c Compiler 2015.07 Jul 20 2015
+-- Compiling module ee457_lab7_P3
+
+Top level modules:
+	ee457_lab7_P3
+
+} {} {}}

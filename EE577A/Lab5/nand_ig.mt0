@@ -1,0 +1,8 @@
+$DATA1 SOURCE='HSPICE' VERSION='F-2011.09-SP1 32-BIT'
+.TITLE '*************************'
+ risedelay        falldelay        risetime         falltime          
+ switchpower      leakpower        switchengergy    temper            
+ alter#            
+  3.035e-12        3.082e-12        3.063e-12        2.633e-12        
+  2.748e-07        1.808e-11        5.497e-16         25.0000         
+ 1                 

@@ -1,0 +1,22 @@
+C:/ModelSim_projects/ee201L_Middle_Finder/middle_finder.v {1 {vlog -work work C:/ModelSim_projects/ee201L_Middle_Finder/middle_finder.v
+Model Technology ModelSim XE III vlog 6.2g Compiler 2007.02 Feb 22 2007
+-- Compiling module middle_finder
+
+Top level modules:
+	middle_finder
+
+} {} {}} C:/ModelSim_projects/ee201L_Middle_Finder/middle_finder_tb.v {1 {vlog -work work C:/ModelSim_projects/ee201L_Middle_Finder/middle_finder_tb.v
+Model Technology ModelSim XE III vlog 6.2g Compiler 2007.02 Feb 22 2007
+-- Compiling module middle_finder_tb
+
+Top level modules:
+	middle_finder_tb
+
+} {} {}} C:/ModelSim_projects/ee201L_Middle_Finder/middle_finder_tb_exhaustive_self_verifying.v {1 {vlog -work work C:/ModelSim_projects/ee201L_Middle_Finder/middle_finder_tb_exhaustive_self_verifying.v
+Model Technology ModelSim XE III vlog 6.2g Compiler 2007.02 Feb 22 2007
+-- Compiling module middle_finder_tb
+
+Top level modules:
+	middle_finder_tb
+
+} {} {}}
