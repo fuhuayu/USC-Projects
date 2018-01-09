@@ -1,0 +1,32 @@
+Warning: Design 'ddr3_controller' has '47' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : area
+Design : ddr3_controller
+Version: F-2011.09-SP2
+Date   : Fri Nov 10 01:39:03 2017
+****************************************
+
+Library(s) Used:
+
+    gtech (File: /usr/local/synopsys/2011.09/libraries/syn/gtech.db)
+
+Number of ports:                          153
+Number of nets:                           409
+Number of cells:                           79
+Number of combinational cells:             73
+Number of sequential cells:                 1
+Number of macros:                           0
+Number of buf/inv:                         55
+Number of references:                      14
+
+Combinational area:          0.000000
+Noncombinational area:       0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:             0.000000
+Total area:                 undefined
+
+Information: This design contains unmapped logic. (RPT-7)
+Information: This design contains black box (unknown) components. (RPT-8)
+1

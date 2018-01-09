@@ -1,0 +1,28 @@
+ 
+****************************************
+Report : area
+Design : ddr3_controller
+Version: F-2011.09-SP2
+Date   : Tue Dec  5 19:10:00 2017
+****************************************
+
+Library(s) Used:
+
+    gscl45nm (File: /home/scf-22/ee577/NCSU45PDK/FreePDK45/osu_soc/lib/files/gscl45nm.db)
+
+Number of ports:                          153
+Number of nets:                           513
+Number of cells:                          188
+Number of combinational cells:            132
+Number of sequential cells:                50
+Number of macros:                           0
+Number of buf/inv:                         69
+Number of references:                      18
+
+Combinational area:       40008.762969
+Noncombinational area:    27822.919189
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          67831.682158
+Total area:                 undefined
+1

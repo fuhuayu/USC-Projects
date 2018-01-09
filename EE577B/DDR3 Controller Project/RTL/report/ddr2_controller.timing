@@ -1,0 +1,46 @@
+Warning: Design 'ddr3_controller' has '47' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Error: Could not read the following target libraries:
+your_library.db 
+ (UIO-3)
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Information: Updating design information... (UID-85)
+Warning: Design 'ddr3_controller' contains 4 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : ddr3_controller
+Version: F-2011.09-SP2
+Date   : Fri Nov 10 01:39:03 2017
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: 
+Wire Load Model Mode: top
+
+  Startpoint: FIFO_RETURN/mem_reg_0__15_
+              (rising edge-triggered flip-flop)
+  Endpoint: dout[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  FIFO_RETURN/mem_reg_0__15_/clocked_on (**SEQGEN**)      0.00 #     0.00 r
+  FIFO_RETURN/mem_reg_0__15_/Q (**SEQGEN**)               0.00       0.00 r
+  FIFO_RETURN/C11255/Z_26 (*MUX_OP_32_5_42)               0.00       0.00 r
+  FIFO_RETURN/data_out[15] (FIFO_DEPTH_P25_WIDTH42)       0.00       0.00 r
+  dout[15] (out)                                          0.00       0.00 r
+  data arrival time                                                  0.00
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

@@ -1,0 +1,58 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'ddr3_controller' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Information: Timing loop detected. (OPT-150)
+	process_logic_ddr3/ring_buffer/DELAY21/A process_logic_ddr3/ring_buffer/DELAY21/Y process_logic_ddr3/ring_buffer/DELAY22/A process_logic_ddr3/ring_buffer/DELAY22/Y process_logic_ddr3/ring_buffer/U361/A process_logic_ddr3/ring_buffer/U361/Y process_logic_ddr3/ring_buffer/F0_reg/CLK process_logic_ddr3/ring_buffer/F0_reg/Q process_logic_ddr3/ring_buffer/U54/A process_logic_ddr3/ring_buffer/U54/Y process_logic_ddr3/ring_buffer/U31/B process_logic_ddr3/ring_buffer/U31/Y process_logic_ddr3/ring_buffer/DELAY2/A process_logic_ddr3/ring_buffer/DELAY2/Y 
+Warning: Disabling timing arc between pins 'CLK' and 'Q' on cell 'process_logic_ddr3/ring_buffer/F0_reg'
+         to break a timing loop. (OPT-314)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : ddr3_controller
+Version: F-2011.09-SP2
+Date   : Tue Dec  5 19:10:00 2017
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: dq_pad[0] (input port clocked by clk)
+  Endpoint: XINIT/dqN_reg
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.30       0.30 f
+  dq_pad[0] (inout)                                       0.00       0.30 f
+  XSSTL/dq_pad[0] (SSTL18DDR3INTERFACE)                   0.00       0.30 f
+  XSSTL/DQ[0].sstl_dq/PAD (SSTL18DDR3_21)                 0.00       0.30 f
+  XSSTL/DQ[0].sstl_dq/U1/Y (AND2X1)                       0.05       0.35 f
+  XSSTL/DQ[0].sstl_dq/Z (SSTL18DDR3_21)                   0.00       0.35 f
+  XSSTL/dq_o[0] (SSTL18DDR3INTERFACE)                     0.00       0.35 f
+  XINIT/dq[0] (ddr3_init_engine)                          0.00       0.35 f
+  XINIT/U12/Y (AND2X1)                                    0.04       0.38 f
+  XINIT/U11/Y (OR2X1)                                     0.04       0.42 f
+  XINIT/dqN_reg/D (DFFNEGX1)                              0.00       0.42 f
+  data arrival time                                                  0.42
+
+  clock clk (fall edge)                                   0.60       0.60
+  clock network delay (ideal)                             0.00       0.60
+  XINIT/dqN_reg/CLK (DFFNEGX1)                            0.00       0.60 f
+  library setup time                                     -0.30       0.30
+  data required time                                                 0.30
+  --------------------------------------------------------------------------
+  data required time                                                 0.30
+  data arrival time                                                 -0.42
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.13
+
+
+1
