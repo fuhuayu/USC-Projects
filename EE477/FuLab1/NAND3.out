@@ -1,0 +1,99 @@
+@(#)$CDS: LVS version 6.1.5-64b 10/16/2012 02:08 (sjfdl231) $
+
+Command line: /usr/local/cadence/IC615/tools.lnx86/dfII/bin/64bit/LVS -dir /home/scf-30/huayufu/cds/LVS -l -s -t /home/scf-30/huayufu/cds/LVS/layout /home/scf-30/huayufu/cds/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+Compiling Diva LVS rules...
+
+    Net-list summary for /home/scf-30/huayufu/cds/LVS/layout/netlist
+       count
+        8               nets
+        6               terminals
+        3               pmos
+        3               nmos
+
+    Net-list summary for /home/scf-30/huayufu/cds/LVS/schematic/netlist
+       count
+        8               nets
+        6               terminals
+        3               pmos
+        3               nmos
+
+
+    Terminal correspondence points
+    N6        N2        A
+    N5        N3        B
+    N4        N4        C
+    N3        N6        NAND3OUT
+    N2        N1        gnd!
+    N7        N0        vdd!
+
+Devices in the rules but not in the netlist:
+        cap nfet pfet nmos4 pmos4
+
+The net-lists match.
+
+                             layout  schematic
+                                instances
+        un-matched              0       0      
+        rewired                 0       0      
+        size errors             0       0      
+        pruned                  0       0      
+        active                  6       6      
+        total                   6       6      
+
+                                  nets
+        un-matched              0       0      
+        merged                  0       0      
+        pruned                  0       0      
+        active                  8       8      
+        total                   8       8      
+
+                                terminals
+        un-matched              0       0      
+        matched but
+        different type          4       4      
+        total                   6       6      
+
+
+Probe files from /home/scf-30/huayufu/cds/LVS/schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+? Terminal A's type in the schematic: input, in the layout: inputOutput
+? Terminal B's type in the schematic: input, in the layout: inputOutput
+? Terminal C's type in the schematic: input, in the layout: inputOutput
+? Terminal NAND3OUT's type in the schematic: output, in the layout: inputOutput
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /home/scf-30/huayufu/cds/LVS/layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+? Terminal A's type in the layout: inputOutput, in the schematic: input
+? Terminal B's type in the layout: inputOutput, in the schematic: input
+? Terminal C's type in the layout: inputOutput, in the schematic: input
+? Terminal NAND3OUT's type in the layout: inputOutput, in the schematic: output
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:

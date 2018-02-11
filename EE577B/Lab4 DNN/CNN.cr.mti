@@ -1,0 +1,17 @@
+C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/neuron.v {1 {vlog -work work -vopt C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/neuron.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module neuron
+
+Top level modules:
+	neuron
+
+} {} {}} C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/mcp.v {2 {vlog -work work -vopt C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/mcp.v
+QuestaSim-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+-- Compiling module mcp
+** Warning: C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/mcp.v(44): (vlog-2256) Event expressions should result in a singular type.
+
+
+Top level modules:
+	mcp
+
+} {} {}}

@@ -1,0 +1,314 @@
+m255
+K4
+z2
+13
+cModel Technology
+dC:\Users\Huayu\OneDrive\USC Courses\DR\ctrl_path
+!i10d 8192
+!i10e 25
+!i10f 100
+vALU
+I6]2];9`A3<Y?D904Xbcl93
+Z0 V`JN@9S9cnhjKRR_L]QIcM3
+Z1 dC:\Users\Huayu\OneDrive\QuestasimProject\Multi_core_processor_code
+w1509748075
+8C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/ALU.v
+FC:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/ALU.v
+L0 7
+Z2 OL;L;10.2;57
+r1
+31
+Z3 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@a@l@u
+!s100 [AJ3]dM78EIkjC^GeRfdX3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/ALU.v|
+!s110 1509770979
+!s108 1509770979.877000
+!s107 C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/ALU.v|
+!i10b 1
+!s85 0
+vdecoder
+Z4 !s110 1509770980
+I<Z=l10<jo_M5KO=0@>PM00
+Z5 V`JN@9S9cnhjKRR_L]QIcM3
+R1
+Z6 w1498508026
+8C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/decoder.v
+FC:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/decoder.v
+L0 8
+R2
+r1
+31
+R3
+!s100 2T1R2SY9;hHfEU5O=?kgP0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/decoder.v|
+!s108 1509770980.097000
+!s107 C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/decoder.v|
+!i10b 1
+!s85 0
+vdispatcher
+R4
+Id[lfBIkG_X@Uan4a;cMdl3
+R5
+R1
+R6
+8C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/dispatcher.v
+FC:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/dispatcher.v
+L0 2
+R2
+r1
+31
+R3
+!s100 ?WLW7`I3RU`O^Di2CD<BF0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/dispatcher.v|
+!s108 1509770980.210000
+!s107 C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/dispatcher.v|
+!i10b 1
+!s85 0
+vdmem
+R4
+Ilg7WSTN8zhTSzd9k2C^4>3
+R5
+R1
+w1473467758
+8C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/dmem.v
+FC:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/dmem.v
+L0 3
+R2
+r1
+31
+R3
+!s100 U<G>2OIgIEL1R5Mh_m=fR3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/dmem.v|
+!s108 1509770980.320000
+!s107 C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/dmem.v|
+!i10b 1
+!s85 0
+vEXM_Stage
+R4
+I5JQE9:C>k3i6?CBf[nfJl2
+R5
+R1
+R6
+8C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/EXM_stage.v
+FC:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/EXM_stage.v
+L0 7
+R2
+r1
+31
+R3
+n@e@x@m_@stage
+!s100 On_`9C[Y75FB=JLoO0On?3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/EXM_stage.v|
+!s108 1509770980.439000
+!s107 C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/EXM_stage.v|
+!i10b 1
+!s85 0
+vexm_wb_pipe
+ITJ_B9TZgLaIL1^XDfX5CB3
+R5
+R1
+R6
+Z7 8C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/pipes.v
+Z8 FC:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/pipes.v
+L0 75
+R2
+r1
+31
+Z9 !s108 1509770980.961000
+Z10 !s107 C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/pipes.v|
+Z11 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/pipes.v|
+R3
+Z12 !s110 1509770981
+!s100 b2;AnOVY1QD7YkNdCG:HL0
+!i10b 1
+!s85 0
+vid_exm_pipe
+R4
+I^4;VUDN8F7QaFDFaDa8fO2
+R5
+R1
+R6
+R7
+R8
+L0 32
+R2
+r1
+31
+R9
+R10
+R11
+R3
+!s100 eS<DOf_]zHkX4_eJignJW0
+!i10b 1
+!s85 0
+vID_Stage
+R4
+ISK77[U_M[e8NFn[1i]HXL0
+R5
+R1
+R6
+8C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/ID_Stage.v
+FC:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/ID_Stage.v
+L0 8
+R2
+r1
+31
+R3
+n@i@d_@stage
+!s100 g54FVef0^[d`D0l?8TDa:0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/ID_Stage.v|
+!s108 1509770980.550000
+!s107 C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/ID_Stage.v|
+!i10b 1
+!s85 0
+vif_id_pipe
+R4
+I[hQRzk_MGOFSI6g4Yl5E^3
+R5
+R1
+R6
+R7
+R8
+L0 8
+R2
+r1
+31
+R9
+R10
+R11
+R3
+!s100 >Dj`NhGSR[c1_d:l8`gPX0
+!i10b 1
+!s85 0
+vIF_Stage
+R4
+In_JYb6bDBZC<lPO2H[dUZ1
+R5
+R1
+R6
+8C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/IF_Stage.v
+FC:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/IF_Stage.v
+L0 8
+R2
+r1
+31
+R3
+n@i@f_@stage
+!s100 Z_MDZSj2YO>KVBHE@dNLa3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/IF_Stage.v|
+!s108 1509770980.653000
+!s107 C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/IF_Stage.v|
+!i10b 1
+!s85 0
+vimem
+R4
+I[KXlMW;MkXW`ki47=NQ<83
+R5
+R1
+R6
+8C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/imem.v
+FC:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/imem.v
+L0 3
+R2
+r1
+31
+R3
+!s100 I1Y6>m8ec3gJb=O8BAZ502
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/imem.v|
+!s108 1509770980.755000
+!s107 C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/imem.v|
+!i10b 1
+!s85 0
+vmcp
+R5
+r1
+31
+IdI@?h0L41eK8>T?<UWbTQ2
+R1
+w1509780108
+8C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/mcp.v
+FC:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/mcp.v
+L0 2
+R2
+R3
+!s100 o@L=1@TA;LI]GV<m[AWAm1
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/mcp.v|
+!s108 1509780138.787000
+!s107 C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/mcp.v|
+!s85 0
+!i10b 1
+vneuron
+R5
+r1
+31
+I:0FIgm3dN`V6NW00iVcPK3
+R1
+w1509777677
+8C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/neuron.v
+FC:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/neuron.v
+L0 1
+R2
+R3
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/neuron.v|
+!s100 :mU<QbF6m_@gzU5c1;WFI1
+!s108 1509777681.914000
+!s107 C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/neuron.v|
+!s85 0
+!i10b 1
+vprocessor
+I=^ACg5c_gleaAz6jL5JmL3
+R5
+R1
+R6
+8C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/cpu.v
+FC:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/cpu.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!s100 SH0agn8g?dSCM^gJhK?5:0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/cpu.v|
+!s108 1509770979.986000
+!s107 C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/cpu.v|
+!i10b 1
+!s85 0
+vregister_file
+R12
+Ik<`SaFko2n1:en;kdi1zU1
+R5
+R1
+R6
+8C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/regfile.v
+FC:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/regfile.v
+L0 6
+R2
+r1
+31
+R3
+!s100 e^jQeN^5`NP<hXWRVT9cV0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/regfile.v|
+!s108 1509770981.097000
+!s107 C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/regfile.v|
+!i10b 1
+!s85 0
+vtb
+R5
+r1
+!s85 0
+31
+IzO]DFoI>KA>CEb4lJ^i_72
+R1
+w1509785459
+8C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/tb.v
+FC:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/tb.v
+L0 1
+R2
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/tb.v|
+R3
+!i10b 1
+!s100 aL<aSgcb=8Vf8g>TS[cPJ2
+!s108 1509785465.765000
+!s107 C:/Users/Huayu/OneDrive/QuestasimProject/Multi_core_processor_code/tb.v|

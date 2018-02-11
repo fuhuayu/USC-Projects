@@ -1,0 +1,32 @@
+// Generated for: spectre
+// Generated on: Nov 12 15:48:02 2016
+// Design library name: lab1
+// Design cell name: inv3test
+// Design view name: extracted
+simulator lang=spectre
+global 0
+
+// Library name: lab1
+// Cell name: inv3test
+// View name: extracted
+\+9 (5 INV3OUT vdd! vdd!) tsmc20P w=4e-07 l=2e-07 as=2e-13 ad=2e-13 ps=1.4e-06 pd=1.4e-06 m=1 region=sat
+\+4 (5 INV3OUT gnd! gnd!) tsmc20N w=4e-07 l=2e-07 as=2e-13 ad=2e-13 ps=1.4e-06 pd=1.4e-06 m=1 region=sat
+\+3 (gnd! A INV3OUT gnd!) tsmc20N w=1.6e-06 l=2e-07 as=4.8e-13 ad=8e-13 ps=6e-07 pd=2.6e-06 m=1 region=sat
+\+2 (INV3OUT A gnd! gnd!) tsmc20N w=1.6e-06 l=2e-07 as=4.8e-13 ad=4.8e-13 ps=6e-07 pd=6e-07 m=1 region=sat
+\+1 (gnd! A INV3OUT gnd!) tsmc20N w=1.6e-06 l=2e-07 as=4.8e-13 ad=4.8e-13 ps=6e-07 pd=6e-07 m=1 region=sat
+\+0 (INV3OUT A gnd! gnd!) tsmc20N w=1.6e-06 l=2e-07 as=8e-13 ad=4.8e-13 ps=2.6e-06 pd=6e-07 m=1 region=sat
+\+8 (vdd! A INV3OUT vdd!) tsmc20P w=1.6e-06 l=2e-07 as=4.8e-13 ad=8e-13 ps=6e-07 pd=2.6e-06 m=1 region=sat
+\+7 (INV3OUT A vdd! vdd!) tsmc20P w=1.6e-06 l=2e-07 as=4.8e-13 ad=4.8e-13 ps=6e-07 pd=6e-07 m=1 region=sat
+\+6 (vdd! A INV3OUT vdd!) tsmc20P w=1.6e-06 l=2e-07 as=4.8e-13 ad=4.8e-13 ps=6e-07 pd=6e-07 m=1 region=sat
+\+5 (INV3OUT A vdd! vdd!) tsmc20P w=1.6e-06 l=2e-07 as=8e-13 ad=4.8e-13 ps=2.6e-06 pd=6e-07 m=1 region=sat
+simulatorOptions options reltol=1e-3 vabstol=1e-6 iabstol=1e-12 temp=27 \
+    tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
+    digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \
+    checklimitdest=psf 
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts  where=rawfile
+saveOptions options save=allpub

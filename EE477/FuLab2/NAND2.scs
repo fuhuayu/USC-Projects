@@ -1,0 +1,34 @@
+// Generated for: spectre
+// Generated on: Nov  7 16:21:50 2016
+// Design library name: lab1
+// Design cell name: NAND2test
+// Design view name: extracted
+simulator lang=spectre
+global 0
+
+// Library name: lab1
+// Cell name: NAND2test
+// View name: extracted
+\+5 (7 NAND2OUT vdd! vdd!) tsmc20P w=4e-07 l=2e-07 as=2e-13 ad=2e-13 \
+        ps=1.4e-06 pd=1.4e-06 m=1 region=sat
+\+2 (7 NAND2OUT gnd! gnd!) tsmc20N w=4e-07 l=2e-07 as=2e-13 ad=2e-13 \
+        ps=1.4e-06 pd=1.4e-06 m=1 region=sat
+\+1 (NAND2OUT A 6 gnd!) tsmc20N w=4e-07 l=2e-07 as=1.2e-13 ad=2e-13 \
+        ps=6e-07 pd=1.4e-06 m=1 region=sat
+\+0 (6 B gnd! gnd!) tsmc20N w=4e-07 l=2e-07 as=2e-13 ad=1.2e-13 ps=1.4e-06 \
+        pd=6e-07 m=1 region=sat
+\+4 (NAND2OUT A vdd! vdd!) tsmc20P w=8.5e-07 l=2e-07 as=2.55e-13 \
+        ad=4.25e-13 ps=6e-07 pd=1.85e-06 m=1 region=sat
+\+3 (vdd! B NAND2OUT vdd!) tsmc20P w=8.5e-07 l=2e-07 as=4.25e-13 \
+        ad=2.55e-13 ps=1.85e-06 pd=6e-07 m=1 region=sat
+simulatorOptions options reltol=1e-3 vabstol=1e-6 iabstol=1e-12 temp=27 \
+    tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
+    digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \
+    checklimitdest=psf 
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts  where=rawfile
+saveOptions options save=allpub

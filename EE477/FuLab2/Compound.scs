@@ -1,0 +1,115 @@
+// Generated for: spectre
+// Generated on: Nov  7 19:32:40 2016
+// Design library name: lab1
+// Design cell name: compoundtest
+// Design view name: extracted
+simulator lang=spectre
+global 0
+
+// Library name: lab1
+// Cell name: compoundtest
+// View name: extracted
+\+19 (15 COMPOUT vdd! vdd!) tsmc20P w=4e-07 l=2e-07 as=2e-13 ad=2e-13 \
+        ps=1.4e-06 pd=1.4e-06 m=1 region=sat
+\+72 (COMPOUT gnd!) capacitor c=7.566e-17 m=1
+\+71 (I gnd!) capacitor c=3.007e-17 m=1
+\+70 (H gnd!) capacitor c=3.007e-17 m=1
+\+69 (G gnd!) capacitor c=3.007e-17 m=1
+\+68 (F gnd!) capacitor c=3.007e-17 m=1
+\+67 (E gnd!) capacitor c=3.007e-17 m=1
+\+66 (D gnd!) capacitor c=3.007e-17 m=1
+\+65 (C gnd!) capacitor c=3.007e-17 m=1
+\+64 (B gnd!) capacitor c=3.007e-17 m=1
+\+63 (A gnd!) capacitor c=3.007e-17 m=1
+\+62 (vdd! I) capacitor c=2.134e-17 m=1
+\+61 (vdd! H) capacitor c=2.134e-17 m=1
+\+60 (vdd! G) capacitor c=2.134e-17 m=1
+\+59 (vdd! F) capacitor c=2.134e-17 m=1
+\+58 (vdd! E) capacitor c=2.134e-17 m=1
+\+57 (vdd! D) capacitor c=2.134e-17 m=1
+\+56 (vdd! C) capacitor c=2.134e-17 m=1
+\+55 (vdd! B) capacitor c=2.134e-17 m=1
+\+54 (vdd! A) capacitor c=2.134e-17 m=1
+\+53 (gnd! 15) capacitor c=1.5887e-16 m=1
+\+52 (gnd! 13) capacitor c=1.5144e-16 m=1
+\+51 (I 13) capacitor c=6.966e-17 m=1
+\+50 (H 13) capacitor c=6.966e-17 m=1
+\+49 (C 13) capacitor c=6.966e-17 m=1
+\+48 (B 13) capacitor c=6.966e-17 m=1
+\+47 (vdd! 15) capacitor c=3.084e-17 m=1
+\+46 (vdd! gnd!) capacitor c=3.1056e-16 m=1
+\+45 (vdd! COMPOUT) capacitor c=3.084e-17 m=1
+\+44 (13 14) capacitor c=7.382e-17 m=1
+\+43 (gnd! 14) capacitor c=1.4764e-16 m=1
+\+42 (COMPOUT 21) capacitor c=7.382e-17 m=1
+\+41 (COMPOUT 20) capacitor c=7.382e-17 m=1
+\+40 (COMPOUT 19) capacitor c=7.382e-17 m=1
+\+39 (COMPOUT 18) capacitor c=7.382e-17 m=1
+\+38 (COMPOUT 17) capacitor c=7.382e-17 m=1
+\+37 (COMPOUT 16) capacitor c=7.325e-17 m=1
+\+36 (COMPOUT 13) capacitor c=6.186e-17 m=1
+\+35 (COMPOUT gnd!) capacitor c=1.3273e-16 m=1
+\+34 (I COMPOUT) capacitor c=3.896e-17 m=1
+\+33 (G 14) capacitor c=3.896e-17 m=1
+\+32 (G COMPOUT) capacitor c=3.896e-17 m=1
+\+31 (F 14) capacitor c=3.896e-17 m=1
+\+30 (F COMPOUT) capacitor c=3.896e-17 m=1
+\+29 (E 14) capacitor c=3.896e-17 m=1
+\+28 (E COMPOUT) capacitor c=3.896e-17 m=1
+\+27 (D 14) capacitor c=3.896e-17 m=1
+\+26 (D COMPOUT) capacitor c=3.896e-17 m=1
+\+25 (C COMPOUT) capacitor c=3.896e-17 m=1
+\+24 (B 14) capacitor c=3.896e-17 m=1
+\+23 (B COMPOUT) capacitor c=3.896e-17 m=1
+\+22 (A 14) capacitor c=3.896e-17 m=1
+\+21 (A COMPOUT) capacitor c=3.896e-17 m=1
+\+20 (vdd! COMPOUT) capacitor c=1.6406e-16 m=1
+\+9 (15 COMPOUT gnd! gnd!) tsmc20N w=4e-07 l=2e-07 as=2e-13 ad=2e-13 \
+        ps=1.4e-06 pd=1.4e-06 m=1 region=sat
+\+8 (14 G gnd! gnd!) tsmc20N w=4e-07 l=2e-07 as=1.2e-13 ad=2e-13 ps=6e-07 \
+        pd=1.4e-06 m=1 region=sat
+\+7 (gnd! F 14 gnd!) tsmc20N w=4e-07 l=2e-07 as=1.2e-13 ad=1.2e-13 \
+        ps=6e-07 pd=6e-07 m=1 region=sat
+\+6 (14 E gnd! gnd!) tsmc20N w=4e-07 l=2e-07 as=1.2e-13 ad=1.2e-13 \
+        ps=6e-07 pd=6e-07 m=1 region=sat
+\+5 (gnd! D 14 gnd!) tsmc20N w=4e-07 l=2e-07 as=1.2e-13 ad=1.2e-13 \
+        ps=6e-07 pd=6e-07 m=1 region=sat
+\+4 (14 A 13 gnd!) tsmc20N w=4e-07 l=2e-07 as=1.2e-13 ad=1.2e-13 ps=6e-07 \
+        pd=6e-07 m=1 region=sat
+\+3 (13 B 14 gnd!) tsmc20N w=4e-07 l=2e-07 as=1.2e-13 ad=1.2e-13 ps=6e-07 \
+        pd=6e-07 m=1 region=sat
+\+2 (14 C 13 gnd!) tsmc20N w=4e-07 l=2e-07 as=1.2e-13 ad=1.2e-13 ps=6e-07 \
+        pd=6e-07 m=1 region=sat
+\+1 (13 I COMPOUT gnd!) tsmc20N w=4e-07 l=2e-07 as=1.2e-13 ad=1.2e-13 \
+        ps=6e-07 pd=6e-07 m=1 region=sat
+\+0 (COMPOUT H 13 gnd!) tsmc20N w=4e-07 l=2e-07 as=2e-13 ad=1.2e-13 \
+        ps=1.4e-06 pd=6e-07 m=1 region=sat
+\+18 (COMPOUT G 21 vdd!) tsmc20P w=2.15e-06 l=2e-07 as=6.45e-13 \
+        ad=1.075e-12 ps=6e-07 pd=3.15e-06 m=1 region=sat
+\+17 (21 F 20 vdd!) tsmc20P w=2.15e-06 l=2e-07 as=6.45e-13 ad=6.45e-13 \
+        ps=6e-07 pd=6e-07 m=1 region=sat
+\+16 (20 E 19 vdd!) tsmc20P w=2.15e-06 l=2e-07 as=6.45e-13 ad=6.45e-13 \
+        ps=6e-07 pd=6e-07 m=1 region=sat
+\+15 (19 D vdd! vdd!) tsmc20P w=2.15e-06 l=2e-07 as=6.45e-13 ad=6.45e-13 \
+        ps=6e-07 pd=6e-07 m=1 region=sat
+\+14 (vdd! A 18 vdd!) tsmc20P w=2.15e-06 l=2e-07 as=6.45e-13 ad=6.45e-13 \
+        ps=6e-07 pd=6e-07 m=1 region=sat
+\+13 (18 B 17 vdd!) tsmc20P w=2.15e-06 l=2e-07 as=6.45e-13 ad=6.45e-13 \
+        ps=6e-07 pd=6e-07 m=1 region=sat
+\+12 (17 C COMPOUT vdd!) tsmc20P w=2.15e-06 l=2e-07 as=6.45e-13 \
+        ad=6.45e-13 ps=6e-07 pd=6e-07 m=1 region=sat
+\+11 (COMPOUT I 16 vdd!) tsmc20P w=2.15e-06 l=2e-07 as=6.45e-13 \
+        ad=6.45e-13 ps=6e-07 pd=6e-07 m=1 region=sat
+\+10 (16 H vdd! vdd!) tsmc20P w=2.15e-06 l=2e-07 as=1.075e-12 ad=6.45e-13 \
+        ps=3.15e-06 pd=6e-07 m=1 region=sat
+simulatorOptions options reltol=1e-3 vabstol=1e-6 iabstol=1e-12 temp=27 \
+    tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
+    digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \
+    checklimitdest=psf 
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts  where=rawfile
+saveOptions options save=allpub

@@ -1,0 +1,131 @@
+// Generated for: spectre
+// Generated on: Dec  6 06:30:23 2016
+// Design library name: lab3
+// Design cell name: neuron
+// Design view name: schematic
+simulator lang=spectre
+global 0 vdd!
+include "/home/scf-30/huayufu/cds/tsmc.spice"
+
+vec_include "/home/scf-30/huayufu/cds/lab3/neuron.vec" 
+
+// Library name: lab1
+// Cell name: TRANS
+// View name: schematic
+subckt TRANS A B TRANSOUT \~A inh_inh_bn
+    M1 (B \~A TRANSOUT vdd!) tsmc20P w=400n l=200n as=2e-13 ad=2e-13 \
+        ps=1.8u pd=1.8u m=1 region=sat
+    M0 (B A TRANSOUT gnd!) tsmc20N w=400n l=200n as=2e-13 ad=2e-13 ps=1.8u \
+        pd=1.8u m=1 region=sat
+ends TRANS
+// End of subcircuit definition.
+
+// Library name: lab1
+// Cell name: inv2
+// View name: schematic
+subckt inv2 A INV2OUT inh_inh_bn
+    M0 (INV2OUT A 0 gnd!) tsmc20N w=1.6u l=200n as=8e-13 ad=8e-13 ps=4.2u \
+        pd=4.2u m=1 region=sat
+    M1 (INV2OUT A vdd! vdd!) tsmc20P w=1.6u l=200n as=8e-13 ad=8e-13 \
+        ps=4.2u pd=4.2u m=1 region=sat
+ends inv2
+// End of subcircuit definition.
+
+// Library name: lab3
+// Cell name: logic
+// View name: schematic
+subckt logic AP D I Q1 Q2 Qn1 inh_inh_bn
+    I34 (\~I net015 AP I inh_inh_bn) TRANS
+    I35 (I 0 AP \~I inh_inh_bn) TRANS
+    I9 (\~D 0 net015 D inh_inh_bn) TRANS
+    I8 (D net1 net015 \~D inh_inh_bn) TRANS
+    I13 (D net1 Qn1 \~D inh_inh_bn) TRANS
+    I12 (\~D net10 Qn1 D inh_inh_bn) TRANS
+    I3 (\~Q2 Q1 net1 Q2 inh_inh_bn) TRANS
+    I2 (Q2 0 net1 \~Q2 inh_inh_bn) TRANS
+    I1 (\~Q2 0 net10 Q2 inh_inh_bn) TRANS
+    I0 (Q2 \~Q1 net10 \~Q2 inh_inh_bn) TRANS
+    I30 (D \~D inh_inh_bn) inv2
+    I31 (Q1 \~Q1 inh_inh_bn) inv2
+    I32 (Q2 \~Q2 inh_inh_bn) inv2
+    I33 (I \~I inh_inh_bn) inv2
+ends logic
+// End of subcircuit definition.
+
+// Library name: lab1
+// Cell name: inv1
+// View name: schematic
+subckt inv1 A INV1OUT inh_inh_bn
+    M0 (INV1OUT A vdd! vdd!) tsmc20P w=400n l=200n as=2e-13 ad=2e-13 \
+        ps=1.8u pd=1.8u m=1 region=sat
+    M1 (INV1OUT A 0 gnd!) tsmc20N w=400n l=200n as=2e-13 ad=2e-13 ps=1.8u \
+        pd=1.8u m=1 region=sat
+ends inv1
+// End of subcircuit definition.
+
+// Library name: lab1
+// Cell name: NAND2
+// View name: schematic
+subckt NAND2 A B NAND2OUT inh_inh_bn
+    M1 (net11 B 0 gnd!) tsmc20N w=400n l=200n as=2e-13 ad=2e-13 ps=1.8u \
+        pd=1.8u m=1 region=sat
+    M0 (NAND2OUT A net11 gnd!) tsmc20N w=400n l=200n as=2e-13 ad=2e-13 \
+        ps=1.8u pd=1.8u m=1 region=sat
+    M4 (NAND2OUT B vdd! vdd!) tsmc20P w=850.0n l=200n as=4.25e-13 \
+        ad=4.25e-13 ps=2.7u pd=2.7u m=1 region=sat
+    M3 (NAND2OUT A vdd! vdd!) tsmc20P w=850.0n l=200n as=4.25e-13 \
+        ad=4.25e-13 ps=2.7u pd=2.7u m=1 region=sat
+ends NAND2
+// End of subcircuit definition.
+
+// Library name: lab2
+// Cell name: DFF_woI
+// View name: schematic
+subckt DFF_woI D Load Q clock reset \~Load \~clock inh_inh_bn
+    I25 (net05 net06 inh_inh_bn) inv1
+    I30 (net18 net012 inh_inh_bn) inv1
+    I28 (net06 net04 inh_inh_bn) inv2
+    I21 (Q net011 inh_inh_bn) inv2
+    I2 (net013 Q inh_inh_bn) inv2
+    I12 (\~clock net04 net05 clock inh_inh_bn) TRANS
+    I0 (clock net012 net05 \~clock inh_inh_bn) TRANS
+    I4 (\~Load net04 net03 Load inh_inh_bn) TRANS
+    I3 (Load D net03 \~Load inh_inh_bn) TRANS
+    I17 (\~clock net06 net013 clock inh_inh_bn) TRANS
+    I18 (clock net011 net013 \~clock inh_inh_bn) TRANS
+    I5 (reset net03 net18 inh_inh_bn) NAND2
+ends DFF_woI
+// End of subcircuit definition.
+
+// Library name: lab3
+// Cell name: memory
+// View name: schematic
+subckt memory Q1 Q2 Qn1 Qn2 clock reset \~clock inh_inh_bn
+    I1 (Qn2 vdd! Q2 clock reset 0 \~clock inh_inh_bn) DFF_woI
+    I0 (Qn1 vdd! Q1 clock reset 0 \~clock inh_inh_bn) DFF_woI
+ends memory
+// End of subcircuit definition.
+
+// Library name: lab3
+// Cell name: neuron
+// View name: schematic
+I7 (net17 D I net15 net16 net18 0) logic
+I1 (net15 net16 net18 D clock reset net12 0) memory
+I2 (net17 Load AP clock reset net016 net12 0) DFF_woI
+I8 (Load net016 0) inv2
+I3 (clock net12 0) inv2
+include "./_graphical_stimuli.scs"
+simulatorOptions options reltol=1e-3 vabstol=1e-6 iabstol=1e-12 temp=27 \
+    tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
+    digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \
+    checklimitdest=psf 
+tran tran stop=17.18n errpreset=moderate write="spectre.ic" \
+    writefinal="spectre.fc" annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts  where=rawfile
+saveOptions options save=allpub

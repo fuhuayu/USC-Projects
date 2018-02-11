@@ -1,0 +1,107 @@
+@(#)$CDS: LVS version 6.1.5-64b 10/16/2012 02:08 (sjfdl231) $
+
+Command line: /usr/local/cadence/IC615/tools.lnx86/dfII/bin/64bit/LVS -dir /home/scf-30/huayufu/cds/LVS -l -s -t /home/scf-30/huayufu/cds/LVS/layout /home/scf-30/huayufu/cds/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+Compiling Diva LVS rules...
+
+    Net-list summary for /home/scf-30/huayufu/cds/LVS/layout/netlist
+       count
+        48              nets
+        8               terminals
+        55              pmos
+        55              nmos
+
+    Net-list summary for /home/scf-30/huayufu/cds/LVS/schematic/netlist
+       count
+        48              nets
+        8               terminals
+        55              pmos
+        55              nmos
+
+
+    Terminal correspondence points
+    N46       N2        AP
+    N43       N15       D
+    N42       N3        I
+    N41       N4        Load
+    N44       N10       clock
+    N40       N1        gnd!
+    N47       N14       reset
+    N45       N0        vdd!
+
+Devices in the netlist but not in the rules:
+        pcapacitor
+Devices in the rules but not in the netlist:
+        cap nfet pfet nmos4 pmos4
+
+The net-lists match.
+
+                             layout  schematic
+                                instances
+        un-matched              0       0      
+        rewired                 0       0      
+        size errors             0       0      
+        pruned                  0       0      
+        active                  110     110    
+        total                   110     110    
+
+                                  nets
+        un-matched              0       0      
+        merged                  0       0      
+        pruned                  0       0      
+        active                  48      48     
+        total                   48      48     
+
+                                terminals
+        un-matched              0       0      
+        matched but
+        different type          6       6      
+        total                   8       8      
+
+
+Probe files from /home/scf-30/huayufu/cds/LVS/schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+? Terminal AP's type in the schematic: output, in the layout: inputOutput
+? Terminal D's type in the schematic: input, in the layout: inputOutput
+? Terminal I's type in the schematic: input, in the layout: inputOutput
+? Terminal Load's type in the schematic: input, in the layout: inputOutput
+? Terminal clock's type in the schematic: input, in the layout: inputOutput
+? Terminal reset's type in the schematic: input, in the layout: inputOutput
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /home/scf-30/huayufu/cds/LVS/layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+? Terminal AP's type in the layout: inputOutput, in the schematic: output
+? Terminal D's type in the layout: inputOutput, in the schematic: input
+? Terminal I's type in the layout: inputOutput, in the schematic: input
+? Terminal Load's type in the layout: inputOutput, in the schematic: input
+? Terminal clock's type in the layout: inputOutput, in the schematic: input
+? Terminal reset's type in the layout: inputOutput, in the schematic: input
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
